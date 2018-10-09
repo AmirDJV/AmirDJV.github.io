@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1539120237806.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1890225307",
+    "id" : "553F535B",
+    "lastKnownWriteTime" : 1539120292,
+    "last_content_update" : 1539120292580,
+    "path" : "C:/Amir/Dropbox/MySite/AmirDJV.github.io/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "12,19",
+        "scrollLine" : "3"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

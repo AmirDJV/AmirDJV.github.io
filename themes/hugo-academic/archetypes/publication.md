@@ -1,5 +1,5 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
+title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
 draft = false
 
@@ -33,8 +33,8 @@ selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
-#   Simply enter the filename of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning.md"]` references `content/project/deep-learning.md`.
+#   Simply enter your project's filename without extension.
+#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
 projects = []
 
@@ -56,6 +56,9 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
+
+# Digital Object Identifier (DOI)
+doi = ""
 
 # Does this page contain LaTeX math? (true/false)
 math = false

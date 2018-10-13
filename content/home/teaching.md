@@ -11,18 +11,11 @@ title = "Teaching"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 60
+weight = 20
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+I will be teaching the following courses at Macalester for the 2018-9 academic year.
 
-I am a teaching instructor for the following courses at University X:
-
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+- MATH155: Introduction to Statistical Modeling (Fall)
+- MATH253: Machine Learning (Spring)

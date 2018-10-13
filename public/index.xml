@@ -1,340 +1,450 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amir Djalovski on Amir Djalovski</title>
-    <link>AmirDJV.github.io/</link>
-    <description>Recent content in Amir Djalovski on Amir Djalovski</description>
+    <title>Leslie Myint</title>
+    <link>/</link>
+    <description>Recent content on Leslie Myint</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
-    <atom:link href="AmirDJV.github.io/" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Example Page</title>
-      <link>AmirDJV.github.io/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0300</pubDate>
+      <title>Academic</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
       
-      <guid>AmirDJV.github.io/tutorial/example/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>AmirDJV.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0200</pubDate>
-      
-      <guid>AmirDJV.github.io/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>AmirDJV.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>AmirDJV.github.io/project/external-project/</guid>
+      <guid>/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>AmirDJV.github.io/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>AmirDJV.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>AmirDJV.github.io/post/getting-started/</link>
+      <title></title>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>AmirDJV.github.io/post/getting-started/</guid>
+      <guid>/home/about/</guid>
       <description>
 
-&lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Check out the latest demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start guide&lt;/a&gt; or take a look at the &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am an Assistant Professor of Statistics at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt;. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies), medicine, epidemiology, and public health. I am also interested in how humans interact with data in ways that impact analysis, understanding, and scientific communication.&lt;/p&gt;
 
-&lt;p&gt;Key features:&lt;/p&gt;
+&lt;p&gt;I received my PhD in &lt;a href=&#34;http://www.biostat.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;biostatistics&lt;/a&gt; from the &lt;a href=&#34;https://www.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/a&gt; where I worked with &lt;a href=&#34;http://www.hansenlab.org/&#34; target=&#34;_blank&#34;&gt;Kasper Daniel Hansen&lt;/a&gt; on statistical methodology for high-throughput biology and with &lt;a href=&#34;http://jtleek.com/&#34; target=&#34;_blank&#34;&gt;Jeff Leek&lt;/a&gt; and &lt;a href=&#34;https://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager&#34; target=&#34;_blank&#34;&gt;Leah Jager&lt;/a&gt; on understanding the role of human behavior in data analysis.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Easily manage various content including homepage, blog posts, publications, talks, and projects&lt;/li&gt;
-&lt;li&gt;Extensible via &lt;strong&gt;color themes&lt;/strong&gt; and &lt;strong&gt;widgets/plugins&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
-&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
-&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
-&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-
-&lt;p&gt;Academic is available in different color themes and font themes.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-  
-  
-  
-  
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-default.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Ocean&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-ocean.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Dark&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-dark.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-forest.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Coffee theme with Playfair font&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-coffee-playfair.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;1950s&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/theme-1950s.png&#34;&gt;
-  &lt;/a&gt;
-  
-&lt;/div&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
-&lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
-&lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
-&lt;li&gt;install on your computer with RStudio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;quick-install-using-your-web-browser&#34;&gt;Quick install using your web browser&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
-&lt;li&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h3&gt;
-
-&lt;p&gt;Prerequisites:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd My_Website
-git submodule update --init --recursive
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;View the guide to installing Academic with RStudio&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;If you installed on your computer, view your new website by running the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now visit &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://themes.gohugo.io/theme/academic/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt; or Netlify (refer to the first installation method). Alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as a university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
-
-&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory) and record your current version number.&lt;/p&gt;
-
-&lt;p&gt;By default, Academic is installed as a Git submodule which can be updated by running the following command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Check out the update guide&lt;/a&gt; for full instructions and alternative methods.&lt;/p&gt;
-
-&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
-
-&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
-
-&lt;p&gt;For support, head over to the &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;My last name is pronounced &lt;strong&gt;mee-int&lt;/strong&gt;. A common mispronunciation that is quite understandable given the spelling is my-int. While this can be amusing from a computer science perspective, it is, nevertheless, incorrect!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>AmirDJV.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0300</pubDate>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>AmirDJV.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>&lt;p&gt;I will be teaching the following courses at Macalester for the 2018-9 academic year.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MATH155: Introduction to Statistical Modeling (Fall)&lt;/li&gt;
+&lt;li&gt;MATH253: Machine Learning (Spring)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>AmirDJV.github.io/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>CV</title>
+      <link>/home/cv/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>AmirDJV.github.io/post/2015-07-23-r-rmarkdown/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;AmirDJV.github.io/AmirDJV.github.iopost/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+      <guid>/home/cv/</guid>
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>AmirDJV.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0300</pubDate>
+      <title>Fun</title>
+      <link>/home/fun/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>AmirDJV.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>/home/fun/</guid>
+      <description>&lt;p&gt;I am an avid &lt;a href=&#34;http://dnd.wizards.com/&#34; target=&#34;_blank&#34;&gt;Dungeons and Dragons&lt;/a&gt; player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/rdnd&#34; target=&#34;_blank&#34;&gt;Map Annotator&lt;/a&gt;: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;R + Magic the Gathering&lt;/a&gt;: (Slides) A foray into the &lt;a href=&#34;https://github.com/hadley/rvest&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; package in R with an application for organizing information about Magic the Gathering decklists.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Leslie Myint - Curriculum Vitae&lt;/title&gt;
+
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width&#34;/&gt;
+&lt;meta name=&#34;description&#34; content=&#34;The Curriculum Vitae of Leslie Myint.&#34;/&gt;
+&lt;meta charset=&#34;UTF-8&#34;&gt; 
+
+&lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;../css/cv.css&#34;&gt;
+&lt;link href=&#39;https://fonts.googleapis.com/css?family=Rokkitt:regular,bold|Lato:regular,black&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script src=&#34;//html5shiv.googlecode.com/svn/trunk/html5.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body id=&#34;top&#34;&gt;
+&lt;div id=&#34;cv&#34; class=&#34;instaFade&#34;&gt;
+	&lt;div class=&#34;mainDetails&#34;&gt;
+		&lt;div id=&#34;name&#34;&gt;
+			&lt;h1 class=&#34;quickFade delayOne&#34;&gt;Leslie Myint&lt;/h1&gt;
+		&lt;/div&gt;
+		
+		&lt;div id=&#34;contactDetails&#34; class=&#34;quickFade delayTwo&#34;&gt;
+			&lt;ul&gt;
+				&lt;li&gt;e: &lt;a href=&#34;mailto:lmyint@macalester.edu&#34; target=&#34;_blank&#34;&gt;lmyint@macalester.edu&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;w: &lt;a href=&#34;https://lmyint.github.io&#34;&gt;lmyint.github.io&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;br /&gt;
+		&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;div id=&#34;mainArea&#34; class=&#34;quickFade delayThree&#34;&gt;
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Education&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;PhD in Biostatistics&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2018&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Dissertation: Evidence-Based Methods in Studies of Biology and Data Analysis&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Kasper Daniel Hansen&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;BS in Biomedical Engineering&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2013&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins University&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Secondary major: Applied Mathematics and Statistics&lt;br /&gt; Minor: Computer Science&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Work Experience&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Assistant Professor&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;August 2018 - present&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Macalester College, Saint Paul, MN&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Johns Hopkins Biostatistics Center&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;July 2016 - August 2017&lt;/span&gt;
+					&lt;h2&gt;&lt;/h2&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Student statistical consultant&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health, Baltimore, MD&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Carol Thompson, MS&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Siemens Competition&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;2016 - 2017&lt;/span&gt;
+					&lt;h2&gt;&lt;/h2&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Stage I, II, and finalist judge&lt;/p&gt;
+					&lt;p&gt;Categories: Computer Science, Mathematics, Bioinformatics, Cell/Cancer Biology, and Genetics&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Publications&lt;/h1&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;h2&gt;Published&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Myint L.&lt;/em&gt;, Leek JT., Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
+					&lt;li&gt;Monroe, Anne K., &lt;em&gt;Leslie Myint&lt;/em&gt;, Richard Rutstein, Judith Aberg, Stephen Boswell, Allison Agwu, Kelly Gebo, Richard Moore, and HIV Research Network. 2018. &#34;Factors Associated with Gaps in Medicaid Enrollment among People with HIV and the Effect of Gaps on Viral Suppression.&#34; Journal of Acquired Immune Deficiency Syndromes, April. https://doi.org/10.1097/QAI.0000000000001702.&lt;/li&gt;
+					&lt;li&gt;Kang, Joon Y., Amin H. Rabiei, &lt;em&gt;Leslie Myint&lt;/em&gt;, and Maromi Nei. 2017. &#34;Equivocal Significance of Post-Ictal Generalized EEG Suppression as a Marker of SUDEP Risk.&#34; Seizure: The Journal of the British Epilepsy Association 48 (May): 28–32. https://doi.org/10.1016/j.seizure.2017.03.017.&lt;/li&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. “Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.” Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+				&lt;h2&gt;Preprints&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Dimitrios G. Avramopoulos, Loyal A. Goff, and Kasper Hansen. 2017. &#34;Linear Models Enable Powerful Differential Activity Analysis in Massively Parallel Reporter Assays.&#34; bioRxiv. doi:10.1101/196394.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+				&lt;h2&gt;In Preparation&lt;/h2&gt;
+				&lt;ol reversed&gt;
+					&lt;li&gt;&lt;em&gt;Leslie Myint&lt;/em&gt;, Ruihua Wang, Leandros Boukas, Kasper D. Hansen, Loyal A. Goff, Dimitrios Avramopoulos. Understanding regulatory potential of variants associated with schizophrenia and Alzheimer&#39;s disease using massively parallel reporter assays.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;br /&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+		
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Presentations&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Magical Web Scraping with rvest&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Baltimore R Ladies Group (&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						May 2018
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Joint Preprocessing of Samples Improves Power in Differential Analysis for Mass Spectrometry-Based Metabolomics&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: JHU Biophysics&lt;br /&gt;
+						December 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;Shiny Applications for Teaching and Dungeons and Dragons&lt;/b&gt;&lt;br /&gt;
+						Invited Talk: Baltimore UseR Group (&lt;a href=&#34;https://docs.google.com/presentation/d/15NZkZdaEcrWlTTVZlTovOp7t_JkSbI73l1Fyxjf4i0U/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
+						September 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+				&lt;article&gt;
+					&lt;p&gt;
+						&lt;b&gt;A Method for Joint Processing of Mass Spectrometry-Based Metabolomics Data for Improved Differential Analysis&lt;/b&gt;&lt;br /&gt;
+						Poster: ENAR, Washington D.C.&lt;br /&gt;
+						March 2017
+					&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Software&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;p&gt;
+					&lt;b&gt;yamss&lt;/b&gt;: Tools for the analysis of high-throughput metabolomics data. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/yamss&#34;&gt;https://www.bioconductor.org/packages/yamss&lt;/a&gt;
+				&lt;/p&gt;
+				&lt;p&gt;
+					&lt;b&gt;mpra&lt;/b&gt;: Tools for the analysis of data from massively parallel reporter assays. An R package released through the Bioconductor project.&lt;br /&gt;
+					&lt;a href=&#34;https://www.bioconductor.org/packages/mpra&#34;&gt;https://www.bioconductor.org/packages/mpra&lt;/a&gt;
+				&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Teaching&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Johns Hopkins Bloomberg School of Public Health&lt;/h2&gt;
+					&lt;i&gt;Instructor&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Statistical Thinking for Informed Decision Making (2 semesters)&lt;br /&gt;
+							I developed this course as part of the &lt;a href=&#34;http://krieger.jhu.edu/publichealth/gordis-teaching-fellowship/&#34;&gt;Gordis Teaching Fellowship&lt;/a&gt;, a school-wide award that provides funds to design and teach an undergraduate class. A news article-motivated introduction to major biostatistical areas, including causal inference, survey sampling, and survival analysis.
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+					&lt;i&gt;Teaching Assistant&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Public Health Biostatistics (3 semesters)&lt;/li&gt;
+						&lt;li&gt;Introduction to R for Public Health Researchers (1 course)&lt;/li&gt;
+						&lt;li&gt;Statistical Methods in Public Health (3 quarters)&lt;/li&gt;
+						&lt;li&gt;Data Analysis Workshop (2 courses)&lt;/li&gt;
+						&lt;li&gt;Statistics for Genomics (1 quarter)&lt;/li&gt;
+						&lt;li&gt;Statistics for Laboratory Scientists (2 quarters)&lt;/li&gt;
+						&lt;li&gt;Summer Institute: Statistical Reasoning in Public Health (2 courses)&lt;/li&gt;
+					&lt;/ul&gt;
+					&lt;br /&gt;
+					&lt;i&gt;Tutor&lt;/i&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Statistical Methods in Public Health (2 quarters)&lt;/li&gt;
+						&lt;li&gt;
+							Mentor for Center for Talented Youth Cogito Research Award Recipient (3 months)
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+				&lt;article&gt;
+					&lt;h2&gt;Johns Hopkins University&lt;/h2&gt;
+					&lt;i&gt;Teaching Assistant&lt;/i&gt;
+					&lt;br /&gt;
+					&lt;ul&gt;
+						&lt;li&gt;Introduction to Java (1 semester)&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/article&gt;
+				&lt;br /&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Awards&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;article&gt;
+					&lt;span class=&#34;contentHeader&#34;&gt;Helen Abbey Award&lt;/span&gt;
+					&lt;span class=&#34;contentDate&#34;&gt;May 2017&lt;/span&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
+					&lt;p class=&#34;subDetails&#34;&gt;Excellence in teaching (&lt;a href=&#34;http://www.jhsph.edu/departments/biostatistics/about-us/honors-and-awards/index.html#helen-abbey&#34;&gt;website&lt;/a&gt;)&lt;/p&gt;
+				&lt;/article&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+
+		&lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Service&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;ul&gt;
+					&lt;li&gt;2018: Referee - &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;2018: Referee - American Journal of Epidemiology&lt;/li&gt;
+					&lt;li&gt;2017: Referee - Observational Studies&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+			&lt;br /&gt;
+		&lt;/section&gt;
+		
+		&lt;!-- &lt;section&gt;
+			&lt;div class=&#34;sectionTitle&#34;&gt;
+				&lt;h1&gt;Technical Skills&lt;/h1&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&#34;sectionContent&#34;&gt;
+				&lt;b&gt;Programming languages&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;R&lt;/li&gt;
+					&lt;li&gt;Stata&lt;/li&gt;
+					&lt;li&gt;Python&lt;/li&gt;
+					&lt;li&gt;Java&lt;/li&gt;
+					&lt;li&gt;Matlab&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;b&gt;Application development&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;Shiny&lt;/li&gt;
+					&lt;li&gt;HTML&lt;/li&gt;
+					&lt;li&gt;CSS&lt;/li&gt;
+					&lt;li&gt;Javascript&lt;/li&gt;
+					&lt;li&gt;d3.js&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;b&gt;Other&lt;/b&gt;
+				&lt;ul class=&#34;keySkills&#34;&gt;
+					&lt;li&gt;Git&lt;/li&gt;
+					&lt;li&gt;RMarkdown&lt;/li&gt;
+					&lt;li&gt;Adobe Photoshop&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
+		&lt;/section&gt; --&gt;
+		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template --&gt;</description>
     </item>
     
   </channel>

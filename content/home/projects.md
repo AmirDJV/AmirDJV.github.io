@@ -1,14 +1,14 @@
 +++
 # Projects widget.
 widget = "projects"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 title = "Projects"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 15
 
 # Content.
 # Display content from the following folder.
@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards.
-view = 1
+view = 0
 
 # Filter toolbar.
 
@@ -26,8 +26,7 @@ view = 1
 filter_default = 0
 
 # Add or remove as many filters (`[[filter]]` instances) as you like.
-# To show all items, set `tag` to "*".
-# To filter by a specific tag, set `tag` to an existing tag name.
+# Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
   name = "All"
@@ -35,11 +34,11 @@ filter_default = 0
 
 [[filter]]
   name = "Deep Learning"
-  tag = "Deep Learning"
+  tag = ".deep-learning"
 
 [[filter]]
-  name = "Other"
-  tag = "Demo"
+  name = "Other..."
+  tag = ".demo"
 
 +++
 

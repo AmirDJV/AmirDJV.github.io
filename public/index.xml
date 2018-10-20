@@ -2,21 +2,152 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
-    <link>https://amirdjv.github.io/</link>
+    <link>/</link>
     <description>Recent content on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
     
-        <atom:link href="https://amirdjv.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Academic</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
+      
+      <guid>/home/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>https://amirdjv.github.io/cv/</link>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+
+&lt;p&gt;I am an Assistant Professor of Statistics at &lt;a href=&#34;https://www.macalester.edu/&#34; target=&#34;_blank&#34;&gt;Macalester College&lt;/a&gt; in the &lt;a href=&#34;https://www.macalester.edu/mscs/&#34; target=&#34;_blank&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/a&gt;. My research interests lie in the application of statistics to study biology (particularly with high-throughput techonolgies), medicine, epidemiology, and public health. I am also interested in how humans interact with data in ways that impact analysis, understanding, and scientific communication.&lt;/p&gt;
+
+&lt;p&gt;I received my PhD in &lt;a href=&#34;http://www.biostat.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;biostatistics&lt;/a&gt; from the &lt;a href=&#34;https://www.jhsph.edu/&#34; target=&#34;_blank&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/a&gt; where I worked with &lt;a href=&#34;http://www.hansenlab.org/&#34; target=&#34;_blank&#34;&gt;Kasper Daniel Hansen&lt;/a&gt; on statistical methodology for high-throughput biology and with &lt;a href=&#34;http://jtleek.com/&#34; target=&#34;_blank&#34;&gt;Jeff Leek&lt;/a&gt; and &lt;a href=&#34;https://www.jhsph.edu/faculty/directory/profile/2909/leah-r-jager&#34; target=&#34;_blank&#34;&gt;Leah Jager&lt;/a&gt; on understanding the role of human behavior in data analysis.&lt;/p&gt;
+
+&lt;p&gt;My last name is pronounced &lt;strong&gt;mee-int&lt;/strong&gt;. A common mispronunciation that is quite understandable given the spelling is my-int. While this can be amusing from a computer science perspective, it is, nevertheless, incorrect!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>&lt;p&gt;I will be teaching the following courses at Macalester for the 2018-9 academic year.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MATH155: Introduction to Statistical Modeling (Fall)&lt;/li&gt;
+&lt;li&gt;MATH253: Machine Learning (Spring)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/home/cv/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/cv/</guid>
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>/home/fun/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/fun/</guid>
+      <description>&lt;p&gt;I am an avid &lt;a href=&#34;http://dnd.wizards.com/&#34; target=&#34;_blank&#34;&gt;Dungeons and Dragons&lt;/a&gt; player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lmyint/rdnd&#34; target=&#34;_blank&#34;&gt;Map Annotator&lt;/a&gt;: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;R + Magic the Gathering&lt;/a&gt;: (Slides) A foray into the &lt;a href=&#34;https://github.com/hadley/rvest&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; package in R with an application for organizing information about Magic the Gathering decklists.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.github.io/cv/</guid>
+      <guid>/cv/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;

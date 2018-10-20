@@ -1,5 +1,5 @@
 +++
-title = "{{ replace .Name "-" " " | title }}"
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}  # Schedule page publish date.
 draft = false
 
@@ -7,9 +7,6 @@ draft = false
 #   End time can optionally be hidden by prefixing the line with `#`.
 time_start = {{ .Date }}
 time_end = {{ .Date }}
-
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
 
 # Abstract and optional shortened version.
 abstract = ""
@@ -27,8 +24,8 @@ selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
+#   Simply enter the filename of your project file in `content/project/`.
+#   E.g. `projects = ["deep-learning.md"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
 projects = []
 

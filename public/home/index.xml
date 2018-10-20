@@ -49,15 +49,6 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://amirdjv.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://amirdjv.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Publications</title>
       <link>https://amirdjv.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
@@ -82,7 +73,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
       <guid>https://amirdjv.github.io/home/cv/</guid>
-      <description>My CV is available in HTML or PDF form.</description>
+      <description>#My CV is available in HTML or PDF form.</description>
     </item>
     
     <item>
@@ -93,15 +84,6 @@
       <guid>https://amirdjv.github.io/home/fun/</guid>
       <description>I am an avid Dungeons and Dragons player and game enthusiast, and I love finding ways to bring coding and analysis into these beloved hobbies of mine. As a result, I have a few side projects devoted entirely to fun!
  Map Annotator: A Shiny app that I developed to create clickable annotated maps for helping game masters keep track of details in information-dense areas. R + Magic the Gathering: (Slides) A foray into the rvest package in R with an application for organizing information about Magic the Gathering decklists.</description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://amirdjv.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://amirdjv.github.io/home/talks/</guid>
-      <description></description>
     </item>
     
     <item>

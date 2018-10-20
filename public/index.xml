@@ -54,15 +54,6 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://amirdjv.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://amirdjv.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Publications</title>
       <link>https://amirdjv.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
@@ -92,7 +83,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
       <guid>https://amirdjv.github.io/home/cv/</guid>
-      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
+      <description>&lt;p&gt;#My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
 </description>
     </item>
     
@@ -109,15 +100,6 @@
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;R + Magic the Gathering&lt;/a&gt;: (Slides) A foray into the &lt;a href=&#34;https://github.com/hadley/rvest&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; package in R with an application for organizing information about Magic the Gathering decklists.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://amirdjv.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://amirdjv.github.io/home/talks/</guid>
-      <description></description>
     </item>
     
     <item>

@@ -15,7 +15,7 @@ weight = 20
 
 +++
 
-I will be teaching the following courses at Macalester for the 2018-9 academic year.
-
-- MATH155: Introduction to Statistical Modeling (Fall)
-- MATH253: Machine Learning (Spring)
+# I will be teaching the following courses at Macalester for the 2018-9 #academic year.
+# 
+# - MATH155: Introduction to Statistical Modeling (Fall)
+# - MATH253: Machine Learning (Spring)

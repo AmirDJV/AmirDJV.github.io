@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://amirdjv.github.io/"
+baseurl = "https://amirdjv.github.io/public/index.html"
 
 # Title of your site
 title = "Amir Djalovski"
@@ -23,7 +23,7 @@ paginate = 10
 #disqusShortname = "https-lmyint-github-io"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-126128799-1"
+#googleAnalytics = "UA-126128799-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"

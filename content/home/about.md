@@ -10,24 +10,28 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Biostatistics",
-    "High-throughput biology",
-    "Medicine",
-    "Public health",
-    "Human-data interaction"
+    "Statistics and data analysis",
+    "Neuroscience",
+    "Psychology"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Biostatistics"
-  institution = "Johns Hopkins Bloomberg School of Public Health"
-  year = 2018
+  course = "PhD Student is Psychology, combined track towards PhD"
+  institution = "Bar-Ilan University, Israel"
+  year = "2013-2019"
 
 [[education.courses]]
-  course = "BS in Biomedical Engineering, Applied Mathematics & Statistics"
-  institution = "Johns Hopkins University"
-  year = 2013
- 
+  course = "M.A. Courses in Cultural Studies"
+  institution = "Open University, Israel"
+  year = "2012-2013"
+
+[[education.courses]]
+  course = "B.A in Psychology and Minor in Communication"
+  institution = "Interdisciplinary Center Herzliya (IDC), Israel"
+  year = "2009-2011"
+
+
 +++
 
 # About me

@@ -2,120 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
-    <link>/</link>
+    <link>https://amirdjv.github.io/</link>
     <description>Recent content on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://amirdjv.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academic</title>
-      <link>/home/hero/</link>
+      <link>https://amirdjv.github.io/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
       
-      <guid>/home/hero/</guid>
+      <guid>https://amirdjv.github.io/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://amirdjv.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://amirdjv.github.io/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 
-&lt;p&gt;I need to edit this part about myself.&lt;/p&gt;
+&lt;p&gt;The site is still under construction!&lt;/p&gt;
+
+&lt;p&gt;Currently I’m doing my PhD in psychology at &lt;a href=&#34;https://www1.biu.ac.il/indexE.php&#34; target=&#34;_blank&#34;&gt;Bar-Ilan University (Israel)&lt;/a&gt; under the supervision and guidance of &lt;a href=&#34;https://www.researchgate.net/profile/Ruth_Feldman&#34; target=&#34;_blank&#34;&gt;Prof. Ruth Feldman&lt;/a&gt; from the &lt;a href=&#34;https://www.idc.ac.il/en/pages/home.aspx&#34; target=&#34;_blank&#34;&gt;Interdisciplinary Center Herzliya (Israel)&lt;/a&gt;. In my PhD I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments and PTSD.&lt;/p&gt;
+
+&lt;p&gt;Besides my studies, I enjoy analyzing new datasets and to teach and consult about research methods, statistics and data analysis. I preach for the use of R language, and in my spare time I like photography, traveling, and listing to music.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://amirdjv.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://amirdjv.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://amirdjv.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://amirdjv.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <title>Publications</title>
+      <link>https://amirdjv.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://amirdjv.github.io/home/publications/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description>&lt;p&gt;I should write about the courses I wrote.&lt;/p&gt;
-</description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://amirdjv.github.io/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/cv/</guid>
-      <description>&lt;p&gt;#My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fun</title>
-      <link>/home/fun/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>/home/fun/</guid>
-      <description>&lt;p&gt;#Fun things that I like to do&lt;/p&gt;
+      <guid>https://amirdjv.github.io/home/cv/</guid>
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://amirdjv.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://amirdjv.github.io/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://amirdjv.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://amirdjv.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/cv/</link>
+      <link>https://amirdjv.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cv/</guid>
+      <guid>https://amirdjv.github.io/cv/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -413,6 +397,34 @@
 &lt;/html&gt;
 
 &lt;!-- http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template --&gt;</description>
+    </item>
+    
+    <item>
+      <title>publications</title>
+      <link>https://amirdjv.github.io/publications/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.github.io/publications/publications/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Markdown&lt;/h2&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Including Plots&lt;/h2&gt;
+&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.github.io/publications/publications_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

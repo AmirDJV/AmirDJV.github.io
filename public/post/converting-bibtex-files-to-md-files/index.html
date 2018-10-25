@@ -17,8 +17,9 @@
       
     
   
-  <meta name="description" content="This is my first post! YAY! While wondering around the amazing world blog writing with the blogdown package I had to choose a theme to work with. For now, I chose the hugo academic theme due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.
-The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .">
+  <meta name="description" content="This is my first post! YAY!
+While wondering around the amazing world of blog writing with blogdown package I had to choose a theme to work with. For now, I’ve chosen the hugo academic theme due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.
+The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/">
@@ -75,8 +76,9 @@ The first problem that I had to tackle was how to post my publications and thus 
   <meta property="og:site_name" content="Amir Djalovski">
   <meta property="og:url" content="https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/">
   <meta property="og:title" content="Converting BibTeX files to md files | Amir Djalovski">
-  <meta property="og:description" content="This is my first post! YAY! While wondering around the amazing world blog writing with the blogdown package I had to choose a theme to work with. For now, I chose the hugo academic theme due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.
-The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .">
+  <meta property="og:description" content="This is my first post! YAY!
+While wondering around the amazing world of blog writing with blogdown package I had to choose a theme to work with. For now, I’ve chosen the hugo academic theme due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.
+The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-10-25T00:00:00&#43;00:00">
@@ -304,10 +306,10 @@ The first problem that I had to tackle was how to post my publications and thus 
 
 
     <div class="article-style" itemprop="articleBody">
-      <p>This is my first post! YAY! While wondering around the amazing world blog writing with the <a href="https://github.com/rstudio/blogdown">blogdown package</a> I had to choose a theme to work with. For now, I chose the <a href="https://themes.gohugo.io/academic/">hugo academic theme</a> due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.</p>
-<p>The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .md files and multiple .bib files. Luckily I found a <a href="https://github.com/petzi53/bib2academic">package</a> that was written just for that.</p>
-<p>I had to start with export the citation of my publication to a BibTeX file.</p>
-<p>Next, I had to install from github the required package.</p>
+      <p>This is my first post! YAY!</p>
+<p>While wondering around the amazing world of blog writing with <a href="https://github.com/rstudio/blogdown">blogdown package</a> I had to choose a theme to work with. For now, I’ve chosen the <a href="https://themes.gohugo.io/academic/">hugo academic theme</a> due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.</p>
+<p>The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file. Luckily I found a <a href="https://github.com/petzi53/bib2academic">package</a> that was written just for that.</p>
+<p>I started with installing from github the required packages.</p>
 <pre class="r"><code># If not installed, you should install &quot;devtools&quot; and &quot;bib2academic&quot;
 if (!require(&quot;devtools&quot;)) install.packages(&quot;devtools&quot;)</code></pre>
 <pre><code>## Loading required package: devtools</code></pre>
@@ -315,15 +317,15 @@ if (!require(&quot;devtools&quot;)) install.packages(&quot;devtools&quot;)</code
 <pre><code>## Loading required package: bib2academic</code></pre>
 <pre class="r"><code>#Load package
 require(bib2academic)</code></pre>
-<p>If you’d like to try while reading, I saved my BibTeX file under the folder of the post.</p>
-<p>So, now we need to start the conversion using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.</p>
+<p>If you’d like to try while reading, I uploaded my BibTeX file to <a href="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib">github</a>.</p>
+<p>So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.</p>
 <pre class="r"><code>bib2acad(paste(getwd(),
                &quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;, 
                sep = &quot;/&quot;),
          copybib = TRUE, abstract = TRUE, overwrite = TRUE)</code></pre>
 <pre><code>## Cannot find file &#39;C:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&#39;. Check path and/or file name.</code></pre>
 <p>If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).</p>
-<p>Next, we should move these files to there correct path. To do that, we should first get a list of all the files:</p>
+<p>Next, we should move these files to there correct path. To do that, we should first get a list of all the files inside the folders:</p>
 <pre class="r"><code>bibFiles &lt;- list.files(&quot;my-bib-folder&quot;, full.names = TRUE)
 mdFiles &lt;- list.files(&quot;my-md-folder&quot;, full.names = TRUE)</code></pre>
 <p>Now we can copy them to the correct path:</p>
@@ -331,10 +333,10 @@ mdFiles &lt;- list.files(&quot;my-md-folder&quot;, full.names = TRUE)</code></pr
 <pre><code>## logical(0)</code></pre>
 <pre class="r"><code>file.copy(from = mdFiles, to = &quot;content/publication/&quot;)</code></pre>
 <pre><code>## logical(0)</code></pre>
-<p>Lastly we should delete the temp folders we created</p>
+<p>Lastly, we should delete the temp folders we created</p>
 <pre class="r"><code>unlink(&quot;my-bib-folder&quot;, recursive = T, force = T)
 unlink(&quot;my-md-folder&quot;, recursive = T, force = T)</code></pre>
-<p>All that is left is to rebuild our site and to see that the updates took place correctly</p>
+<p>All that is left is to rebuild our site and to see that the updates took place as we expected</p>
 <pre class="r"><code>#If you wish to clean and rebuild the site from start.
 # rmarkdown::clean_site()
 

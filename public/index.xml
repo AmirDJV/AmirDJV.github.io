@@ -91,10 +91,10 @@
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</guid>
-      <description>&lt;p&gt;This is my first post! YAY! While wondering around the amazing world blog writing with the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown package&lt;/a&gt; I had to choose a theme to work with. For now, I chose the &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;hugo academic theme&lt;/a&gt; due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.&lt;/p&gt;
-&lt;p&gt;The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .md files and multiple .bib files. Luckily I found a &lt;a href=&#34;https://github.com/petzi53/bib2academic&#34;&gt;package&lt;/a&gt; that was written just for that.&lt;/p&gt;
-&lt;p&gt;I had to start with export the citation of my publication to a BibTeX file.&lt;/p&gt;
-&lt;p&gt;Next, I had to install from github the required package.&lt;/p&gt;
+      <description>&lt;p&gt;This is my first post! YAY!&lt;/p&gt;
+&lt;p&gt;While wondering around the amazing world of blog writing with &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown package&lt;/a&gt; I had to choose a theme to work with. For now, I’ve chosen the &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;hugo academic theme&lt;/a&gt; due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.&lt;/p&gt;
+&lt;p&gt;The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file. Luckily I found a &lt;a href=&#34;https://github.com/petzi53/bib2academic&#34;&gt;package&lt;/a&gt; that was written just for that.&lt;/p&gt;
+&lt;p&gt;I started with installing from github the required packages.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# If not installed, you should install &amp;quot;devtools&amp;quot; and &amp;quot;bib2academic&amp;quot;
 if (!require(&amp;quot;devtools&amp;quot;)) install.packages(&amp;quot;devtools&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Loading required package: devtools&lt;/code&gt;&lt;/pre&gt;
@@ -102,15 +102,15 @@ if (!require(&amp;quot;devtools&amp;quot;)) install.packages(&amp;quot;devtools&
 &lt;pre&gt;&lt;code&gt;## Loading required package: bib2academic&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Load package
 require(bib2academic)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you’d like to try while reading, I saved my BibTeX file under the folder of the post.&lt;/p&gt;
-&lt;p&gt;So, now we need to start the conversion using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.&lt;/p&gt;
+&lt;p&gt;If you’d like to try while reading, I uploaded my BibTeX file to &lt;a href=&#34;https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bib2acad(paste(getwd(),
                &amp;quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;quot;, 
                sep = &amp;quot;/&amp;quot;),
          copybib = TRUE, abstract = TRUE, overwrite = TRUE)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Cannot find file &amp;#39;C:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;#39;. Check path and/or file name.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).&lt;/p&gt;
-&lt;p&gt;Next, we should move these files to there correct path. To do that, we should first get a list of all the files:&lt;/p&gt;
+&lt;p&gt;Next, we should move these files to there correct path. To do that, we should first get a list of all the files inside the folders:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bibFiles &amp;lt;- list.files(&amp;quot;my-bib-folder&amp;quot;, full.names = TRUE)
 mdFiles &amp;lt;- list.files(&amp;quot;my-md-folder&amp;quot;, full.names = TRUE)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now we can copy them to the correct path:&lt;/p&gt;
@@ -118,10 +118,10 @@ mdFiles &amp;lt;- list.files(&amp;quot;my-md-folder&amp;quot;, full.names = TRUE
 &lt;pre&gt;&lt;code&gt;## logical(0)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;file.copy(from = mdFiles, to = &amp;quot;content/publication/&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## logical(0)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Lastly we should delete the temp folders we created&lt;/p&gt;
+&lt;p&gt;Lastly, we should delete the temp folders we created&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;unlink(&amp;quot;my-bib-folder&amp;quot;, recursive = T, force = T)
 unlink(&amp;quot;my-md-folder&amp;quot;, recursive = T, force = T)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;All that is left is to rebuild our site and to see that the updates took place correctly&lt;/p&gt;
+&lt;p&gt;All that is left is to rebuild our site and to see that the updates took place as we expected&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#If you wish to clean and rebuild the site from start.
 # rmarkdown::clean_site()
 

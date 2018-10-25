@@ -13,14 +13,13 @@ editor_options:
 ---
 
 
-This is my first post! YAY! 
-While wondering around the amazing world blog writing with the [blogdown package](https://github.com/rstudio/blogdown) I had to choose a theme to work with. For now, I chose the [hugo academic theme](https://themes.gohugo.io/academic/) due to recommendations over the web and it's so called easy interface and "out of the box" utilities. 
+This is my first post! YAY!
 
-The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .md files and multiple .bib files. Luckily I found a [package](https://github.com/petzi53/bib2academic) that was written just for that.
+While wondering around the amazing world of blog writing with [blogdown package](https://github.com/rstudio/blogdown) I had to choose a theme to work with. For now, I've chosen the [hugo academic theme](https://themes.gohugo.io/academic/) due to recommendations over the web and it's so called easy interface and "out of the box" utilities. 
 
-I had to start with export the citation of my publication to a BibTeX file. 
+The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file. Luckily I found a [package](https://github.com/petzi53/bib2academic) that was written just for that.
 
-Next, I had to install from github the required package. 
+I started with installing from github the required packages. 
 
 ```{r}
 # If not installed, you should install "devtools" and "bib2academic"
@@ -33,10 +32,10 @@ require(bib2academic)
 
 ```
 
-If you'd like to try while reading, I saved my BibTeX file under the folder of the post. 
+If you'd like to try while reading, I uploaded my BibTeX file to [github](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib).
 
-So, now we need to start the conversion using the "bib2acad" function. 
-Note that instead of writing a direct path, I "pasted" the working directory and the directory of the file. 
+So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the "bib2acad" function. 
+Note that instead of writing a direct path, I "pasted" the working directory and the directory of the file.  
 ```{r}
 bib2acad(paste(getwd(),
                "content/post/Converting_BibTeX_files_to_md_files/my_articles.bib", 
@@ -47,7 +46,8 @@ bib2acad(paste(getwd(),
 
 If everything went smoothly, we should now see in our working directory two new folders "my-bib-folder" (which holds all the BibTeX files) and "my-md-folder (which holds all the .md files). 
 
-Next, we should move these files to there correct path. To do that, we should first get a list of all the files:
+Next, we should move these files to there correct path.
+To do that, we should first get a list of all the files inside the folders:
 ```{r}
 bibFiles <- list.files("my-bib-folder", full.names = TRUE)
 mdFiles <- list.files("my-md-folder", full.names = TRUE)
@@ -59,13 +59,13 @@ file.copy(from = bibFiles, to = "static/files/citations/")
 file.copy(from = mdFiles, to = "content/publication/")
 ```
 
-Lastly we should delete the temp folders we created
+Lastly, we should delete the temp folders we created
 ```{r}
 unlink("my-bib-folder", recursive = T, force = T)
 unlink("my-md-folder", recursive = T, force = T)
 ```
 
-All that is left is to rebuild our site and to see that the updates took place correctly 
+All that is left is to rebuild our site and to see that the updates took place as we expected 
 ```{r}
 #If you wish to clean and rebuild the site from start.
 # rmarkdown::clean_site()

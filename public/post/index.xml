@@ -22,5 +22,14 @@
 The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .</description>
     </item>
     
+    <item>
+      <title>tempdel</title>
+      <link>/post/tempdel/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tempdel/</guid>
+      <description>bla</description>
+    </item>
+    
   </channel>
 </rss>

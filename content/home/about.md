@@ -11,9 +11,10 @@ weight = 5
 [interests]
   interests = [
   "R", 
-    "Statistics and data analysis",
-    "Neuroscience",
-    "Psychology"
+  "Statistics and data analysis",
+  "Neuroscience",
+  "Autonomic Nervous System",
+  "Psychology"
   ]
 
 # List your qualifications (such as academic degrees).

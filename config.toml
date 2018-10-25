@@ -15,7 +15,8 @@ copyright = "&copy; 2018"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+#ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] #Original line
+ignoreFiles = ["_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
 
@@ -122,7 +123,7 @@ enableGitInfo = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -206,7 +207,7 @@ enableGitInfo = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 3
+    publication_format = 2
 
   # Social/Academic Networking
   #
@@ -244,23 +245,12 @@ enableGitInfo = false
   #[[params.social]]
    # icon = "twitter"
     #icon_pack = "fa"
-    #link = "//twitter.com/lesliemyint"
+    #link = "//twitter.com/"
 
   #[[params.social]]
    # icon = "github"
     #icon_pack = "fa"
-    #link = "//github.com/lmyint"
-
-  #[[params.social]]
-   # icon = "linkedin"
-    #icon_pack = "fa"
-    #link = "https://www.linkedin.com/in/leslie-myint-b9433bb4/"
-
-  #[[params.social]]
-   # icon = "orcid"
-    #icon_pack = "ai"
-    #link = "https://orcid.org/0000-0003-2478-0331"
-
+    #link = "//github.com/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -281,40 +271,29 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
-  name = "CV"
-  url = "#cv"
-  weight = 3
-  
-[[menu.main]]
   name = "Publications"
   url = "#publications"
+  weight = 3
+
+[[menu.main]]
+  name = "CV"
+  url = "#cv"
   weight = 4
   
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 5
-  
-  
-# [[menu.main]]
-#   name = "Projects"
-#   url = "#projects"
-#   weight = 3
 
 #[[menu.main]]
- # name = "Teaching"
-  #url = "#teaching"
-  #weight = 4
-
-#[[menu.main]]
- # name = "Fun"
-  #url = "#fun"
+ # name = "Tags"
+  #url = "#tags"
   #weight = 6
-
+  
 
 # Taxonomies.
 [taxonomies]
-  tag = "tags"
+ tag = "tags"
   category = "categories"
   publication_type = "publication_types"
 

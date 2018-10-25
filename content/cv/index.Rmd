@@ -1,0 +1,8 @@
+---
+title: "cv"
+author: "Amir Djalovski"
+date: "October 24, 2018"
+output: html_document
+---
+
+bla

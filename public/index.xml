@@ -2,31 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
-    <link>https://amirdjv.github.io/</link>
+    <link>/</link>
     <description>Recent content on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0300</lastBuildDate>
     
-        <atom:link href="https://amirdjv.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Academic</title>
-      <link>https://amirdjv.github.io/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0300</pubDate>
-      
-      <guid>https://amirdjv.github.io/home/hero/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title></title>
-      <link>https://amirdjv.github.io/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.github.io/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
@@ -41,389 +32,204 @@
     
     <item>
       <title>Recent Posts</title>
-      <link>https://amirdjv.github.io/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.github.io/home/posts/</guid>
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://amirdjv.github.io/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.github.io/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://amirdjv.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
-      
-      <guid>https://amirdjv.github.io/home/publications/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>https://amirdjv.github.io/home/cv/</link>
+      <link>/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.github.io/home/cv/</guid>
+      <guid>/home/cv/</guid>
       <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://amirdjv.github.io/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.github.io/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://amirdjv.github.io/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.github.io/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://amirdjv.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Converting BibTeX files to md files</title>
+      <link>/post/converting-bibtex-files-to-md-files/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.github.io/cv/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Leslie Myint - Curriculum Vitae&lt;/title&gt;
+      <guid>/post/converting-bibtex-files-to-md-files/</guid>
+      <description>&lt;p&gt;This is my first post! YAY! While wondering around the amazing world blog writing with the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown package&lt;/a&gt; I had to choose a theme to work with. For now, I chose the &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;hugo academic theme&lt;/a&gt; due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.&lt;/p&gt;
+&lt;p&gt;The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .md files and multiple .bib files. Luckily I found a &lt;a href=&#34;https://github.com/petzi53/bib2academic&#34;&gt;package&lt;/a&gt; that was written just for that.&lt;/p&gt;
+&lt;p&gt;I had to start with export the citation of my publication to a BibTeX file.&lt;/p&gt;
+&lt;p&gt;Next, I had to install from github the required package.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# If not installed, you should install &amp;quot;devtools&amp;quot; and &amp;quot;bib2academic&amp;quot;
+if (!require(&amp;quot;devtools&amp;quot;)) install.packages(&amp;quot;devtools&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: devtools&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;if (!require(&amp;quot;bib2academic&amp;quot;)) devtools::install_github(&amp;quot;petzi53/bib2academic&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: bib2academic&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Load package
+require(bib2academic)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you’d like to try while reading, I saved my BibTeX file under the folder of the post.&lt;/p&gt;
+&lt;p&gt;So, now we need to start the conversion using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bib2acad(paste(getwd(),
+               &amp;quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;quot;, 
+               sep = &amp;quot;/&amp;quot;),
+         copybib = TRUE, abstract = TRUE, overwrite = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Cannot find file &amp;#39;C:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;#39;. Check path and/or file name.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).&lt;/p&gt;
+&lt;p&gt;Next, we should move these files to there correct path. To do that, we should first get a list of all the files:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bibFiles &amp;lt;- list.files(&amp;quot;my-bib-folder&amp;quot;, full.names = TRUE)
+mdFiles &amp;lt;- list.files(&amp;quot;my-md-folder&amp;quot;, full.names = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we can copy them to the correct path:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;file.copy(from = bibFiles, to = &amp;quot;static/files/citations/&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## logical(0)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;file.copy(from = mdFiles, to = &amp;quot;content/publication/&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## logical(0)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Lastly we should delete the temp folders we created&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;unlink(&amp;quot;my-bib-folder&amp;quot;, recursive = T, force = T)
+unlink(&amp;quot;my-md-folder&amp;quot;, recursive = T, force = T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All that is left is to rebuild our site and to see that the updates took place correctly&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#If you wish to clean and rebuild the site from start.
+# rmarkdown::clean_site()
 
-&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width&#34;/&gt;
-&lt;meta name=&#34;description&#34; content=&#34;The Curriculum Vitae of Leslie Myint.&#34;/&gt;
-&lt;meta charset=&#34;UTF-8&#34;&gt; 
+#If you wish to build the site with out preview
+# build_site()
 
-&lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;../css/cv.css&#34;&gt;
-&lt;link href=&#39;https://fonts.googleapis.com/css?family=Rokkitt:regular,bold|Lato:regular,black&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
-
-&lt;!--[if lt IE 9]&gt;
-&lt;script src=&#34;//html5shiv.googlecode.com/svn/trunk/html5.js&#34;&gt;&lt;/script&gt;
-&lt;![endif]--&gt;
-&lt;/head&gt;
-&lt;body id=&#34;top&#34;&gt;
-&lt;div id=&#34;cv&#34; class=&#34;instaFade&#34;&gt;
-	&lt;div class=&#34;mainDetails&#34;&gt;
-		&lt;div id=&#34;name&#34;&gt;
-			&lt;h1 class=&#34;quickFade delayOne&#34;&gt;Leslie Myint&lt;/h1&gt;
-		&lt;/div&gt;
-		
-		&lt;div id=&#34;contactDetails&#34; class=&#34;quickFade delayTwo&#34;&gt;
-			&lt;ul&gt;
-				&lt;li&gt;e: &lt;a href=&#34;mailto:lmyint@macalester.edu&#34; target=&#34;_blank&#34;&gt;lmyint@macalester.edu&lt;/a&gt;&lt;/li&gt;
-				&lt;li&gt;w: &lt;a href=&#34;https://lmyint.github.io&#34;&gt;lmyint.github.io&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/div&gt;
-		&lt;br /&gt;
-		&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-	&lt;/div&gt;
-	
-	&lt;div id=&#34;mainArea&#34; class=&#34;quickFade delayThree&#34;&gt;
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Education&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;article&gt;
-					&lt;span class=&#34;contentHeader&#34;&gt;PhD in Biostatistics&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;May 2018&lt;/span&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Dissertation: Evidence-Based Methods in Studies of Biology and Data Analysis&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Kasper Daniel Hansen&lt;/p&gt;
-				&lt;/article&gt;
-				&lt;br /&gt;
-				&lt;article&gt;
-					&lt;span class=&#34;contentHeader&#34;&gt;BS in Biomedical Engineering&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;May 2013&lt;/span&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins University&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Secondary major: Applied Mathematics and Statistics&lt;br /&gt; Minor: Computer Science&lt;/p&gt;
-				&lt;/article&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-			&lt;br /&gt;
-		&lt;/section&gt;
-
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Work Experience&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;article&gt;
-					&lt;span class=&#34;contentHeader&#34;&gt;Assistant Professor&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;August 2018 - present&lt;/span&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Department of Mathematics, Statistics, and Computer Science&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Macalester College, Saint Paul, MN&lt;/p&gt;
-				&lt;/article&gt;
-				&lt;br /&gt;
-				&lt;article&gt;
-					&lt;span class=&#34;contentHeader&#34;&gt;Johns Hopkins Biostatistics Center&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;July 2016 - August 2017&lt;/span&gt;
-					&lt;h2&gt;&lt;/h2&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Student statistical consultant&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health, Baltimore, MD&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Advisor: Carol Thompson, MS&lt;/p&gt;
-				&lt;/article&gt;
-				&lt;br /&gt;
-				&lt;article&gt;
-					&lt;span class=&#34;contentHeader&#34;&gt;Siemens Competition&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;2016 - 2017&lt;/span&gt;
-					&lt;h2&gt;&lt;/h2&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Stage I, II, and finalist judge&lt;/p&gt;
-					&lt;p&gt;Categories: Computer Science, Mathematics, Bioinformatics, Cell/Cancer Biology, and Genetics&lt;/p&gt;
-				&lt;/article&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
-
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Publications&lt;/h1&gt;
-			&lt;/div&gt;
-
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;h2&gt;Published&lt;/h2&gt;
-				&lt;ol reversed&gt;
-					&lt;li&gt;&lt;em&gt;Myint L.&lt;/em&gt;, Leek JT., Jager LR. 2018. Explanation of observational data engenders a causal belief about smoking and cancer. PeerJ 6:e5597. DOI: 10.7717/peerj.5597.&lt;/li&gt;
-					&lt;li&gt;Monroe, Anne K., &lt;em&gt;Leslie Myint&lt;/em&gt;, Richard Rutstein, Judith Aberg, Stephen Boswell, Allison Agwu, Kelly Gebo, Richard Moore, and HIV Research Network. 2018. &#34;Factors Associated with Gaps in Medicaid Enrollment among People with HIV and the Effect of Gaps on Viral Suppression.&#34; Journal of Acquired Immune Deficiency Syndromes, April. https://doi.org/10.1097/QAI.0000000000001702.&lt;/li&gt;
-					&lt;li&gt;Kang, Joon Y., Amin H. Rabiei, &lt;em&gt;Leslie Myint&lt;/em&gt;, and Maromi Nei. 2017. &#34;Equivocal Significance of Post-Ictal Generalized EEG Suppression as a Marker of SUDEP Risk.&#34; Seizure: The Journal of the British Epilepsy Association 48 (May): 28–32. https://doi.org/10.1016/j.seizure.2017.03.017.&lt;/li&gt;
-					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Andre Kleensang, Liang Zhao, Thomas Hartung, and Kasper D. Hansen. 2017. “Joint Bounding of Peaks Across Samples Improves Differential Analysis in Mass Spectrometry-Based Metabolomics.” Analytical Chemistry 89 (6): 3517–23. https://doi.org/10.1021/acs.analchem.6b04719.&lt;/li&gt;
-				&lt;/ol&gt;
-				&lt;br /&gt;
-				&lt;h2&gt;Preprints&lt;/h2&gt;
-				&lt;ol reversed&gt;
-					&lt;li&gt;&lt;em&gt;Myint, Leslie&lt;/em&gt;, Dimitrios G. Avramopoulos, Loyal A. Goff, and Kasper Hansen. 2017. &#34;Linear Models Enable Powerful Differential Activity Analysis in Massively Parallel Reporter Assays.&#34; bioRxiv. doi:10.1101/196394.&lt;/li&gt;
-				&lt;/ol&gt;
-				&lt;br /&gt;
-				&lt;h2&gt;In Preparation&lt;/h2&gt;
-				&lt;ol reversed&gt;
-					&lt;li&gt;&lt;em&gt;Leslie Myint&lt;/em&gt;, Ruihua Wang, Leandros Boukas, Kasper D. Hansen, Loyal A. Goff, Dimitrios Avramopoulos. Understanding regulatory potential of variants associated with schizophrenia and Alzheimer&#39;s disease using massively parallel reporter assays.&lt;/li&gt;
-				&lt;/ol&gt;
-				&lt;br /&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
-		
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Presentations&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;article&gt;
-					&lt;p&gt;
-						&lt;b&gt;Magical Web Scraping with rvest&lt;/b&gt;&lt;br /&gt;
-						Invited Talk: Baltimore R Ladies Group (&lt;a href=&#34;https://docs.google.com/presentation/d/1zdMStQLOJUIpmVQZv9VxwYYTyp1nFHgorwQzYrgA1Uo/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
-						May 2018
-					&lt;/p&gt;
-				&lt;/article&gt;
-				&lt;article&gt;
-					&lt;p&gt;
-						&lt;b&gt;Joint Preprocessing of Samples Improves Power in Differential Analysis for Mass Spectrometry-Based Metabolomics&lt;/b&gt;&lt;br /&gt;
-						Invited Talk: JHU Biophysics&lt;br /&gt;
-						December 2017
-					&lt;/p&gt;
-				&lt;/article&gt;
-				&lt;article&gt;
-					&lt;p&gt;
-						&lt;b&gt;Shiny Applications for Teaching and Dungeons and Dragons&lt;/b&gt;&lt;br /&gt;
-						Invited Talk: Baltimore UseR Group (&lt;a href=&#34;https://docs.google.com/presentation/d/15NZkZdaEcrWlTTVZlTovOp7t_JkSbI73l1Fyxjf4i0U/edit?usp=sharing&#34;&gt;slides&lt;/a&gt;)&lt;br /&gt;
-						September 2017
-					&lt;/p&gt;
-				&lt;/article&gt;
-				&lt;article&gt;
-					&lt;p&gt;
-						&lt;b&gt;A Method for Joint Processing of Mass Spectrometry-Based Metabolomics Data for Improved Differential Analysis&lt;/b&gt;&lt;br /&gt;
-						Poster: ENAR, Washington D.C.&lt;br /&gt;
-						March 2017
-					&lt;/p&gt;
-				&lt;/article&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
-
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Software&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;p&gt;
-					&lt;b&gt;yamss&lt;/b&gt;: Tools for the analysis of high-throughput metabolomics data. An R package released through the Bioconductor project.&lt;br /&gt;
-					&lt;a href=&#34;https://www.bioconductor.org/packages/yamss&#34;&gt;https://www.bioconductor.org/packages/yamss&lt;/a&gt;
-				&lt;/p&gt;
-				&lt;p&gt;
-					&lt;b&gt;mpra&lt;/b&gt;: Tools for the analysis of data from massively parallel reporter assays. An R package released through the Bioconductor project.&lt;br /&gt;
-					&lt;a href=&#34;https://www.bioconductor.org/packages/mpra&#34;&gt;https://www.bioconductor.org/packages/mpra&lt;/a&gt;
-				&lt;/p&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
-
-
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Teaching&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;article&gt;
-					&lt;h2&gt;Johns Hopkins Bloomberg School of Public Health&lt;/h2&gt;
-					&lt;i&gt;Instructor&lt;/i&gt;
-					&lt;ul&gt;
-						&lt;li&gt;
-							Statistical Thinking for Informed Decision Making (2 semesters)&lt;br /&gt;
-							I developed this course as part of the &lt;a href=&#34;http://krieger.jhu.edu/publichealth/gordis-teaching-fellowship/&#34;&gt;Gordis Teaching Fellowship&lt;/a&gt;, a school-wide award that provides funds to design and teach an undergraduate class. A news article-motivated introduction to major biostatistical areas, including causal inference, survey sampling, and survival analysis.
-						&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;br /&gt;
-					&lt;i&gt;Teaching Assistant&lt;/i&gt;
-					&lt;ul&gt;
-						&lt;li&gt;Public Health Biostatistics (3 semesters)&lt;/li&gt;
-						&lt;li&gt;Introduction to R for Public Health Researchers (1 course)&lt;/li&gt;
-						&lt;li&gt;Statistical Methods in Public Health (3 quarters)&lt;/li&gt;
-						&lt;li&gt;Data Analysis Workshop (2 courses)&lt;/li&gt;
-						&lt;li&gt;Statistics for Genomics (1 quarter)&lt;/li&gt;
-						&lt;li&gt;Statistics for Laboratory Scientists (2 quarters)&lt;/li&gt;
-						&lt;li&gt;Summer Institute: Statistical Reasoning in Public Health (2 courses)&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;br /&gt;
-					&lt;i&gt;Tutor&lt;/i&gt;
-					&lt;ul&gt;
-						&lt;li&gt;Statistical Methods in Public Health (2 quarters)&lt;/li&gt;
-						&lt;li&gt;
-							Mentor for Center for Talented Youth Cogito Research Award Recipient (3 months)
-						&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/article&gt;
-				&lt;br /&gt;
-				&lt;article&gt;
-					&lt;h2&gt;Johns Hopkins University&lt;/h2&gt;
-					&lt;i&gt;Teaching Assistant&lt;/i&gt;
-					&lt;br /&gt;
-					&lt;ul&gt;
-						&lt;li&gt;Introduction to Java (1 semester)&lt;/li&gt;
-					&lt;/ul&gt;
-				&lt;/article&gt;
-				&lt;br /&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt;
-
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Awards&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;article&gt;
-					&lt;span class=&#34;contentHeader&#34;&gt;Helen Abbey Award&lt;/span&gt;
-					&lt;span class=&#34;contentDate&#34;&gt;May 2017&lt;/span&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Johns Hopkins Bloomberg School of Public Health&lt;/p&gt;
-					&lt;p class=&#34;subDetails&#34;&gt;Excellence in teaching (&lt;a href=&#34;http://www.jhsph.edu/departments/biostatistics/about-us/honors-and-awards/index.html#helen-abbey&#34;&gt;website&lt;/a&gt;)&lt;/p&gt;
-				&lt;/article&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-			&lt;br /&gt;
-		&lt;/section&gt;
-
-		&lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Service&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;ul&gt;
-					&lt;li&gt;2018: Referee - &lt;a href=&#34;https://www.bioverlay.org/post/2018-05-human-5primeutr-protein-mpra/&#34;&gt;BiOverlay&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;2018: Referee - American Journal of Epidemiology&lt;/li&gt;
-					&lt;li&gt;2017: Referee - Observational Studies&lt;/li&gt;
-				&lt;/ul&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-			&lt;br /&gt;
-		&lt;/section&gt;
-		
-		&lt;!-- &lt;section&gt;
-			&lt;div class=&#34;sectionTitle&#34;&gt;
-				&lt;h1&gt;Technical Skills&lt;/h1&gt;
-			&lt;/div&gt;
-			
-			&lt;div class=&#34;sectionContent&#34;&gt;
-				&lt;b&gt;Programming languages&lt;/b&gt;
-				&lt;ul class=&#34;keySkills&#34;&gt;
-					&lt;li&gt;R&lt;/li&gt;
-					&lt;li&gt;Stata&lt;/li&gt;
-					&lt;li&gt;Python&lt;/li&gt;
-					&lt;li&gt;Java&lt;/li&gt;
-					&lt;li&gt;Matlab&lt;/li&gt;
-				&lt;/ul&gt;
-				&lt;b&gt;Application development&lt;/b&gt;
-				&lt;ul class=&#34;keySkills&#34;&gt;
-					&lt;li&gt;Shiny&lt;/li&gt;
-					&lt;li&gt;HTML&lt;/li&gt;
-					&lt;li&gt;CSS&lt;/li&gt;
-					&lt;li&gt;Javascript&lt;/li&gt;
-					&lt;li&gt;d3.js&lt;/li&gt;
-				&lt;/ul&gt;
-				&lt;b&gt;Other&lt;/b&gt;
-				&lt;ul class=&#34;keySkills&#34;&gt;
-					&lt;li&gt;Git&lt;/li&gt;
-					&lt;li&gt;RMarkdown&lt;/li&gt;
-					&lt;li&gt;Adobe Photoshop&lt;/li&gt;
-				&lt;/ul&gt;
-			&lt;/div&gt;
-			&lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-		&lt;/section&gt; --&gt;
-		
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
-&lt;!-- http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template --&gt;</description>
+#If you wish to build and preview the site
+# serve_site()&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
-      <title>publications</title>
-      <link>https://amirdjv.github.io/publications/publications/</link>
+      <title>Maternal depression impacts child psychopathology across the first decade of life: Oxytocin and synchrony as markers of resilience</title>
+      <link>/publication/2018-01-01_priel2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-01-01_priel2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stress and Immune Biomarkers Interact with Parenting Behavior to Shape Anxiety Symptoms in Trauma-Exposed Youth</title>
+      <link>/publication/2018-01-01_yirmiya2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2018-01-01_yirmiya2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain-to-Brain Synchrony during Naturalistic Social Interactions</title>
+      <link>/publication/2017-01-01_kinreich2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-01-01_kinreich2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
+      <link>/publication/2017-01-01_ulmer-yaniv2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-01-01_ulmer-yaniv2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The reliability, concurrent validity and association with salivary oxytocin of the self-report version of the Inventory of Callous-Unemotional Traits in adolescents with conduct disorder</title>
+      <link>/publication/2017-01-01_levy2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-01-01_levy2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The social transmission of risk: Maternal stress physiology, synchronous parenting, and well-being mediate the effects of war exposure on child psychopathology</title>
+      <link>/publication/2017-01-01_halevi2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-01-01_halevi2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk and resilience trajectories in war-exposed children across the first decade of life.</title>
+      <link>/publication/2016-01-01_halevi2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2016-01-01_halevi2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>International trends in electronic media communication among 11- to 15-year-olds in 30 countries from 2002 to 2010: association with ease of communication with friends of the opposite sex</title>
+      <link>/publication/2015-01-01_boniel-nissim2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2015-01-01_boniel-nissim2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salivary oxytocin in adolescents with conduct problems and callous-unemotional traits</title>
+      <link>/publication/2015-01-01_levy2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2015-01-01_levy2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parental, peer and school experiences as predictors of alcohol drinking among first and second generation immigrant adolescents in Israel</title>
+      <link>/publication/2014-01-01_walsh2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-01-01_walsh2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.github.io/publications/publications/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;R Markdown&lt;/h2&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Including Plots&lt;/h2&gt;
-&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://amirdjv.github.io/publications/publications_files/figure-html/pressure-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
-&lt;/div&gt;
+      <guid>/cv/</guid>
+      <description>&lt;p&gt;bla&lt;/p&gt;
 </description>
     </item>
     

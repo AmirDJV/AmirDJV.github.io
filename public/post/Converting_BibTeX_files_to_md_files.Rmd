@@ -1,0 +1,81 @@
+---
+title: Converting BibTeX files to md files
+author: Amir Djalovski
+date: '2018-10-25'
+slug: Converting BibTeX files to md files
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+editor_options: 
+  chunk_output_type: console
+---
+
+
+This is my first post! YAY! 
+While wondering around the amazing world blog writing with the [blogdown package](https://github.com/rstudio/blogdown) I had to choose a theme to work with. For now, I chose the [hugo academic theme](https://themes.gohugo.io/academic/) due to recommendations over the web and it's so called easy interface and "out of the box" utilities. 
+
+The first problem that I had to tackle was how to post my publications and thus to convert my library of publications which were saved as one BibTeX file to multiple .md files and multiple .bib files. Luckily I found a [package](https://github.com/petzi53/bib2academic) that was written just for that.
+
+I had to start with export the citation of my publication to a BibTeX file. 
+
+Next, I had to install from github the required package. 
+
+```{r}
+# If not installed, you should install "devtools" and "bib2academic"
+if (!require("devtools")) install.packages("devtools")
+if (!require("bib2academic")) devtools::install_github("petzi53/bib2academic")
+
+
+#Load package
+require(bib2academic)
+
+```
+
+If you'd like to try while reading, I saved my BibTeX file under the folder of the post. 
+
+So, now we need to start the conversion using the "bib2acad" function. 
+Note that instead of writing a direct path, I "pasted" the working directory and the directory of the file. 
+```{r}
+bib2acad(paste(getwd(),
+               "content/post/Converting_BibTeX_files_to_md_files/my_articles.bib", 
+               sep = "/"),
+         copybib = TRUE, abstract = TRUE, overwrite = TRUE)
+
+```
+
+If everything went smoothly, we should now see in our working directory two new folders "my-bib-folder" (which holds all the BibTeX files) and "my-md-folder (which holds all the .md files). 
+
+Next, we should move these files to there correct path. To do that, we should first get a list of all the files:
+```{r}
+bibFiles <- list.files("my-bib-folder", full.names = TRUE)
+mdFiles <- list.files("my-md-folder", full.names = TRUE)
+```
+
+Now we can copy them to the correct path:
+```{r}
+file.copy(from = bibFiles, to = "static/files/citations/")
+file.copy(from = mdFiles, to = "content/publication/")
+```
+
+Lastly we should delete the temp folders we created
+```{r}
+unlink("my-bib-folder", recursive = T, force = T)
+unlink("my-md-folder", recursive = T, force = T)
+```
+
+All that is left is to rebuild our site and to see that the updates took place correctly 
+```{r}
+#If you wish to clean and rebuild the site from start.
+# rmarkdown::clean_site()
+
+#If you wish to build the site with out preview
+# build_site()
+
+#If you wish to build and preview the site
+# serve_site()
+
+```
+
+

@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Amir Djalovski</title>
-    <link>/home/</link>
+    <link>https://amirdjv.netlify.com/home/</link>
     <description>Recent content in Homes on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0300</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amirdjv.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://amirdjv.netlify.com/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://amirdjv.netlify.com/home/about/</guid>
       <description>About me The site is still under construction!
 Currently I’m doing my PhD in psychology at Bar-Ilan University (Israel) under the supervision and guidance of Prof. Ruth Feldman from the Interdisciplinary Center Herzliya (Israel). In my PhD I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments and PTSD.</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://amirdjv.netlify.com/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://amirdjv.netlify.com/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <link>https://amirdjv.netlify.com/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://amirdjv.netlify.com/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://amirdjv.netlify.com/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://amirdjv.netlify.com/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://amirdjv.netlify.com/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/cv/</guid>
+      <guid>https://amirdjv.netlify.com/home/cv/</guid>
       <description>My CV is available in HTML or PDF form.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://amirdjv.netlify.com/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://amirdjv.netlify.com/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://amirdjv.netlify.com/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://amirdjv.netlify.com/home/tags/</guid>
       <description></description>
     </item>
     

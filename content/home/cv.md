@@ -4,7 +4,7 @@
 # To create more sections, duplicate this file and edit the values below as desired.
 widget = "custom"
 active = true
-date = 2016-04-20T00:00:00
+date = 2018-11-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "CV"
@@ -15,4 +15,4 @@ weight = 25
 
 +++
 
-My CV is available in [HTML](cv/) or [PDF](cv/cv.pdf) form.
+My CV is available in [HTML](cv/cv/) or [PDF](cv/cv/cv.pdf) form.

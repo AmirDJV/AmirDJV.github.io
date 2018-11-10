@@ -71,10 +71,10 @@ All that is left is to rebuild our site and to see that the updates took place a
 # rmarkdown::clean_site()
 
 #If you wish to build the site with out preview
-# build_site()
+# blogdown::build_site()
 
 #If you wish to build and preview the site
-# serve_site()
+# blogdown::serve_site()
 
 ```
 

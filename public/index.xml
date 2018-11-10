@@ -63,7 +63,7 @@
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0200</pubDate>
       
       <guid>/home/cv/</guid>
-      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
+      <description>&lt;p&gt;My CV is available in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; form.&lt;/p&gt;
 </description>
     </item>
     
@@ -136,10 +136,10 @@ unlink(&amp;quot;my-md-folder&amp;quot;, recursive = T, force = T)&lt;/code&gt;&
 # rmarkdown::clean_site()
 
 #If you wish to build the site with out preview
-# build_site()
+# blogdown::build_site()
 
 #If you wish to build and preview the site
-# serve_site()&lt;/code&gt;&lt;/pre&gt;
+# blogdown::serve_site()&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

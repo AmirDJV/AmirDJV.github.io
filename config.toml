@@ -60,6 +60,7 @@ enableGitInfo = false
   # Your details.
   name = "Amir Djalovski"
   role = "PhD Student"
+  #, Experimental Psychology,   \n Bar-Ilan University, \n Interdisciplinary Center Herzliya
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

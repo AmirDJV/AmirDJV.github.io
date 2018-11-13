@@ -15,4 +15,4 @@ weight = 25
 
 +++
 
-Would you like to see my CV in [HTML](cv/cv/) or [PDF](cv/cv.pdf) form.
+Would you like to see my CV in [HTML](cv/) or [PDF](cv/cv.pdf) form.

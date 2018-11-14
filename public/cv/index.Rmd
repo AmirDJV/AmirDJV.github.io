@@ -9,7 +9,7 @@ require(VisualResume)
 ```
 
 ```{r, echo=FALSE, fig.height= 12, fig.width=15, warning=FALSE, message=FALSE, results="hide"}
-CV <- VisualResume::VisualResume(
+VisualResume::VisualResume(
   
   #Titles on the left
   titles.left = c("Amir Djalovski, PhD Candidate", 
@@ -20,13 +20,13 @@ CV <- VisualResume::VisualResume(
   #Titles on the right
   titles.right = c("Website: https://AmirDJV.netlify.com", 
                    "Email: Amir.DJV@gmail.com", 
-                   "Full Resume: https://AmirDJV.netlify.com/#cv"),
+                   "Full Resume: https://amirdjv.netlify.com/cv/cv.pdf"),
   titles.right.cex = c(3, 2, 2),
   
   #Mile stones - education. 
   milestones = data.frame(title = c("BA", "PhD student", "PhD"),
                           sub = c("Psychology", "Combined Track", "Psychology"),
-                          year = c(2010.5, 2015, 2019)),
+                          year = c(2010.5, 2015, 2020)),
   timeline.labels = c(""),
   
   #Timeline
@@ -39,7 +39,10 @@ CV <- VisualResume::VisualResume(
       #Teaching
       "Workshops and Tutoring", 
       "Instructor", 
-      "Teacher Assistance"
+      "Teacher Assistance", 
+      #Internship
+      "Internship", 
+      "Internship"
     ),
     sub = c(
       #Work
@@ -49,14 +52,21 @@ CV <- VisualResume::VisualResume(
       #Teaching
       "Statistical thinking/analysis & R", 
       "Courses: Statistics and research methods", 
-      "Course: Practical statistics using SPSS"
+      "Course: Practical statistics using SPSS", 
+      #Internship
+      "University of California, San Francisco, Emotion Health and
+Psychophysiology Laboratory", 
+"Columbia University, Department of Epidemiology"
       ),
     start = c(2011, 2012, 2013, 
-              2013, 2014, 2015),
+              2013, 2014, 2015,
+              2011, 2011),
     end = c(2014, 2014, 2014, 
-            2019, 2017, 2017),
+            2019, 2017, 2017, 
+            2011, 2011),
     side = c(1, 0, 1,
-             0, 0, 1)),
+             0, 0, 1, 
+             0, 0)),
   
   #Events - articles
   events = data.frame(
@@ -89,10 +99,10 @@ CV <- VisualResume::VisualResume(
                    "Statistics" = c(rep("SEM", 40),
                                     rep("HLM", 40),
                                     rep("Regression", 20)),
-                   "Human Languages" = c(rep(" Hebrew", 40),
-                                         rep("English", 40), 
-                                         rep("Russian", 20), 
-                                         rep("ASL", 10))
+                   "Human Languages" = c(rep(" Hebrew", 45),
+                                         rep("English", 45), 
+                                         rep("Russian", 5), 
+                                         rep("ASL", 5))
   ),
   year.steps = 1
 )
@@ -100,6 +110,6 @@ CV <- VisualResume::VisualResume(
 ```
 
 
-For more information, please take a loot at my CV in a [PDF format](https://AmirDJV.netlify.com/#cv)
+For more information, please take a loot at my CV in a [PDF format](https://amirdjv.netlify.com/cv/cv.pdf)
 
 

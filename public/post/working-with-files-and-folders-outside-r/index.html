@@ -13,10 +13,15 @@
   
   
   
-  <meta name="description" content="PhD Candidate">
+    
+      
+    
+  
+  <meta name="description" content="When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
+Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/">
+  <link rel="alternate" hreflang="en-us" href="/post/working-with-files-and-folders-outside-r/">
 
   
 
@@ -32,6 +37,11 @@
   
     
   
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css">
+    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -64,31 +74,34 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Amir Djalovski">
-  <link rel="feed" href="/post/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Amir Djalovski">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/post/">
+  <link rel="canonical" href="/post/working-with-files-and-folders-outside-r/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Amir Djalovski">
-  <meta property="og:url" content="/post/">
-  <meta property="og:title" content="Posts | Amir Djalovski">
-  <meta property="og:description" content="PhD Candidate">
+  <meta property="og:url" content="/post/working-with-files-and-folders-outside-r/">
+  <meta property="og:title" content="Working with files and folders outside R | Amir Djalovski">
+  <meta property="og:description" content="When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
+Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-01-01T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2018-11-17T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-11-17T00:00:00&#43;00:00">
   
 
   
   
 
-  <title>Posts | Amir Djalovski</title>
+  <title>Working with files and folders outside R | Amir Djalovski</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -220,23 +233,15 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>Posts</h1>
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
-  
-  
+
+  <div class="article-container">
+    <h1 itemprop="name">Working with files and folders outside R</h1>
+
     
-    
-      
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
 
 <div class="article-metadata">
 
@@ -266,95 +271,89 @@
   
 
   
+  
+
+  
 
 </div>
 
 
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="/post/working-with-files-and-folders-outside-r/" itemprop="url">Working with files and folders outside R</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
+    <div class="article-style" itemprop="articleBody">
+      <p>When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.</p>
+<p>Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function <code>tempdir()</code> without any arguments.</p>
+<pre class="r"><code>tempdir()</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e&quot;</code></pre>
+<p>Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the <code>dir.create()</code> function and <code>paste()</code> function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the <code>dir.exists()</code> function.</p>
+<pre class="r"><code>#Creating the new folder
+dir.create(path = paste(
+  tempdir(),
+  &quot;SaveHere&quot;, 
+  sep = &quot;/&quot;))
+
+#Check if the folder exists
+dir.exists(paste(
+  tempdir(),
+  &quot;SaveHere&quot;, 
+  sep = &quot;/&quot;))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>Now, using the <code>download.file()</code> function, we can download the file to our new folder</p>
+<pre class="r"><code>#Save URL
+urlCitation &lt;- &quot;https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;
+
+#Save the location of the temp folder
+whereToSave &lt;- paste(tempdir(), &quot;SaveHere&quot;, sep = &quot;/&quot;)
+
+#Download file
+download.file(url = urlCitation,
+              destfile = paste(whereToSave, &quot;Citations.bib&quot;, sep = &quot;/&quot;))</code></pre>
+<p>We can also copy the file using the <code>file.copy()</code> function</p>
+<pre class="r"><code>file.copy(from = paste(whereToSave, &quot;Citations.bib&quot;, sep = &quot;/&quot;), 
+          to = paste(whereToSave, &quot;Copy_Citations.bib&quot;, sep = &quot;/&quot;))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>We can use the <code>list.files()</code> function to see all the files in our folder. The arguments pattern and full name allows us to filter certain files extension and to display the full path of the files.</p>
+<pre class="r"><code>#In the folder we created
+list.files(path = whereToSave,
+           pattern = NULL,
+           full.names = FALSE)</code></pre>
+<pre><code>## [1] &quot;Citations.bib&quot;      &quot;Copy_Citations.bib&quot;</code></pre>
+<p>We can also change the argument <code>recursive == TRUE</code>, to test for files in sub folders</p>
+<pre class="r"><code>#In R&#39;s temp folder
+list.files(path = tempdir(),
+           pattern = NULL,
+           full.names = TRUE,
+           recursive = TRUE)</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e02d235be0&quot;            
+## [2] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e06824369c&quot;            
+## [3] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e06c8034e5&quot;            
+## [4] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e0723d23a3&quot;            
+## [5] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e0f5c1ed&quot;              
+## [6] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e0fda5d51&quot;             
+## [7] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/SaveHere/Citations.bib&quot;     
+## [8] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/SaveHere/Copy_Citations.bib&quot;</code></pre>
+<p>Lastly, if we’ll combine the functions that we used with <code>file.remove()</code> and <code>do.call()</code>, we can delete all the files we created</p>
+<pre class="r"><code>do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))</code></pre>
+<pre><code>## [1] TRUE TRUE</code></pre>
+<p>Thank you for reading!</p>
+
+    </div>
+
     
-    When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
-Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.
+
+
+
+
+
     
+    
+
+    
+
+    
+
+
   </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="/post/working-with-files-and-folders-outside-r/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
+</article>
 
-    
-  
-    
-    
-      
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2018-10-25 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Oct 25, 2018
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Amir Djalovski">
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-
-  
-  
-  
-  
-
-  
-
-</div>
-
-
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="/post/converting-bibtex-files-to-md-files/" itemprop="url">Converting BibTeX files to md files</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
-    
-    This is my first post! YAY!
-While wondering around the amazing world of blog writing with blogdown package I had to choose a theme to work with. For now, I’ve chosen the hugo academic theme due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.
-The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file.
-    
-  </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="/post/converting-bibtex-files-to-md-files/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-    
-  
-
-  
-
-
-</div>
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -420,6 +419,35 @@ The first problem that I had to tackle was how to post my publications. Thus to 
     
 
     
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cs.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/xml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
     
 
     

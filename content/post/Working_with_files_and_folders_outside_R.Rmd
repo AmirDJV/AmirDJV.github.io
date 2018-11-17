@@ -1,0 +1,112 @@
+---
+title: "Working with files and folders outside R"
+author: "Amir Djalovski"
+date: '2018-11-17'
+output:
+  html_document:
+    df_print: paged
+header:
+  caption: ''
+  image: ''
+editor_options:
+  chunk_output_type: console
+slug: Working with files and folders outside R
+tags: []
+categories: []
+---
+
+When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
+
+Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we'll run the function `tempdir()` without any arguments. 
+
+```{r}
+
+tempdir()
+
+```
+
+Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the `dir.create()` function and `paste()` function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the `dir.exists()` function. 
+
+```{r}
+
+#Creating the new folder
+dir.create(path = paste(
+  tempdir(),
+  "SaveHere", 
+  sep = "/"))
+
+#Check if the folder exists
+dir.exists(paste(
+  tempdir(),
+  "SaveHere", 
+  sep = "/"))
+
+```
+
+Now, using the `download.file()` function, we can download the file to our new folder
+```{r}
+
+#Save URL
+urlCitation <- "https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib"
+
+#Save the location of the temp folder
+whereToSave <- paste(tempdir(), "SaveHere", sep = "/")
+
+#Download file
+download.file(url = urlCitation,
+              destfile = paste(whereToSave, "Citations.bib", sep = "/"))
+
+```
+
+
+We can also copy the file using the `file.copy()` function 
+```{r}
+
+file.copy(from = paste(whereToSave, "Citations.bib", sep = "/"), 
+          to = paste(whereToSave, "Copy_Citations.bib", sep = "/"))
+
+
+```
+
+We can use the `list.files()` function to see all the files in our folder. The arguments pattern and full name allows us to filter certain files extension and to display the full path of the files. 
+
+```{r}
+
+#In the folder we created
+list.files(path = whereToSave,
+           pattern = NULL,
+           full.names = FALSE)
+
+```
+
+We can also change the argument `recursive == TRUE`, to test for files in sub folders
+
+```{r}
+
+#In R's temp folder
+list.files(path = tempdir(),
+           pattern = NULL,
+           full.names = TRUE,
+           recursive = TRUE)
+
+```
+
+
+Lastly, if we'll combine the functions that we used with `file.remove()` and `do.call()`, we can delete all the files we created
+
+```{r}
+
+do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))
+
+```
+
+Thank you for reading! 
+
+
+
+
+
+
+
+
+

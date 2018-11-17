@@ -1,0 +1,74 @@
+---
+title: "Working with files and folders outside R"
+author: "Amir Djalovski"
+date: '2018-11-17'
+output:
+  html_document:
+    df_print: paged
+header:
+  caption: ''
+  image: ''
+editor_options:
+  chunk_output_type: console
+slug: Working with files and folders outside R
+tags: []
+categories: []
+---
+
+
+
+<p>When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.</p>
+<p>Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function <code>tempdir()</code> without any arguments.</p>
+<pre class="r"><code>tempdir()</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e&quot;</code></pre>
+<p>Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the <code>dir.create()</code> function and <code>paste()</code> function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the <code>dir.exists()</code> function.</p>
+<pre class="r"><code>#Creating the new folder
+dir.create(path = paste(
+  tempdir(),
+  &quot;SaveHere&quot;, 
+  sep = &quot;/&quot;))
+
+#Check if the folder exists
+dir.exists(paste(
+  tempdir(),
+  &quot;SaveHere&quot;, 
+  sep = &quot;/&quot;))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>Now, using the <code>download.file()</code> function, we can download the file to our new folder</p>
+<pre class="r"><code>#Save URL
+urlCitation &lt;- &quot;https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;
+
+#Save the location of the temp folder
+whereToSave &lt;- paste(tempdir(), &quot;SaveHere&quot;, sep = &quot;/&quot;)
+
+#Download file
+download.file(url = urlCitation,
+              destfile = paste(whereToSave, &quot;Citations.bib&quot;, sep = &quot;/&quot;))</code></pre>
+<p>We can also copy the file using the <code>file.copy()</code> function</p>
+<pre class="r"><code>file.copy(from = paste(whereToSave, &quot;Citations.bib&quot;, sep = &quot;/&quot;), 
+          to = paste(whereToSave, &quot;Copy_Citations.bib&quot;, sep = &quot;/&quot;))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>We can use the <code>list.files()</code> function to see all the files in our folder. The arguments pattern and full name allows us to filter certain files extension and to display the full path of the files.</p>
+<pre class="r"><code>#In the folder we created
+list.files(path = whereToSave,
+           pattern = NULL,
+           full.names = FALSE)</code></pre>
+<pre><code>## [1] &quot;Citations.bib&quot;      &quot;Copy_Citations.bib&quot;</code></pre>
+<p>We can also change the argument <code>recursive == TRUE</code>, to test for files in sub folders</p>
+<pre class="r"><code>#In R&#39;s temp folder
+list.files(path = tempdir(),
+           pattern = NULL,
+           full.names = TRUE,
+           recursive = TRUE)</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e02d235be0&quot;            
+## [2] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e06824369c&quot;            
+## [3] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e06c8034e5&quot;            
+## [4] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e0723d23a3&quot;            
+## [5] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e0f5c1ed&quot;              
+## [6] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/file5e0fda5d51&quot;             
+## [7] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/SaveHere/Citations.bib&quot;     
+## [8] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmpaei97e/SaveHere/Copy_Citations.bib&quot;</code></pre>
+<p>Lastly, if we’ll combine the functions that we used with <code>file.remove()</code> and <code>do.call()</code>, we can delete all the files we created</p>
+<pre class="r"><code>do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))</code></pre>
+<pre><code>## [1] TRUE TRUE</code></pre>
+<p>Thank you for reading!</p>

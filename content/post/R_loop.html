@@ -1,0 +1,110 @@
+---
+title: "Creating for loops in R"
+author: "Amir Djalovski"
+date: '2019-01-08'
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+header:
+  caption: ''
+  image: ''
+editor_options:
+  chunk_output_type: console
+slug: Creating for loops in R
+tags: []
+categories: []
+---
+
+
+
+<p>Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer’s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during “simple” vectorizing operation on big objects.</p>
+<p>When creating loops we need to supply 4 arguments:</p>
+<ol style="list-style-type: decimal">
+<li>iterator - index to iterate over</li>
+<li>start - where would we start?</li>
+<li>stop - when would we stop?</li>
+<li>what to do</li>
+</ol>
+<p>Let’s try to understand more on how to build a loop from the flowing example:</p>
+<pre class="r"><code>for (i in 1:5) {
+  
+  print(i)
+
+}</code></pre>
+<p>In this example, i is our iterator, 1 and 5 are our start and stop, and we print out our iterator. If we’d like to put it into words we can say: “for every i in 1 to 5 print i”.</p>
+<p>Now, let’s run our loop and see what is happing:</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:5) {
+  
+  print(i)
+
+}</code></pre>
+<pre><code>## [1] 1
+## [1] 2
+## [1] 3
+## [1] 4
+## [1] 5</code></pre>
+<p>Great! We managed to print our iterator correctly. Now, we can try to make things even more interesting. Using loops we can also iterate over <code>vectors</code>, <code>data.frame</code>, <code>list</code>s, etc.</p>
+<p>We can build a <code>vector</code> of fruit names:</p>
+<pre class="r"><code>myVec &lt;- c(&quot;apple&quot;, &quot;banana&quot;, &quot;orange&quot;)</code></pre>
+<p>Now, using a new loop, we can print each fruit:</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:length(myVec)) {
+  
+  print(myVec[i])
+
+}</code></pre>
+<pre><code>## [1] &quot;apple&quot;
+## [1] &quot;banana&quot;
+## [1] &quot;orange&quot;</code></pre>
+<p>Here we have a few new things, first, the function <code>length</code> tells us how long is myVec. In our case 3, because we have 3 fruits.</p>
+<pre class="r"><code>length(myVec)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>In addition, we call the index i<sup>th</sup> of our vector. Which is same as doing below for each and every i.</p>
+<pre class="r"><code>myVec[1]</code></pre>
+<pre><code>## [1] &quot;apple&quot;</code></pre>
+<p>If we’ll put our loop into words it will read like: “for every i in 1 to the length of myVec, print the value in each i index”.</p>
+<p>The same can be applied for every type of indexed object in R. The only thing that we need to note is how the object is indexed. For example, we can also iterate over a <code>data.frame</code>. Example <code>data.frame</code>:</p>
+<pre class="r"><code>df &lt;- data.frame(name = c(&quot;James&quot;, &quot;Anne&quot;, &quot;James II&quot;, &quot;Mary II&quot;), 
+                 dob = c(1566, 1665, 1633, 1662), 
+                 gender = c(&quot;male&quot;, &quot;female&quot;, &quot;male&quot;, &quot;female&quot;))</code></pre>
+<p>We can loop over the names in our <code>data.frame</code> (Please note the use of <code>dim</code> over <code>length</code> as length will give us the number of columns in a data.frame):</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, &quot;name&quot;])
+
+}</code></pre>
+<pre><code>## [1] James
+## Levels: Anne James James II Mary II
+## [1] Anne
+## Levels: Anne James James II Mary II
+## [1] James II
+## Levels: Anne James James II Mary II
+## [1] Mary II
+## Levels: Anne James James II Mary II</code></pre>
+<p>The date of birth:</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, &quot;dob&quot;])
+
+}</code></pre>
+<pre><code>## [1] 1566
+## [1] 1665
+## [1] 1633
+## [1] 1662</code></pre>
+<p>Lastly, we can build sentences using <code>paste</code> and <code>print</code> and loop over our <code>data.frame</code></p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:dim(df)[1]) {
+      print(
+        paste(&quot;The ruler was&quot;, df[i, &quot;name&quot;], 
+              &quot;the date of birth was&quot;, df[i, &quot;dob&quot;], 
+              &quot;the gender was&quot;, df[i, &quot;gender&quot;]))
+}</code></pre>
+<pre><code>## [1] &quot;The ruler was James the date of birth was 1566 the gender was male&quot;
+## [1] &quot;The ruler was Anne the date of birth was 1665 the gender was female&quot;
+## [1] &quot;The ruler was James II the date of birth was 1633 the gender was male&quot;
+## [1] &quot;The ruler was Mary II the date of birth was 1662 the gender was female&quot;</code></pre>
+<p>Thank you for reading!</p>

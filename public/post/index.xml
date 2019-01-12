@@ -2,32 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Amir Djalovski</title>
-    <link>/post/</link>
+    <link>https://amirdjv.netlify.com/post/</link>
     <description>Recent content in Posts on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amirdjv.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Creating for loops in R</title>
+      <link>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</guid>
+      <description>Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer’s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during “simple” vectorizing operation on big objects.
+When creating loops we need to supply 4 arguments:</description>
+    </item>
+    
+    <item>
+      <title>Creating functions in R</title>
+      <link>https://amirdjv.netlify.com/post/creating-functions-in-r/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/creating-functions-in-r/</guid>
+      <description>Building functions are one of the main building blocks in programming and in writing reproducible, easy to understand and readable code. In addition, it allows you to write what you need in a more efficient way and to detect errors more easily. Besides these important things, in most cases, your code will run faster. After I convinced you, I hope, we can start learning how to write functions.
+Functions can do everything that you can code and ideally whenever you’re writing the same code more than twice you’ll make a function out of it.</description>
+    </item>
+    
+    <item>
       <title>Working with files and folders outside R</title>
-      <link>/post/working-with-files-and-folders-outside-r/</link>
+      <link>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/working-with-files-and-folders-outside-r/</guid>
+      <guid>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</guid>
       <description>When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
 Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.</description>
     </item>
     
     <item>
       <title>Converting BibTeX files to md files</title>
-      <link>/post/converting-bibtex-files-to-md-files/</link>
+      <link>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/converting-bibtex-files-to-md-files/</guid>
+      <guid>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</guid>
       <description>This is my first post! YAY!
 While wondering around the amazing world of blog writing with blogdown package I had to choose a theme to work with. For now, I’ve chosen the hugo academic theme due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.
 The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file.</description>

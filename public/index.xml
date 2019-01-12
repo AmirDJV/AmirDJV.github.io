@@ -2,99 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
-    <link>/</link>
+    <link>https://amirdjv.netlify.com/</link>
     <description>Recent content on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0200</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://amirdjv.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://amirdjv.netlify.com/home/about/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0200</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://amirdjv.netlify.com/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 
-&lt;p&gt;The site is still under construction!&lt;/p&gt;
+&lt;p&gt;Currently, I’m doing my Ph.D in psychology at &lt;a href=&#34;https://www1.biu.ac.il/indexE.php&#34; target=&#34;_blank&#34;&gt;Bar-Ilan University (Israel)&lt;/a&gt; under the supervision and guidance of &lt;a href=&#34;https://www.researchgate.net/profile/Ruth_Feldman&#34; target=&#34;_blank&#34;&gt;Prof. Ruth Feldman&lt;/a&gt; from the &lt;a href=&#34;https://www.idc.ac.il/en/pages/home.aspx&#34; target=&#34;_blank&#34;&gt;Interdisciplinary Center Herzliya (Israel)&lt;/a&gt;. In my Ph.D I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments, and PTSD.&lt;/p&gt;
 
-&lt;p&gt;Currently I’m doing my PhD in psychology at &lt;a href=&#34;https://www1.biu.ac.il/indexE.php&#34; target=&#34;_blank&#34;&gt;Bar-Ilan University (Israel)&lt;/a&gt; under the supervision and guidance of &lt;a href=&#34;https://www.researchgate.net/profile/Ruth_Feldman&#34; target=&#34;_blank&#34;&gt;Prof. Ruth Feldman&lt;/a&gt; from the &lt;a href=&#34;https://www.idc.ac.il/en/pages/home.aspx&#34; target=&#34;_blank&#34;&gt;Interdisciplinary Center Herzliya (Israel)&lt;/a&gt;. In my PhD I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments and PTSD.&lt;/p&gt;
-
-&lt;p&gt;Besides my studies, I enjoy analyzing new datasets and to teach and consult about research methods, statistics and data analysis. I preach for the use of R language, and in my spare time I like photography, traveling, and listing to music.&lt;/p&gt;
+&lt;p&gt;Besides my studies, I enjoy analyzing new datasets and to teach and consult about research methods, statistics and data analysis. I preach for the use of R language, and in my spare time, I like photography, traveling, and listing to music.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://amirdjv.netlify.com/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://amirdjv.netlify.com/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <link>https://amirdjv.netlify.com/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://amirdjv.netlify.com/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://amirdjv.netlify.com/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://amirdjv.netlify.com/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://amirdjv.netlify.com/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/cv/</guid>
+      <guid>https://amirdjv.netlify.com/home/cv/</guid>
       <description>&lt;p&gt;Would you like to see my visual CV in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or full CV in &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; format.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://amirdjv.netlify.com/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://amirdjv.netlify.com/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://amirdjv.netlify.com/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://amirdjv.netlify.com/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Creating for loops in R</title>
+      <link>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</guid>
+      <description>
+
+
+&lt;p&gt;Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer’s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during “simple” vectorizing operation on big objects.&lt;/p&gt;
+&lt;p&gt;When creating loops we need to supply 4 arguments:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;iterator - index to iterate over&lt;/li&gt;
+&lt;li&gt;start - where would we start?&lt;/li&gt;
+&lt;li&gt;stop - when would we stop?&lt;/li&gt;
+&lt;li&gt;what to do&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let’s try to understand more on how to build a loop from the flowing example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;for (i in 1:5) {
+  
+  print(i)
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, i is our iterator, 1 and 5 are our start and stop, and we print out our iterator. If we’d like to put it into words we can say: “for every i in 1 to 5 print i”.&lt;/p&gt;
+&lt;p&gt;Now, let’s run our loop and see what is happing:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i &amp;lt;- 1
+for (i in 1:5) {
+  
+  print(i)
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1
+## [1] 2
+## [1] 3
+## [1] 4
+## [1] 5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Great! We managed to print our iterator correctly. Now, we can try to make things even more interesting. Using loops we can also iterate over &lt;code&gt;vectors&lt;/code&gt;, &lt;code&gt;data.frame&lt;/code&gt;, &lt;code&gt;list&lt;/code&gt;s, etc.&lt;/p&gt;
+&lt;p&gt;We can build a &lt;code&gt;vector&lt;/code&gt; of fruit names:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;myVec &amp;lt;- c(&amp;quot;apple&amp;quot;, &amp;quot;banana&amp;quot;, &amp;quot;orange&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, using a new loop, we can print each fruit:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i &amp;lt;- 1
+for (i in 1:length(myVec)) {
+  
+  print(myVec[i])
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;apple&amp;quot;
+## [1] &amp;quot;banana&amp;quot;
+## [1] &amp;quot;orange&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here we have a few new things, first, the function &lt;code&gt;length&lt;/code&gt; tells us how long is myVec. In our case 3, because we have 3 fruits.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;length(myVec)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In addition, we call the index i&lt;sup&gt;th&lt;/sup&gt; of our vector. Which is same as doing below for each and every i.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;myVec[1]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;apple&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If we’ll put our loop into words it will read like: “for every i in 1 to the length of myVec, print the value in each i index”.&lt;/p&gt;
+&lt;p&gt;The same can be applied for every type of indexed object in R. The only thing that we need to note is how the object is indexed. For example, we can also iterate over a &lt;code&gt;data.frame&lt;/code&gt;. Example &lt;code&gt;data.frame&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df &amp;lt;- data.frame(name = c(&amp;quot;James&amp;quot;, &amp;quot;Anne&amp;quot;, &amp;quot;James II&amp;quot;, &amp;quot;Mary II&amp;quot;), 
+                 dob = c(1566, 1665, 1633, 1662), 
+                 gender = c(&amp;quot;male&amp;quot;, &amp;quot;female&amp;quot;, &amp;quot;male&amp;quot;, &amp;quot;female&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can loop over the names in our &lt;code&gt;data.frame&lt;/code&gt; (Please note the use of &lt;code&gt;dim&lt;/code&gt; over &lt;code&gt;length&lt;/code&gt; as length will give us the number of columns in a data.frame):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i &amp;lt;- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, &amp;quot;name&amp;quot;])
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] James
+## Levels: Anne James James II Mary II
+## [1] Anne
+## Levels: Anne James James II Mary II
+## [1] James II
+## Levels: Anne James James II Mary II
+## [1] Mary II
+## Levels: Anne James James II Mary II&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The date of birth:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i &amp;lt;- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, &amp;quot;dob&amp;quot;])
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1566
+## [1] 1665
+## [1] 1633
+## [1] 1662&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Lastly, we can build sentences using &lt;code&gt;paste&lt;/code&gt; and &lt;code&gt;print&lt;/code&gt; and loop over our &lt;code&gt;data.frame&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i &amp;lt;- 1
+for (i in 1:dim(df)[1]) {
+      print(
+        paste(&amp;quot;The ruler was&amp;quot;, df[i, &amp;quot;name&amp;quot;], 
+              &amp;quot;the date of birth was&amp;quot;, df[i, &amp;quot;dob&amp;quot;], 
+              &amp;quot;the gender was&amp;quot;, df[i, &amp;quot;gender&amp;quot;]))
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;The ruler was James the date of birth was 1566 the gender was male&amp;quot;
+## [1] &amp;quot;The ruler was Anne the date of birth was 1665 the gender was female&amp;quot;
+## [1] &amp;quot;The ruler was James II the date of birth was 1633 the gender was male&amp;quot;
+## [1] &amp;quot;The ruler was Mary II the date of birth was 1662 the gender was female&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating functions in R</title>
+      <link>https://amirdjv.netlify.com/post/creating-functions-in-r/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/creating-functions-in-r/</guid>
+      <description>
+
+
+&lt;p&gt;Building functions are one of the main building blocks in programming and in writing reproducible, easy to understand and readable code. In addition, it allows you to write what you need in a more efficient way and to detect errors more easily. Besides these important things, in most cases, your code will run faster. After I convinced you, I hope, we can start learning how to write functions.&lt;/p&gt;
+&lt;p&gt;Functions can do everything that you can code and ideally whenever you’re writing the same code more than twice you’ll make a function out of it.&lt;/p&gt;
+&lt;p&gt;To create a function we need to set the number of inputs the function we’ll take, what it will do, and to name the function (sometimes). Let’s start with the following example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;square &amp;lt;- function(x) { 
+  out &amp;lt;- x^2
+  return(out)
+  }&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We assigned the function to &lt;code&gt;square&lt;/code&gt;, thus whenever we’d like to call the function we’ll use &lt;code&gt;square()&lt;/code&gt;. Next, the function takes only one argument (&lt;code&gt;x&lt;/code&gt;), the input will be squared and will get assigned to &lt;code&gt;out&lt;/code&gt;. Lastly, using the &lt;code&gt;base R&lt;/code&gt; function &lt;code&gt;return&lt;/code&gt;, the function will return the value of &lt;code&gt;out&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Practically, we don’t have to assign the function to &lt;code&gt;out&lt;/code&gt; or use &lt;code&gt;return&lt;/code&gt; in this example. However, getting used to using &lt;code&gt;return&lt;/code&gt; is a good habit. Whenever we build a long function and we want to debug it, it’s always nice to look for the &lt;code&gt;return&lt;/code&gt; and see what the function suppose to return.&lt;/p&gt;
+&lt;p&gt;Now, we can test our function to see if it actually return the expected results&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;square(2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And we can also use our function over a vector&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;myVec &amp;lt;- c(1:4)
+print(myVec)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1 2 3 4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;square(myVec)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  1  4  9 16&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can even create more complicated function with two or three inputs (or more!). let’s create a function which calculate the &lt;a href=&#34;https://en.wikipedia.org/wiki/Pythagorean_theorem&#34;&gt;Pythagorean theorem&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pythagorean &amp;lt;- function(x, y) { 
+  out &amp;lt;- x^2 + y^2
+  return(out)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have two inputs (&lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt;) and will add the square value of both of them. The result will be assigned to &lt;code&gt;out&lt;/code&gt; and will be &lt;code&gt;reutrn&lt;/code&gt;ed. We can test our function&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pythagorean(2, 4) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 20&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Working with files and folders outside R</title>
-      <link>/post/working-with-files-and-folders-outside-r/</link>
+      <link>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/working-with-files-and-folders-outside-r/</guid>
-      <description>&lt;p&gt;When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.&lt;/p&gt;
+      <guid>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</guid>
+      <description>
+
+
+&lt;p&gt;When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.&lt;/p&gt;
 &lt;p&gt;Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function &lt;code&gt;tempdir()&lt;/code&gt; without any arguments.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tempdir()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the &lt;code&gt;dir.create()&lt;/code&gt; function and &lt;code&gt;paste()&lt;/code&gt; function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the &lt;code&gt;dir.exists()&lt;/code&gt; function.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Creating the new folder
 dir.create(path = paste(
@@ -134,14 +276,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/file2ab4136c5ccf&amp;quot;           
-## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/file2ab423ec36ba&amp;quot;           
-## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/file2ab4360311d0&amp;quot;           
-## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/file2ab4634c1fa2&amp;quot;           
-## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/file2ab4648e5362&amp;quot;           
-## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/file2ab4ea963b5&amp;quot;            
-## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/SaveHere/Citations.bib&amp;quot;     
-## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpEjyXxz/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e81cec12c9&amp;quot;           
+## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e833286196&amp;quot;           
+## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e838864b4b&amp;quot;           
+## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e841292035&amp;quot;           
+## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e869107122&amp;quot;           
+## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e8758e2bbf&amp;quot;           
+## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/SaveHere/Citations.bib&amp;quot;     
+## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lastly, if we’ll combine the functions that we used with &lt;code&gt;file.remove()&lt;/code&gt; and &lt;code&gt;do.call()&lt;/code&gt;, we can delete all the files we created&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] TRUE TRUE&lt;/code&gt;&lt;/pre&gt;
@@ -151,11 +293,14 @@ list.files(path = tempdir(),
     
     <item>
       <title>Converting BibTeX files to md files</title>
-      <link>/post/converting-bibtex-files-to-md-files/</link>
+      <link>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/converting-bibtex-files-to-md-files/</guid>
-      <description>&lt;p&gt;This is my first post! YAY!&lt;/p&gt;
+      <guid>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</guid>
+      <description>
+
+
+&lt;p&gt;This is my first post! YAY!&lt;/p&gt;
 &lt;p&gt;While wondering around the amazing world of blog writing with &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown package&lt;/a&gt; I had to choose a theme to work with. For now, I’ve chosen the &lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;hugo academic theme&lt;/a&gt; due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.&lt;/p&gt;
 &lt;p&gt;The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file. Luckily I found a &lt;a href=&#34;https://github.com/petzi53/bib2academic&#34;&gt;package&lt;/a&gt; that was written just for that.&lt;/p&gt;
 &lt;p&gt;I started with installing from github the required packages.&lt;/p&gt;
@@ -199,119 +344,122 @@ unlink(&amp;quot;my-md-folder&amp;quot;, recursive = T, force = T)&lt;/code&gt;&
     
     <item>
       <title>Maternal depression alters stress and immune biomarkers in mother and child</title>
-      <link>/publication/2018-01-01_ulmer-yaniv2018/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_ulmer-yaniv2018/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal depression impacts child psychopathology across the first decade of life: Oxytocin and synchrony as markers of resilience</title>
-      <link>/publication/2018-01-01_priel2018/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_priel2018/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>/publication/2018-01-01_ulmer-yaniv2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_ulmer-yaniv2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stress and Immune Biomarkers Interact with Parenting Behavior to Shape Anxiety Symptoms in Trauma-Exposed Youth</title>
-      <link>/publication/2018-01-01_yirmiya2018/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_yirmiya2018/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brain-to-Brain Synchrony during Naturalistic Social Interactions</title>
-      <link>/publication/2017-01-01_kinreich2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_kinreich2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>/publication/2017-01-01_ulmer-yaniv2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_ulmer-yaniv2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The reliability, concurrent validity and association with salivary oxytocin of the self-report version of the Inventory of Callous-Unemotional Traits in adolescents with conduct disorder</title>
-      <link>/publication/2017-01-01_levy2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_levy2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_levy2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_levy2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The social transmission of risk: Maternal stress physiology, synchronous parenting, and well-being mediate the effects of war exposure on child psychopathology</title>
-      <link>/publication/2017-01-01_halevi2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_halevi2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_halevi2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_halevi2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Risk and resilience trajectories in war-exposed children across the first decade of life</title>
-      <link>/publication/2016-01-01_halevi2016/</link>
+      <link>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2016-01-01_halevi2016/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>International trends in electronic media communication among 11- to 15-year-olds in 30 countries from 2002 to 2010: association with ease of communication with friends of the opposite sex</title>
-      <link>/publication/2015-01-01_boniel-nissim2015/</link>
+      <link>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2015-01-01_boniel-nissim2015/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Salivary oxytocin in adolescents with conduct problems and callous-unemotional traits</title>
-      <link>/publication/2015-01-01_levy2015/</link>
+      <link>https://amirdjv.netlify.com/publication/2015-01-01_levy2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2015-01-01_levy2015/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2015-01-01_levy2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental, peer and school experiences as predictors of alcohol drinking among first and second generation immigrant adolescents in Israel</title>
-      <link>/publication/2014-01-01_walsh2014/</link>
+      <link>https://amirdjv.netlify.com/publication/2014-01-01_walsh2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2014-01-01_walsh2014/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2014-01-01_walsh2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/cv/</link>
+      <link>https://amirdjv.netlify.com/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cv/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/cv/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+      <guid>https://amirdjv.netlify.com/cv/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/cv/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;For more information, please take a loot at my CV in a &lt;a href=&#34;https://amirdjv.netlify.com/cv/cv.pdf&#34;&gt;PDF format&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

@@ -1,0 +1,122 @@
+---
+title: "Creating for loops in R"
+author: "Amir Djalovski"
+date: '2019-01-08'
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+header:
+  caption: ''
+  image: ''
+editor_options:
+  chunk_output_type: console
+slug: Creating for loops in R
+tags: []
+categories: []
+---
+
+Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer's RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during "simple" vectorizing operation on big objects. 
+
+When creating loops we need to supply 4 arguments:
+
+1. iterator - index to iterate over
+2. start - where would we start?
+3. stop - when would we stop? 
+4. what to do
+
+Let's try to understand more on how to build a loop from the flowing example:
+```{r, eval = FALSE}
+for (i in 1:5) {
+  
+  print(i)
+
+}
+```
+
+In this example, i is our iterator, 1 and 5 are our start and stop, and we print out our iterator. If we'd like to put it into words we can say: "for every i in 1 to 5 print i". 
+
+Now, let's run our loop and see what is happing:
+```{r, eval = TRUE}
+i <- 1
+for (i in 1:5) {
+  
+  print(i)
+
+}
+```
+
+Great! We managed to print our iterator correctly. 
+Now, we can try to make things even more interesting. Using loops we can also iterate over `vectors`, `data.frame`, `list`s, etc.
+
+We can build a `vector` of fruit names: 
+```{r}
+myVec <- c("apple", "banana", "orange")
+```
+
+Now, using a new loop, we can print each fruit: 
+```{r}
+i <- 1
+for (i in 1:length(myVec)) {
+  
+  print(myVec[i])
+
+}
+```
+
+Here we have a few new things, first, the function `length` tells us how long is myVec. In our case 3, because we have 3 fruits. 
+```{r}
+length(myVec)
+```
+
+In addition, we call the index i<sup>th</sup> of our vector. Which is same as doing below for each and every i.
+```{r}
+myVec[1]
+```
+
+If we'll put our loop into words it will read like: "for every i in 1 to the length of myVec, print the value in each i index". 
+
+The same can be applied for every type of indexed object in R. The only thing that we need to note is how the object is indexed. For example, we can also iterate over a `data.frame`. Example `data.frame`: 
+```{r}
+df <- data.frame(name = c("James", "Anne", "James II", "Mary II"), 
+                 dob = c(1566, 1665, 1633, 1662), 
+                 gender = c("male", "female", "male", "female"))
+```
+
+We can loop over the names in our `data.frame` (Please note the use of `dim` over `length` as length will give us the number of columns in a data.frame):
+```{r}
+i <- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, "name"])
+
+}
+```
+
+The date of birth:
+```{r}
+i <- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, "dob"])
+
+}
+```
+
+Lastly, we can build sentences using `paste` and `print` and loop over our `data.frame`
+
+```{r}
+i <- 1
+for (i in 1:dim(df)[1]) {
+      print(
+        paste("The ruler was", df[i, "name"], 
+              "the date of birth was", df[i, "dob"], 
+              "the gender was", df[i, "gender"]))
+}
+```
+
+Thank you for reading! 
+
+
+
+

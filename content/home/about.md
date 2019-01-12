@@ -34,8 +34,6 @@ weight = 5
 
 # About me
 
-The site is still under construction!
+Currently, I’m doing my Ph.D in psychology at [Bar-Ilan University (Israel)] (https://www1.biu.ac.il/indexE.php) under the supervision and guidance of [Prof. Ruth Feldman] (https://www.researchgate.net/profile/Ruth_Feldman) from the [Interdisciplinary Center Herzliya (Israel)] (https://www.idc.ac.il/en/pages/home.aspx). In my Ph.D I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments, and PTSD. 
 
-Currently I’m doing my PhD in psychology at [Bar-Ilan University (Israel)] (https://www1.biu.ac.il/indexE.php) under the supervision and guidance of [Prof. Ruth Feldman] (https://www.researchgate.net/profile/Ruth_Feldman) from the [Interdisciplinary Center Herzliya (Israel)] (https://www.idc.ac.il/en/pages/home.aspx). In my PhD I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments and PTSD. 
-
-Besides my studies, I enjoy analyzing new datasets and to teach and consult about research methods, statistics and data analysis. I preach for the use of R language, and in my spare time I like photography, traveling, and listing to music. 
+Besides my studies, I enjoy analyzing new datasets and to teach and consult about research methods, statistics and data analysis. I preach for the use of R language, and in my spare time, I like photography, traveling, and listing to music. 

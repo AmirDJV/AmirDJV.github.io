@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
-    <link>https://amirdjv.netlify.com/</link>
+    <link>/</link>
     <description>Recent content on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0200</lastBuildDate>
     
-        <atom:link href="https://amirdjv.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://amirdjv.netlify.com/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 
-&lt;p&gt;Currently, I’m doing my Ph.D in psychology at &lt;a href=&#34;https://www1.biu.ac.il/indexE.php&#34; target=&#34;_blank&#34;&gt;Bar-Ilan University (Israel)&lt;/a&gt; under the supervision and guidance of &lt;a href=&#34;https://www.researchgate.net/profile/Ruth_Feldman&#34; target=&#34;_blank&#34;&gt;Prof. Ruth Feldman&lt;/a&gt; from the &lt;a href=&#34;https://www.idc.ac.il/en/pages/home.aspx&#34; target=&#34;_blank&#34;&gt;Interdisciplinary Center Herzliya (Israel)&lt;/a&gt;. In my Ph.D I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments, and PTSD.&lt;/p&gt;
+&lt;p&gt;Currently, I’m doing my PhD in psychology at &lt;a href=&#34;https://www1.biu.ac.il/indexE.php&#34; target=&#34;_blank&#34;&gt;Bar-Ilan University (Israel)&lt;/a&gt; under the supervision and guidance of &lt;a href=&#34;https://www.researchgate.net/profile/Ruth_Feldman&#34; target=&#34;_blank&#34;&gt;Prof. Ruth Feldman&lt;/a&gt; from the &lt;a href=&#34;https://www.idc.ac.il/en/pages/home.aspx&#34; target=&#34;_blank&#34;&gt;Interdisciplinary Center Herzliya (Israel)&lt;/a&gt;. In my PhD I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments, and PTSD.&lt;/p&gt;
 
 &lt;p&gt;Besides my studies, I enjoy analyzing new datasets and to teach and consult about research methods, statistics and data analysis. I preach for the use of R language, and in my spare time, I like photography, traveling, and listing to music.&lt;/p&gt;
 </description>
@@ -30,65 +30,65 @@
     
     <item>
       <title>Recent Posts</title>
-      <link>https://amirdjv.netlify.com/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/posts/</guid>
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://amirdjv.netlify.com/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://amirdjv.netlify.com/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>https://amirdjv.netlify.com/home/cv/</link>
+      <link>/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/cv/</guid>
+      <guid>/home/cv/</guid>
       <description>&lt;p&gt;Would you like to see my visual CV in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or full CV in &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; format.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://amirdjv.netlify.com/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://amirdjv.netlify.com/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Creating for loops in R</title>
-      <link>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</link>
+      <link>/post/creating-for-loops-in-r/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</guid>
+      <guid>/post/creating-for-loops-in-r/</guid>
       <description>
 
 
@@ -187,10 +187,10 @@ for (i in 1:dim(df)[1]) {
     
     <item>
       <title>Creating functions in R</title>
-      <link>https://amirdjv.netlify.com/post/creating-functions-in-r/</link>
+      <link>/post/creating-functions-in-r/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/post/creating-functions-in-r/</guid>
+      <guid>/post/creating-functions-in-r/</guid>
       <description>
 
 
@@ -226,17 +226,17 @@ print(myVec)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Working with files and folders outside R</title>
-      <link>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</link>
+      <link>/post/working-with-files-and-folders-outside-r/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</guid>
+      <guid>/post/working-with-files-and-folders-outside-r/</guid>
       <description>
 
 
 &lt;p&gt;When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.&lt;/p&gt;
 &lt;p&gt;Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function &lt;code&gt;tempdir()&lt;/code&gt; without any arguments.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tempdir()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the &lt;code&gt;dir.create()&lt;/code&gt; function and &lt;code&gt;paste()&lt;/code&gt; function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the &lt;code&gt;dir.exists()&lt;/code&gt; function.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Creating the new folder
 dir.create(path = paste(
@@ -276,14 +276,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e81cec12c9&amp;quot;           
-## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e833286196&amp;quot;           
-## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e838864b4b&amp;quot;           
-## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e841292035&amp;quot;           
-## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e869107122&amp;quot;           
-## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/file17e8758e2bbf&amp;quot;           
-## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/SaveHere/Citations.bib&amp;quot;     
-## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpakV4w3/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file288815fc71f5&amp;quot;           
+## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28881ec11ba0&amp;quot;           
+## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28885662664&amp;quot;            
+## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28885ca17bac&amp;quot;           
+## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28888365f8&amp;quot;             
+## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28889051eb5&amp;quot;            
+## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/SaveHere/Citations.bib&amp;quot;     
+## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lastly, if we’ll combine the functions that we used with &lt;code&gt;file.remove()&lt;/code&gt; and &lt;code&gt;do.call()&lt;/code&gt;, we can delete all the files we created&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] TRUE TRUE&lt;/code&gt;&lt;/pre&gt;
@@ -293,10 +293,10 @@ list.files(path = tempdir(),
     
     <item>
       <title>Converting BibTeX files to md files</title>
-      <link>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</link>
+      <link>/post/converting-bibtex-files-to-md-files/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</guid>
+      <guid>/post/converting-bibtex-files-to-md-files/</guid>
       <description>
 
 
@@ -344,122 +344,122 @@ unlink(&amp;quot;my-md-folder&amp;quot;, recursive = T, force = T)&lt;/code&gt;&
     
     <item>
       <title>Maternal depression alters stress and immune biomarkers in mother and child</title>
-      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018/</link>
+      <link>/publication/2018-01-01_ulmer-yaniv2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018/</guid>
+      <guid>/publication/2018-01-01_ulmer-yaniv2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal depression impacts child psychopathology across the first decade of life: Oxytocin and synchrony as markers of resilience</title>
-      <link>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</link>
+      <link>/publication/2018-01-01_priel2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</guid>
+      <guid>/publication/2018-01-01_priel2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</link>
+      <link>/publication/2018-01-01_ulmer-yaniv2017/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</guid>
+      <guid>/publication/2018-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stress and Immune Biomarkers Interact with Parenting Behavior to Shape Anxiety Symptoms in Trauma-Exposed Youth</title>
-      <link>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</link>
+      <link>/publication/2018-01-01_yirmiya2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</guid>
+      <guid>/publication/2018-01-01_yirmiya2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brain-to-Brain Synchrony during Naturalistic Social Interactions</title>
-      <link>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</link>
+      <link>/publication/2017-01-01_kinreich2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</guid>
+      <guid>/publication/2017-01-01_kinreich2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</link>
+      <link>/publication/2017-01-01_ulmer-yaniv2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</guid>
+      <guid>/publication/2017-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The reliability, concurrent validity and association with salivary oxytocin of the self-report version of the Inventory of Callous-Unemotional Traits in adolescents with conduct disorder</title>
-      <link>https://amirdjv.netlify.com/publication/2017-01-01_levy2017/</link>
+      <link>/publication/2017-01-01_levy2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2017-01-01_levy2017/</guid>
+      <guid>/publication/2017-01-01_levy2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The social transmission of risk: Maternal stress physiology, synchronous parenting, and well-being mediate the effects of war exposure on child psychopathology</title>
-      <link>https://amirdjv.netlify.com/publication/2017-01-01_halevi2017/</link>
+      <link>/publication/2017-01-01_halevi2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2017-01-01_halevi2017/</guid>
+      <guid>/publication/2017-01-01_halevi2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Risk and resilience trajectories in war-exposed children across the first decade of life</title>
-      <link>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</link>
+      <link>/publication/2016-01-01_halevi2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</guid>
+      <guid>/publication/2016-01-01_halevi2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>International trends in electronic media communication among 11- to 15-year-olds in 30 countries from 2002 to 2010: association with ease of communication with friends of the opposite sex</title>
-      <link>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</link>
+      <link>/publication/2015-01-01_boniel-nissim2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</guid>
+      <guid>/publication/2015-01-01_boniel-nissim2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Salivary oxytocin in adolescents with conduct problems and callous-unemotional traits</title>
-      <link>https://amirdjv.netlify.com/publication/2015-01-01_levy2015/</link>
+      <link>/publication/2015-01-01_levy2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2015-01-01_levy2015/</guid>
+      <guid>/publication/2015-01-01_levy2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental, peer and school experiences as predictors of alcohol drinking among first and second generation immigrant adolescents in Israel</title>
-      <link>https://amirdjv.netlify.com/publication/2014-01-01_walsh2014/</link>
+      <link>/publication/2014-01-01_walsh2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/publication/2014-01-01_walsh2014/</guid>
+      <guid>/publication/2014-01-01_walsh2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://amirdjv.netlify.com/cv/</link>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://amirdjv.netlify.com/cv/</guid>
+      <guid>/cv/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/cv/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/cv/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;For more information, please take a loot at my CV in a &lt;a href=&#34;https://amirdjv.netlify.com/cv/cv.pdf&#34;&gt;PDF format&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

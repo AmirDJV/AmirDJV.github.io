@@ -38,6 +38,25 @@
     </item>
     
     <item>
+      <title>Press and conf</title>
+      <link>/home/press/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/home/press/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;The new york time and science daily wrote about my article [&amp;ldquo;Maternal depression alters stress and immune biomarkers in mother and child&amp;rdquo;](&amp;ldquo;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/30133052&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.ncbi.nlm.nih.gov/pubmed/30133052&amp;quot;&lt;/a&gt;).&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I was the chair of the session &amp;ldquo;Synchrony and Emotional Contagion&amp;rdquo; during the conffresnce on [&amp;ldquo;Developmental Social Neuroscience: A Field In The
+Making&amp;rdquo;](&amp;ldquo;&lt;a href=&#34;https://www.idc.ac.il/en/schools/psychology/dsn-event/pages/home.aspx&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.idc.ac.il/en/schools/psychology/dsn-event/pages/home.aspx&amp;quot;&lt;/a&gt;) at the Interdisciplinary Center Herzliya, Israel.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;My article &amp;ldquo;Maternal depression alters stress and immune biomarkers in mother and child&amp;rdquo;  [The New York Times](&amp;ldquo;&lt;a href=&#34;https://www.nytimes.com/2018/08/22/well/mind/depression-in-mothers-impacts-a-childs-immune-and-psychological-health.html&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.nytimes.com/2018/08/22/well/mind/depression-in-mothers-impacts-a-childs-immune-and-psychological-health.html&amp;quot;&lt;/a&gt;) and &lt;a href=&#34;https://www.sciencedaily.com/releases/2018/08/180822082545.htm&#34; target=&#34;_blank&#34;&gt;Science Daily&lt;/a&gt; on my contribution to the .
+I was the chair of the session &amp;ldquo;Synchrony and Emotional Contagion&amp;rdquo; and help orginzing the confrece on [&amp;ldquo;Developmental Social Neuroscience: A Field In The
+Making&amp;rdquo;](&amp;ldquo;&lt;a href=&#34;https://www.idc.ac.il/en/schools/psychology/dsn-event/pages/home.aspx&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.idc.ac.il/en/schools/psychology/dsn-event/pages/home.aspx&amp;quot;&lt;/a&gt;) at the Interdisciplinary Center Herzliya, Israel.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Recent Publications</title>
       <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
@@ -236,7 +255,7 @@ print(myVec)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.&lt;/p&gt;
 &lt;p&gt;Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function &lt;code&gt;tempdir()&lt;/code&gt; without any arguments.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tempdir()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the &lt;code&gt;dir.create()&lt;/code&gt; function and &lt;code&gt;paste()&lt;/code&gt; function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the &lt;code&gt;dir.exists()&lt;/code&gt; function.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Creating the new folder
 dir.create(path = paste(
@@ -276,14 +295,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file288815fc71f5&amp;quot;           
-## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28881ec11ba0&amp;quot;           
-## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28885662664&amp;quot;            
-## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28885ca17bac&amp;quot;           
-## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28888365f8&amp;quot;             
-## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/file28889051eb5&amp;quot;            
-## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/SaveHere/Citations.bib&amp;quot;     
-## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAtH2WU/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file147020e43a16&amp;quot;           
+## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file147023635078&amp;quot;           
+## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file1470368d4d4b&amp;quot;           
+## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file147038457092&amp;quot;           
+## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file14705d4b1907&amp;quot;           
+## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file1470df4471e&amp;quot;            
+## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/SaveHere/Citations.bib&amp;quot;     
+## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lastly, if we’ll combine the functions that we used with &lt;code&gt;file.remove()&lt;/code&gt; and &lt;code&gt;do.call()&lt;/code&gt;, we can delete all the files we created&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] TRUE TRUE&lt;/code&gt;&lt;/pre&gt;

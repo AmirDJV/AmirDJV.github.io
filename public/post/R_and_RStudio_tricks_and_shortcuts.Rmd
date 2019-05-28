@@ -33,7 +33,7 @@ In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows,
 
 2. Ctrl + Alt + right click mouse
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
+![](static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
 
 3. Alt  + right click mouse
 

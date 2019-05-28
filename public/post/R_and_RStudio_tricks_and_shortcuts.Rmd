@@ -2,18 +2,18 @@
 title: R and RStudio tricks and shortcuts
 author:
 date: '2019-05-28'
-slug: R and RStudio tricks and shortcuts
-categories: []
-tags: []
+output:
+  word_document: default
+  html_document:
+    df_print: paged
 header:
   caption: ''
   image: ''
-editor_options: 
+editor_options:
   chunk_output_type: console
-output:
-  html_document:
-    toc: true
-    theme: united
+slug: R and RStudio tricks and shortcuts
+tags: []
+categories: []
 ---
 
 In this post I will try to concentrate nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated! 

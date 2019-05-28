@@ -1,18 +1,18 @@
 ---
 title: "library() vs require()"
 date: '2019-05-28'
-slug: library() vs require()
-categories: []
-tags: []
+output:
+  word_document: default
+  html_document:
+    df_print: paged
 header:
   caption: ''
   image: ''
-editor_options: 
+editor_options:
   chunk_output_type: console
-output:
-  html_document:
-    toc: true
-    theme: united
+slug: library() vs require()
+tags: []
+categories: []
 ---
 
 

@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
-    <link>/</link>
+    <link>https://amirdjv.netlify.com/</link>
     <description>Recent content on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 21 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://amirdjv.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://amirdjv.netlify.com/home/about/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0200</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://amirdjv.netlify.com/home/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
@@ -29,19 +29,19 @@
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://amirdjv.netlify.com/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://amirdjv.netlify.com/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Press and conf</title>
-      <link>/home/press/</link>
+      <link>https://amirdjv.netlify.com/home/press/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/press/</guid>
+      <guid>https://amirdjv.netlify.com/home/press/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;The new york time and science daily wrote about my article [&amp;ldquo;Maternal depression alters stress and immune biomarkers in mother and child&amp;rdquo;](&amp;ldquo;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/30133052&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.ncbi.nlm.nih.gov/pubmed/30133052&amp;quot;&lt;/a&gt;).&lt;/li&gt;
 
@@ -57,94 +57,517 @@ Making&amp;rdquo;](&amp;ldquo;&lt;a href=&#34;https://www.idc.ac.il/en/schools/p
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
+      <link>https://amirdjv.netlify.com/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://amirdjv.netlify.com/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://amirdjv.netlify.com/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://amirdjv.netlify.com/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://amirdjv.netlify.com/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/cv/</guid>
+      <guid>https://amirdjv.netlify.com/home/cv/</guid>
       <description>&lt;p&gt;Would you like to see my visual CV in &lt;a href=&#34;cv/&#34; target=&#34;_blank&#34;&gt;HTML&lt;/a&gt; or full CV in &lt;a href=&#34;cv/cv.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt; format.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://amirdjv.netlify.com/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://amirdjv.netlify.com/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>https://amirdjv.netlify.com/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://amirdjv.netlify.com/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R and RStudio tricks and shortcuts</title>
-      <link>/post/r-and-rstudio-shortcuts/</link>
-      <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
+      <link>https://amirdjv.netlify.com/post/r-and-rstudio-tricks-and-shortcuts/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-and-rstudio-shortcuts/</guid>
+      <guid>https://amirdjv.netlify.com/post/r-and-rstudio-tricks-and-shortcuts/</guid>
       <description>
 
 
-&lt;p&gt;In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated!&lt;/p&gt;
+&lt;p&gt;In this post I will try to concentrate nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated!&lt;/p&gt;
 &lt;div id=&#34;multiple-cursors&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;strong&gt;Multiple Cursors&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Using RStudio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:&lt;/p&gt;
+&lt;p&gt;Using R Studio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Ctrl+Alt and use the keyboard up/down arrows&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif&#34; /&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif&#34; width=&#34;300&#34; /&gt;
 
 &lt;/div&gt;
-&lt;p&gt;In addition, you can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, postion, etc.&lt;/p&gt;
+&lt;p&gt;In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.&lt;/p&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Ctrl + Alt + right click mouse&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Alt + right click mouse&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Alt + Shift right click mouse&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Ctrl + Alt + right click mouse&lt;/li&gt;
 &lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif&#34; width=&#34;300&#34; /&gt;
+
+&lt;/div&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Alt + right click mouse&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif&#34; width=&#34;300&#34; /&gt;
+
+&lt;/div&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Alt + Shift right click mouse&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif&#34; width=&#34;300&#34; /&gt;
+
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;rstudio-addin-snippets&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;strong&gt;RStudio Addin Snippets&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;As the description in their github page says: “RStudio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes”. For now I mainly found this addin useful for its “reverse slashes” method.&lt;/p&gt;
-&lt;p&gt;After installig the addin in your RStudio using the following commend:&lt;/p&gt;
+&lt;p&gt;Using Windows as my primary OS, when ever I copy a directory path I need to change the slashes’ direction. For this I found the &lt;a href=&#34;https://github.com/sfr/RStudio-Addin-Snippets&#34;&gt;RStudio Addin Snippets&lt;/a&gt;. As the description in their GitHub page says: “R Studio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes”.&lt;/p&gt;
+&lt;p&gt;After installing the add-in in your R Studio using the following commend:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;sfr/RStudio-Addin-Snippets&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;A new menu chunk in your “Addins” menu will be added. Next, we can copy and paste using the menu (Addins -&amp;gt; convert slash).&lt;/p&gt;
-&lt;p&gt;Furthermore, we can create a keyboard shurtcut and for eseir use later on (I like to use Ctrl+Shift+V)&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif&#34; width=&#34;800&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Furthermore, we can create a keyboard shortcut for easier use (I like to use Ctrl+Shift+V)&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif&#34; width=&#34;800&#34; /&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;true-and-false-as-numbers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;strong&gt;TRUE and FALSE as numbers&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;One of the nice things we need to remember is that R can treat &lt;code&gt;TRUE&lt;/code&gt; and &lt;code&gt;FALSE&lt;/code&gt; as numbers. Thus, we can for example functions on Boolean vectors.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;myVec &amp;lt;- c(TRUE, FALSE, TRUE) 
+sum(myVec)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;require-in-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;strong&gt;require() in functions&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;While I talk about the differences between the two &lt;a href=&#34;&#34;&gt;here&lt;/a&gt;, one of the benefits of using &lt;code&gt;require()&lt;/code&gt; is its output. whenever, we use &lt;code&gt;require()&lt;/code&gt; it produces a &lt;code&gt;TRUE&lt;/code&gt;/&lt;code&gt;FALSE&lt;/code&gt; output. Thus, we exploit it in function. For example, we can test if a package is installed and raise a warning or installing it if needed.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;if(require(tidyverse) == 1) {warning(&amp;quot;tidyverse is installed&amp;quot;)}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;if(require(tidyverse) == 0) {install.packages(&amp;quot;tidyverse&amp;quot;)}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Thank you for reading and I will try to update this post with new things!&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
+      <title>Rating and sentiment analysis for Friends</title>
+      <link>https://amirdjv.netlify.com/post/rating-and-sentiment-analysis-for-friends/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/rating-and-sentiment-analysis-for-friends/</guid>
+      <description>
+&lt;script src=&#34;https://amirdjv.netlify.com/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://amirdjv.netlify.com/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://amirdjv.netlify.com/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://amirdjv.netlify.com/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://amirdjv.netlify.com/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://amirdjv.netlify.com/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://amirdjv.netlify.com/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://amirdjv.netlify.com/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;The other day Netflix offered me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)&lt;/p&gt;
+&lt;p&gt;We can start by loading the required packages:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(tidytext)
+library(skimr)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;skimr&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:stats&amp;#39;:
+## 
+##     filter&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also used functions from these packages:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;packages &amp;lt;- c(&amp;quot;ggrepel&amp;quot;, &amp;quot;stringi&amp;quot;, &amp;quot;grid&amp;quot;, &amp;quot;varhandle&amp;quot;,
+             &amp;quot;plotly&amp;quot;, &amp;quot;scales&amp;quot;, &amp;quot;viridis&amp;quot;)      
+if (length(setdiff(packages, rownames(installed.packages()))) &amp;gt; 0) {
+  install.packages(setdiff(packages, rownames(installed.packages())))  
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In addition, in order to get the IMDB ratings we need to also install/load &lt;a href=&#34;https://github.com/RMHogervorst/imdb&#34;&gt;this&lt;/a&gt; package. However, if you’re only interested in the data, I uploaded it to my GitHub repository &lt;a href=&#34;https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Rating_and_sentiment_analysis_for_Friends/imdb.rds&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Load imdb package, install if not loaded
+if (require(imdb) == 0) {devtools::install_github(&amp;quot;rmhogervorst/imdb&amp;quot;)}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: imdb&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We’ll start by getting the IMDB data for the series. This can be done nicely using the &lt;code&gt;imdb&lt;/code&gt; wrapper package for open IMDB.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;add_key_to_renviron(&amp;quot;you API key here&amp;quot;)
+
+imdb &amp;lt;- tbl_df(c(1:10)) %&amp;gt;%
+  mutate(data = map(value, function(x) {
+    imdbSeries(&amp;quot;friends&amp;quot;, seasons = x)
+  }))
+
+# We&amp;#39;ll save the data, so won&amp;#39;t abuse the website
+saveRDS(imdb, &amp;quot;imdb.rds&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, let’s load the IMDB data and do a quick look of what we have here.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;imdb &amp;lt;- readRDS(&amp;quot;Rating_and_sentiment_analysis_for_Friends/imdb.rds&amp;quot;) %&amp;gt;% 
+  unnest(data) %&amp;gt;% 
+  select(title = Title, 
+         season = Season, 
+         episode = Episode, 
+         rating = imdbRating) 
+
+skimr::skim(imdb)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Skim summary statistics
+##  n obs: 238 
+##  n variables: 4 
+## 
+## -- Variable type:character ------------------------
+##  variable missing complete   n min max empty n_unique
+##     title       0      238 238  17  50     0      238
+## 
+## -- Variable type:integer --------------------------
+##  variable missing complete   n mean   sd p0 p25 p50 p75 p100     hist
+##    season       0      238 238 5.42 2.83  1   3   5   8   10 &amp;lt;U+2587&amp;gt;&amp;lt;U+2585&amp;gt;&amp;lt;U+2583&amp;gt;&amp;lt;U+2583&amp;gt;&amp;lt;U+2585&amp;gt;&amp;lt;U+2583&amp;gt;&amp;lt;U+2583&amp;gt;&amp;lt;U+2587&amp;gt;
+## 
+## -- Variable type:numeric --------------------------
+##  variable missing complete   n  mean   sd  p0  p25  p50  p75 p100     hist
+##   episode       0      238 238 12.42 6.92 1   6.25 12   18   25   &amp;lt;U+2587&amp;gt;&amp;lt;U+2586&amp;gt;&amp;lt;U+2586&amp;gt;&amp;lt;U+2586&amp;gt;&amp;lt;U+2586&amp;gt;&amp;lt;U+2586&amp;gt;&amp;lt;U+2586&amp;gt;&amp;lt;U+2583&amp;gt;
+##    rating       0      238 238  8.52 0.37 7.3 8.3   8.5  8.7  9.7 &amp;lt;U+2581&amp;gt;&amp;lt;U+2581&amp;gt;&amp;lt;U+2585&amp;gt;&amp;lt;U+2587&amp;gt;&amp;lt;U+2585&amp;gt;&amp;lt;U+2585&amp;gt;&amp;lt;U+2581&amp;gt;&amp;lt;U+2581&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can see that we have 238 episodes, the average rating was 8.52 with a standard deviation of 0.37, and the median was 8.5.&lt;/p&gt;
+&lt;p&gt;We can also do a quick box-plot to see what were the ratings for each season. We can also mark which episodes were outliers.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;imdb %&amp;gt;% 
+  group_by(season) %&amp;gt;%
+  mutate(outlier = ifelse(
+    rating &amp;lt; quantile(rating, 0.25) - 1.5 * IQR(rating) |
+      rating &amp;gt; quantile(rating, 0.75) + 1.5 * IQR(rating), 
+    stringi::stri_trans_totitle(
+        gsub(&amp;quot;The One with|The One Where&amp;quot;, &amp;quot;&amp;quot;, title)),
+    NA)) %&amp;gt;% 
+  ggplot(aes(factor(season), rating)) + 
+  geom_boxplot() +
+  scale_y_continuous(breaks = seq(7, 10, 0.5),
+                     limits = c(7, 10)) + 
+  labs(title = &amp;quot;IMDB Ratings by Season&amp;quot;, 
+       x = &amp;quot;Season&amp;quot;, 
+       y = &amp;quot;Rating&amp;quot;) +
+  guides(color=FALSE) +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ggrepel::geom_text_repel(aes(label = outlier),
+                           na.rm = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/post/Rating_and_sentiment_analysis_for_Friends_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt; It seems that overall, the series kept for most of its episodes the same rating. If we’ll look at the median (the black line inside the boxes) rating, it seems somewhat stable. However, we can see that some episodes had really high and low ratings. Being familiar with show, some of these extreme ratings makes sense to me. For example, the episode were Ross wanted to take Rachel to her and Monica’s prom (The prom video, season 2), or the episode “Christmas In Tulsa” (season 9) which was basically flashbacks from old episodes.&lt;/p&gt;
+&lt;p&gt;We can also use heat-map to look for patterns between the episodes’ rating across the different seasons.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;imdb %&amp;gt;% 
+  ggplot(aes(episode, season, fill = rating)) + 
+  geom_tile(colour = &amp;quot;white&amp;quot;, size = 0.2)+
+  labs(x = &amp;quot;Episode&amp;quot;, 
+       y = &amp;quot;Season&amp;quot;,
+       fill = &amp;quot;Rating&amp;quot;,
+       title = &amp;quot;IMDB Rating Scores Across Episdoes By Seasons&amp;quot;) +
+  scale_x_continuous(expand = c(0,0), breaks = seq(1, 25, 1)) +
+  scale_y_continuous(expand = c(0,0), breaks = seq(1, 10, 1)) +
+  scale_fill_continuous(type = &amp;quot;viridis&amp;quot;) +
+  theme_grey(base_size = 10) +
+  theme(plot.title = element_text(hjust = 0.5),
+        legend.margin=margin(grid::unit(0,&amp;quot;cm&amp;quot;)),
+        legend.key.height=grid::unit(0.8,&amp;quot;cm&amp;quot;),
+        legend.key.width=grid::unit(0.2,&amp;quot;cm&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/post/Rating_and_sentiment_analysis_for_Friends_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now, let’s load the transcript, filter for the main characters, do some cleaning, make it tidy and remove some stop words.&lt;/p&gt;
+&lt;p&gt;You can find the transcripts file &lt;a href=&#34;https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Rating_and_sentiment_analysis_for_Friends/friends.csv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;scripts &amp;lt;- read.csv(&amp;quot;Rating_and_sentiment_analysis_for_Friends/friends.csv&amp;quot;)
+
+scripts &amp;lt;- scripts %&amp;gt;% 
+  purrr::set_names(tolower(names(scripts))) %&amp;gt;%
+  select(season, episode, title,
+         actor = author,
+         text = quote) %&amp;gt;% 
+  varhandle::unfactor() %&amp;gt;% 
+  filter(actor == &amp;quot;Rachel&amp;quot; | 
+           actor == &amp;quot;Monica&amp;quot; |
+           actor == &amp;quot;Joey&amp;quot; | 
+           actor == &amp;quot;Chandler&amp;quot; |
+           actor == &amp;quot;Ross&amp;quot; |
+           actor == &amp;quot;Phoebe&amp;quot;) %&amp;gt;% 
+  mutate(
+    episode = as.numeric(episode),
+    text = gsub(&amp;quot;\\s*\\([^\\)]+\\)|\\[.*?\\]&amp;quot;,&amp;quot;&amp;quot;,
+                text), 
+    text = gsub(&amp;quot;\\written.*&amp;quot;, &amp;quot;&amp;quot;, text)) %&amp;gt;%  
+  tidytext::unnest_tokens(word, text) %&amp;gt;%
+  anti_join(stop_words, by = &amp;quot;word&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can take a quick pick at the scripts:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;head(scripts)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   season episode                                title    actor
+## 1      1       1 The One Where Monica Gets A Roommate   Monica
+## 2      1       1 The One Where Monica Gets A Roommate     Joey
+## 3      1       1 The One Where Monica Gets A Roommate     Joey
+## 4      1       1 The One Where Monica Gets A Roommate     Joey
+## 5      1       1 The One Where Monica Gets A Roommate Chandler
+## 6      1       1 The One Where Monica Gets A Roommate Chandler
+##           word
+## 1         guyi
+## 2          guy
+## 3 there&amp;#39;sgotta
+## 4        wrong
+## 5         joey
+## 6       benice&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(scripts)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      season          episode         title              actor          
+##  Min.   : 1.000   Min.   : 1.00   Length:155457      Length:155457     
+##  1st Qu.: 3.000   1st Qu.: 6.00   Class :character   Class :character  
+##  Median : 6.000   Median :12.00   Mode  :character   Mode  :character  
+##  Mean   : 5.501   Mean   :12.27                                        
+##  3rd Qu.: 8.000   3rd Qu.:18.00                                        
+##  Max.   :10.000   Max.   :25.00                                        
+##      word          
+##  Length:155457     
+##  Class :character  
+##  Mode  :character  
+##                    
+##                    
+## &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s start with small things, like who spoke the most and what was the most occurring word for each character.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;scripts %&amp;gt;% 
+  group_by(actor) %&amp;gt;% 
+  summarise(numberOfWords = sum(!is.na(word)))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 x 2
+##   actor    numberOfWords
+##   &amp;lt;chr&amp;gt;            &amp;lt;int&amp;gt;
+## 1 Chandler         25385
+## 2 Joey             26758
+## 3 Monica           23895
+## 4 Phoebe           23825
+## 5 Rachel           27359
+## 6 Ross             28235&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;scripts %&amp;gt;% 
+  group_by(actor) %&amp;gt;% 
+  count(word) %&amp;gt;% 
+  top_n(3)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Selecting by n&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 18 x 3
+## # Groups:   actor [6]
+##    actor    word      n
+##    &amp;lt;chr&amp;gt;    &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt;
+##  1 Chandler gonna   380
+##  2 Chandler hey     519
+##  3 Chandler yeah    558
+##  4 Joey     hey    1095
+##  5 Joey     uh      509
+##  6 Joey     yeah    967
+##  7 Monica   gonna   423
+##  8 Monica   hey     414
+##  9 Monica   yeah    407
+## 10 Phoebe   gonna   337
+## 11 Phoebe   hey     464
+## 12 Phoebe   yeah    789
+## 13 Rachel   gonna   526
+## 14 Rachel   ross    525
+## 15 Rachel   yeah    809
+## 16 Ross     hey     769
+## 17 Ross     uh      758
+## 18 Ross     yeah    842&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Interestingly, one of the things that Rachel says the most is “Ross”. That made me wonder how much do they reference each other.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plotly::ggplotly(
+  scripts %&amp;gt;% 
+    filter(grepl(&amp;quot;monica|rachel|joey|chandler|ross|phoebe&amp;quot;,
+                 tolower(word))) %&amp;gt;% 
+    mutate(reference = str_extract(
+      pattern = &amp;quot;monica|rachel|joey|chandler|ross|phoebe&amp;quot;,
+      string = tolower(word))) %&amp;gt;%
+    group_by(actor, reference) %&amp;gt;% 
+    summarise(Occurrence = sum(!is.na(reference))) %&amp;gt;% 
+    ungroup() %&amp;gt;% 
+    mutate(Actor = factor(
+      x = stringi::stri_trans_totitle(actor), 
+      levels = c(&amp;quot;Monica&amp;quot;, &amp;quot;Rachel&amp;quot;, &amp;quot;Joey&amp;quot;,
+                 &amp;quot;Chandler&amp;quot;, &amp;quot;Ross&amp;quot;, &amp;quot;Phoebe&amp;quot;)), 
+      Reference = factor(
+        x = stringi::stri_trans_totitle(reference), 
+        levels = c(&amp;quot;Monica&amp;quot;, &amp;quot;Rachel&amp;quot;, &amp;quot;Joey&amp;quot;,
+                   &amp;quot;Chandler&amp;quot;, &amp;quot;Ross&amp;quot;, &amp;quot;Phoebe&amp;quot;))) %&amp;gt;%
+    ggplot(aes(Actor, Reference, fill = Occurrence)) + 
+    geom_tile(colour = &amp;quot;white&amp;quot;, size = 0.2) +
+    labs(x = &amp;quot;Actor&amp;quot;, 
+         y = &amp;quot;Reference&amp;quot;,
+         fill = &amp;quot;Occurrences&amp;quot;,
+         title = &amp;quot;How Much Friends Reference Each Other&amp;quot;) +
+    scale_x_discrete(expand = c(0,0)) +
+    scale_y_discrete(expand = c(0,0)) +
+    scale_fill_continuous(type = &amp;quot;viridis&amp;quot;) +
+    theme_grey(base_size = 10) +
+    theme(plot.title = element_text(hjust = 0.5),
+          legend.margin=margin(grid::unit(0,&amp;quot;cm&amp;quot;)),
+          legend.key.height=grid::unit(0.8,&amp;quot;cm&amp;quot;),
+          legend.key.width=grid::unit(0.2,&amp;quot;cm&amp;quot;))
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;plotly html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[1,2,3,4,5,6],&#34;y&#34;:[1,2,3,4,5,6],&#34;z&#34;:[[0,0.330628803245436,0.13184584178499,0.292089249492901,0.164300202839757,0.237322515212982],[0.271805273833671,0.0162271805273834,0.125760649087221,0.0101419878296146,0.363083164300203,0.186612576064909],[0.356997971602434,0.559837728194726,0.0892494929006085,0.340770791075051,0.241379310344828,0.198782961460446],[0.468559837728195,0.174442190669371,0.316430020283976,0.00405679513184584,0.160243407707911,0.168356997971602],[0.318458417849899,1,0.586206896551724,0.249492900608519,0.0527383367139959,0.281947261663286],[0.391480730223124,0.304259634888438,0.0405679513184584,0.00202839756592292,0.0791075050709939,0.0324543610547667]],&#34;text&#34;:[[&#34;Actor: Monica&lt;br /&gt;Reference: Monica&lt;br /&gt;Occurrence:  66&#34;,&#34;Actor: Rachel&lt;br /&gt;Reference: Monica&lt;br /&gt;Occurrence: 229&#34;,&#34;Actor: Joey&lt;br /&gt;Reference: Monica&lt;br /&gt;Occurrence: 131&#34;,&#34;Actor: Chandler&lt;br /&gt;Reference: Monica&lt;br /&gt;Occurrence: 210&#34;,&#34;Actor: Ross&lt;br /&gt;Reference: Monica&lt;br /&gt;Occurrence: 147&#34;,&#34;Actor: Phoebe&lt;br /&gt;Reference: Monica&lt;br /&gt;Occurrence: 183&#34;],[&#34;Actor: Monica&lt;br /&gt;Reference: Rachel&lt;br /&gt;Occurrence: 200&#34;,&#34;Actor: Rachel&lt;br /&gt;Reference: Rachel&lt;br /&gt;Occurrence:  74&#34;,&#34;Actor: Joey&lt;br /&gt;Reference: Rachel&lt;br /&gt;Occurrence: 128&#34;,&#34;Actor: Chandler&lt;br /&gt;Reference: Rachel&lt;br /&gt;Occurrence:  71&#34;,&#34;Actor: Ross&lt;br /&gt;Reference: Rachel&lt;br /&gt;Occurrence: 245&#34;,&#34;Actor: Phoebe&lt;br /&gt;Reference: Rachel&lt;br /&gt;Occurrence: 158&#34;],[&#34;Actor: Monica&lt;br /&gt;Reference: Joey&lt;br /&gt;Occurrence: 242&#34;,&#34;Actor: Rachel&lt;br /&gt;Reference: Joey&lt;br /&gt;Occurrence: 342&#34;,&#34;Actor: Joey&lt;br /&gt;Reference: Joey&lt;br /&gt;Occurrence: 110&#34;,&#34;Actor: Chandler&lt;br /&gt;Reference: Joey&lt;br /&gt;Occurrence: 234&#34;,&#34;Actor: Ross&lt;br /&gt;Reference: Joey&lt;br /&gt;Occurrence: 185&#34;,&#34;Actor: Phoebe&lt;br /&gt;Reference: Joey&lt;br /&gt;Occurrence: 164&#34;],[&#34;Actor: Monica&lt;br /&gt;Reference: Chandler&lt;br /&gt;Occurrence: 297&#34;,&#34;Actor: Rachel&lt;br /&gt;Reference: Chandler&lt;br /&gt;Occurrence: 152&#34;,&#34;Actor: Joey&lt;br /&gt;Reference: Chandler&lt;br /&gt;Occurrence: 222&#34;,&#34;Actor: Chandler&lt;br /&gt;Reference: Chandler&lt;br /&gt;Occurrence:  68&#34;,&#34;Actor: Ross&lt;br /&gt;Reference: Chandler&lt;br /&gt;Occurrence: 145&#34;,&#34;Actor: Phoebe&lt;br /&gt;Reference: Chandler&lt;br /&gt;Occurrence: 149&#34;],[&#34;Actor: Monica&lt;br /&gt;Reference: Ross&lt;br /&gt;Occurrence: 223&#34;,&#34;Actor: Rachel&lt;br /&gt;Reference: Ross&lt;br /&gt;Occurrence: 559&#34;,&#34;Actor: Joey&lt;br /&gt;Reference: Ross&lt;br /&gt;Occurrence: 355&#34;,&#34;Actor: Chandler&lt;br /&gt;Reference: Ross&lt;br /&gt;Occurrence: 189&#34;,&#34;Actor: Ross&lt;br /&gt;Reference: Ross&lt;br /&gt;Occurrence:  92&#34;,&#34;Actor: Phoebe&lt;br /&gt;Reference: Ross&lt;br /&gt;Occurrence: 205&#34;],[&#34;Actor: Monica&lt;br /&gt;Reference: Phoebe&lt;br /&gt;Occurrence: 259&#34;,&#34;Actor: Rachel&lt;br /&gt;Reference: Phoebe&lt;br /&gt;Occurrence: 216&#34;,&#34;Actor: Joey&lt;br /&gt;Reference: Phoebe&lt;br /&gt;Occurrence:  86&#34;,&#34;Actor: Chandler&lt;br /&gt;Reference: Phoebe&lt;br /&gt;Occurrence:  67&#34;,&#34;Actor: Ross&lt;br /&gt;Reference: Phoebe&lt;br /&gt;Occurrence: 105&#34;,&#34;Actor: Phoebe&lt;br /&gt;Reference: Phoebe&lt;br /&gt;Occurrence:  82&#34;]],&#34;colorscale&#34;:[[0,&#34;#440154&#34;],[0.00202839756592292,&#34;#440254&#34;],[0.00405679513184584,&#34;#440355&#34;],[0.0101419878296146,&#34;#440656&#34;],[0.0162271805273834,&#34;#450958&#34;],[0.0324543610547667,&#34;#45115C&#34;],[0.0405679513184584,&#34;#45145E&#34;],[0.0527383367139959,&#34;#451961&#34;],[0.0791075050709939,&#34;#462268&#34;],[0.0892494929006085,&#34;#46256A&#34;],[0.125760649087221,&#34;#453074&#34;],[0.13184584178499,&#34;#453175&#34;],[0.160243407707911,&#34;#44397D&#34;],[0.164300202839757,&#34;#443A7E&#34;],[0.168356997971602,&#34;#433B7F&#34;],[0.174442190669371,&#34;#433D80&#34;],[0.186612576064909,&#34;#424083&#34;],[0.198782961460446,&#34;#414487&#34;],[0.237322515212982,&#34;#3F4E88&#34;],[0.241379310344828,&#34;#3F4F89&#34;],[0.249492900608519,&#34;#3F5189&#34;],[0.271805273833671,&#34;#3D578A&#34;],[0.281947261663286,&#34;#3C5A8A&#34;],[0.292089249492901,&#34;#3C5C8A&#34;],[0.304259634888438,&#34;#3A5F8B&#34;],[0.316430020283976,&#34;#39638B&#34;],[0.318458417849899,&#34;#39638B&#34;],[0.330628803245436,&#34;#37668C&#34;],[0.340770791075051,&#34;#36698C&#34;],[0.356997971602434,&#34;#336D8D&#34;],[0.363083164300203,&#34;#326F8D&#34;],[0.391480730223124,&#34;#2C768E&#34;],[0.468559837728195,&#34;#2C888B&#34;],[0.559837728194726,&#34;#279E86&#34;],[0.586206896551724,&#34;#24A585&#34;],[1,&#34;#FDE725&#34;]],&#34;type&#34;:&#34;heatmap&#34;,&#34;showscale&#34;:false,&#34;autocolorscale&#34;:false,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;x&#34;:[1],&#34;y&#34;:[1],&#34;name&#34;:&#34;99_040251d89d9dcdfa33837b1dbdd34ad2&#34;,&#34;type&#34;:&#34;scatter&#34;,&#34;mode&#34;:&#34;markers&#34;,&#34;opacity&#34;:0,&#34;hoverinfo&#34;:&#34;skip&#34;,&#34;showlegend&#34;:false,&#34;marker&#34;:{&#34;color&#34;:[0,1],&#34;colorscale&#34;:[[0,&#34;#440154&#34;],[0.0526315789473684,&#34;#451961&#34;],[0.105263157894737,&#34;#452A6E&#34;],[0.157894736842105,&#34;#44397C&#34;],[0.210526315789474,&#34;#414787&#34;],[0.263157894736842,&#34;#3E5589&#34;],[0.315789473684211,&#34;#39628B&#34;],[0.368421052631579,&#34;#31708D&#34;],[0.421052631578947,&#34;#2B7D8D&#34;],[0.473684210526316,&#34;#2C898B&#34;],[0.526315789473684,&#34;#2A9688&#34;],[0.578947368421053,&#34;#25A385&#34;],[0.631578947368421,&#34;#3AAE7D&#34;],[0.684210526315789,&#34;#53B971&#34;],[0.736842105263158,&#34;#67C464&#34;],[0.789473684210526,&#34;#77CF54&#34;],[0.842105263157895,&#34;#9AD64A&#34;],[0.894736842105263,&#34;#BDDC41&#34;],[0.947368421052631,&#34;#DEE235&#34;],[1,&#34;#FDE725&#34;]],&#34;colorbar&#34;:{&#34;bgcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;bordercolor&#34;:&#34;transparent&#34;,&#34;borderwidth&#34;:1.71796707229778,&#34;thickness&#34;:7.55905511811024,&#34;title&#34;:&#34;Occurrences&#34;,&#34;titlefont&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352},&#34;tickmode&#34;:&#34;array&#34;,&#34;ticktext&#34;:[&#34;100&#34;,&#34;200&#34;,&#34;300&#34;,&#34;400&#34;,&#34;500&#34;],&#34;tickvals&#34;:[0.0689655172413793,0.271805273833671,0.474645030425964,0.677484787018256,0.880324543610548],&#34;tickfont&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682},&#34;ticklen&#34;:2,&#34;len&#34;:0.5}},&#34;xaxis&#34;:&#34;x&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;frame&#34;:null}],&#34;layout&#34;:{&#34;margin&#34;:{&#34;t&#34;:41.2386882523869,&#34;r&#34;:6.6417600664176,&#34;b&#34;:36.5296803652968,&#34;l&#34;:65.7534246575343},&#34;plot_bgcolor&#34;:&#34;rgba(235,235,235,1)&#34;,&#34;paper_bgcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352},&#34;title&#34;:{&#34;text&#34;:&#34;How Much Friends Reference Each Other&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:15.9402241594022},&#34;x&#34;:0.5,&#34;xref&#34;:&#34;paper&#34;},&#34;xaxis&#34;:{&#34;domain&#34;:[0,1],&#34;automargin&#34;:true,&#34;type&#34;:&#34;linear&#34;,&#34;autorange&#34;:false,&#34;range&#34;:[0.5,6.5],&#34;tickmode&#34;:&#34;array&#34;,&#34;ticktext&#34;:[&#34;Monica&#34;,&#34;Rachel&#34;,&#34;Joey&#34;,&#34;Chandler&#34;,&#34;Ross&#34;,&#34;Phoebe&#34;],&#34;tickvals&#34;:[1,2,3,4,5,6],&#34;categoryorder&#34;:&#34;array&#34;,&#34;categoryarray&#34;:[&#34;Monica&#34;,&#34;Rachel&#34;,&#34;Joey&#34;,&#34;Chandler&#34;,&#34;Ross&#34;,&#34;Phoebe&#34;],&#34;nticks&#34;:null,&#34;ticks&#34;:&#34;outside&#34;,&#34;tickcolor&#34;:&#34;rgba(51,51,51,1)&#34;,&#34;ticklen&#34;:3.3208800332088,&#34;tickwidth&#34;:0.603796369674327,&#34;showticklabels&#34;:true,&#34;tickfont&#34;:{&#34;color&#34;:&#34;rgba(77,77,77,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682},&#34;tickangle&#34;:-0,&#34;showline&#34;:false,&#34;linecolor&#34;:null,&#34;linewidth&#34;:0,&#34;showgrid&#34;:true,&#34;gridcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;gridwidth&#34;:0.603796369674327,&#34;zeroline&#34;:false,&#34;anchor&#34;:&#34;y&#34;,&#34;title&#34;:{&#34;text&#34;:&#34;Actor&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352}},&#34;hoverformat&#34;:&#34;.2f&#34;},&#34;yaxis&#34;:{&#34;domain&#34;:[0,1],&#34;automargin&#34;:true,&#34;type&#34;:&#34;linear&#34;,&#34;autorange&#34;:false,&#34;range&#34;:[0.5,6.5],&#34;tickmode&#34;:&#34;array&#34;,&#34;ticktext&#34;:[&#34;Monica&#34;,&#34;Rachel&#34;,&#34;Joey&#34;,&#34;Chandler&#34;,&#34;Ross&#34;,&#34;Phoebe&#34;],&#34;tickvals&#34;:[1,2,3,4,5,6],&#34;categoryorder&#34;:&#34;array&#34;,&#34;categoryarray&#34;:[&#34;Monica&#34;,&#34;Rachel&#34;,&#34;Joey&#34;,&#34;Chandler&#34;,&#34;Ross&#34;,&#34;Phoebe&#34;],&#34;nticks&#34;:null,&#34;ticks&#34;:&#34;outside&#34;,&#34;tickcolor&#34;:&#34;rgba(51,51,51,1)&#34;,&#34;ticklen&#34;:3.3208800332088,&#34;tickwidth&#34;:0.603796369674327,&#34;showticklabels&#34;:true,&#34;tickfont&#34;:{&#34;color&#34;:&#34;rgba(77,77,77,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682},&#34;tickangle&#34;:-0,&#34;showline&#34;:false,&#34;linecolor&#34;:null,&#34;linewidth&#34;:0,&#34;showgrid&#34;:true,&#34;gridcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;gridwidth&#34;:0.603796369674327,&#34;zeroline&#34;:false,&#34;anchor&#34;:&#34;x&#34;,&#34;title&#34;:{&#34;text&#34;:&#34;Reference&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352}},&#34;hoverformat&#34;:&#34;.2f&#34;},&#34;shapes&#34;:[{&#34;type&#34;:&#34;rect&#34;,&#34;fillcolor&#34;:null,&#34;line&#34;:{&#34;color&#34;:null,&#34;width&#34;:0,&#34;linetype&#34;:[]},&#34;yref&#34;:&#34;paper&#34;,&#34;xref&#34;:&#34;paper&#34;,&#34;x0&#34;:0,&#34;x1&#34;:1,&#34;y0&#34;:0,&#34;y1&#34;:1}],&#34;showlegend&#34;:false,&#34;legend&#34;:{&#34;bgcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;bordercolor&#34;:&#34;transparent&#34;,&#34;borderwidth&#34;:1.71796707229778,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682}},&#34;hovermode&#34;:&#34;closest&#34;,&#34;barmode&#34;:&#34;relative&#34;},&#34;config&#34;:{&#34;doubleClick&#34;:&#34;reset&#34;,&#34;showSendToCloud&#34;:false},&#34;source&#34;:&#34;A&#34;,&#34;attrs&#34;:{&#34;1eb837806ff1&#34;:{&#34;x&#34;:{},&#34;y&#34;:{},&#34;fill&#34;:{},&#34;type&#34;:&#34;heatmap&#34;}},&#34;cur_data&#34;:&#34;1eb837806ff1&#34;,&#34;visdat&#34;:{&#34;1eb837806ff1&#34;:[&#34;function (y) &#34;,&#34;x&#34;]},&#34;highlight&#34;:{&#34;on&#34;:&#34;plotly_click&#34;,&#34;persistent&#34;:false,&#34;dynamic&#34;:false,&#34;selectize&#34;:false,&#34;opacityDim&#34;:0.2,&#34;selected&#34;:{&#34;opacity&#34;:1},&#34;debounce&#34;:0},&#34;shinyEvents&#34;:[&#34;plotly_hover&#34;,&#34;plotly_click&#34;,&#34;plotly_selected&#34;,&#34;plotly_relayout&#34;,&#34;plotly_brushed&#34;,&#34;plotly_brushing&#34;,&#34;plotly_clickannotation&#34;,&#34;plotly_doubleclick&#34;,&#34;plotly_deselect&#34;,&#34;plotly_afterplot&#34;],&#34;base_url&#34;:&#34;https://plot.ly&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt; Not surprisingly, they don’t tend to reference themselves as often. However, as we’ve seen before, Rachel references Ross even more than any other character reference the others. Even Ross doesn’t reference Rachel that often.&lt;/p&gt;
+&lt;p&gt;We can also examine how different is the vocabulary each characters use:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;scripts %&amp;gt;% 
+  mutate(word = str_extract(word, &amp;quot;[a-z&amp;#39;]+&amp;quot;)) %&amp;gt;%
+  count(actor, word) %&amp;gt;%
+  group_by(actor) %&amp;gt;%
+  mutate(proportion = n / sum(!is.na(word))) %&amp;gt;% 
+  select(-n) %&amp;gt;% 
+  spread(actor, proportion) %&amp;gt;% 
+  gather(actor, proportion, -Chandler, -word) %&amp;gt;%
+  na.omit() %&amp;gt;%
+  ggplot(aes(x = proportion, y = Chandler, 
+             color = abs(Chandler - proportion))) +
+  geom_abline(color = &amp;quot;gray40&amp;quot;, lty = 2) +
+  geom_jitter(alpha = 0.1, size = 2.5,
+              width = 0.3, height = 0.3) +
+  geom_text(aes(label = word), 
+            check_overlap = TRUE, vjust = 1.5) +
+  scale_x_log10(labels = scales::percent_format()) +
+  scale_y_log10(labels = scales::percent_format()) +
+  viridis::scale_color_viridis(limits = c(0, 0.001)) +
+  facet_wrap(~actor, ncol = 2) +
+  theme(legend.position=&amp;quot;none&amp;quot;) +
+  labs(y = &amp;quot;Chandler&amp;quot;, x = NULL)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/post/Rating_and_sentiment_analysis_for_Friends_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s continue to some sentiment analyses&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sentimentScript &amp;lt;- scripts %&amp;gt;% 
+  inner_join(tidytext::get_sentiments(&amp;quot;bing&amp;quot;), by = &amp;quot;word&amp;quot;) %&amp;gt;%
+  group_by(actor, season, episode, sentiment) %&amp;gt;%
+  count(word) %&amp;gt;% 
+  spread(sentiment, n, fill = 0) %&amp;gt;%
+  summarise(sentiment = sum(positive) - sum(negative)) %&amp;gt;%
+  ungroup() &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can look for the most negative season:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sentimentScript %&amp;gt;% 
+  group_by(season) %&amp;gt;%
+  summarise(avg = mean(sentiment)) %&amp;gt;% 
+  ungroup() %&amp;gt;%
+  arrange(avg) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 10 x 2
+##    season     avg
+##     &amp;lt;int&amp;gt;   &amp;lt;dbl&amp;gt;
+##  1      6 -1.65  
+##  2      9 -1.18  
+##  3      1 -1.09  
+##  4      3 -0.993 
+##  5      2 -0.964 
+##  6      5 -0.928 
+##  7      8 -0.457 
+##  8      4 -0.232 
+##  9     10  0.0784
+## 10      7  0.297&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or the most negative character for each season:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sentimentScript %&amp;gt;% 
+  group_by(season, actor) %&amp;gt;%
+  summarise(avg = mean(sentiment)) %&amp;gt;% 
+  top_n(-1) %&amp;gt;%
+  ungroup() %&amp;gt;%
+  arrange(avg) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Selecting by avg&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 10 x 3
+##    season actor      avg
+##     &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt;    &amp;lt;dbl&amp;gt;
+##  1      2 Chandler -3.43
+##  2      9 Chandler -3.35
+##  3      6 Monica   -2.77
+##  4      3 Rachel   -2.48
+##  5      1 Chandler -1.96
+##  6      5 Rachel   -1.83
+##  7      8 Chandler -1.83
+##  8     10 Chandler -1.71
+##  9      4 Monica   -1.52
+## 10      7 Phoebe   -1.52&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can also create a heat-map to identify the most negative and positive episode over the seasons&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plotly::ggplotly(
+  sentimentScript %&amp;gt;%
+    group_by(episode, season) %&amp;gt;% 
+    summarise(avg = mean(sentiment)) %&amp;gt;% 
+    ggplot(aes(episode, season, fill = avg)) + 
+    geom_tile(colour = &amp;quot;white&amp;quot;, size = 0.2) +
+    labs(x = &amp;quot;Episode&amp;quot;, 
+         y = &amp;quot;Season&amp;quot;,
+         fill = &amp;quot;Average Sentiment&amp;quot;,
+         title = &amp;quot;Avrage Sentiment Values Across Episdoes By Seasons&amp;quot;) +
+    scale_x_continuous(expand = c(0,0), breaks = seq(1, 25, 1)) +
+    scale_y_continuous(expand = c(0,0), breaks = seq(1, 10, 1)) +
+    scale_fill_continuous(type = &amp;quot;viridis&amp;quot;) +
+    theme_grey(base_size = 10) +
+    theme(plot.title = element_text(hjust = 0.5),
+          legend.margin=margin(grid::unit(0,&amp;quot;cm&amp;quot;)),
+          legend.key.height=grid::unit(0.8,&amp;quot;cm&amp;quot;),
+          legend.key.width=grid::unit(0.2,&amp;quot;cm&amp;quot;))
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;plotly html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25],&#34;y&#34;:[1,2,3,4,5,6,7,8,9,10],&#34;z&#34;:[[0.632183908045977,0.310344827586207,0.540229885057471,0.67816091954023,0.701149425287356,0.379310344827586,0.35632183908046,0.609195402298851,0.402298850574713,0.505747126436782,0.540229885057471,0.609195402298851,0.436781609195402,0.436781609195402,0.551724137931034,0.459770114942529,0.448275862068966,0.471264367816092,0.344827586206897,0.402298850574713,0.35632183908046,0.701149425287356,0.482758620689655,0.632183908045977,null],[0.333333333333333,0.379310344827586,0.149425287356322,0.586206896551724,0.850574712643678,0.367816091954023,0.609195402298851,0.517241379310345,0.540229885057471,0.402298850574713,0.436781609195402,0.505747126436782,null,0.413793103448276,0.701149425287356,0.632183908045977,0.71264367816092,0.448275862068966,0.379310344827586,0.528735632183908,0.471264367816092,0.551724137931034,0.574712643678161,0.597701149425287,null],[0.459770114942529,0.64367816091954,0.459770114942529,0.264367816091954,0.689655172413793,0.632183908045977,0.494252873563218,0.471264367816092,0.528735632183908,0.563218390804598,0.494252873563218,0.632183908045977,0.563218390804598,0.0804597701149426,0.540229885057471,0.367816091954023,0.344827586206897,0.540229885057471,0.333333333333333,0.574712643678161,0.827586206896552,0.528735632183908,0.609195402298851,0.482758620689655,0.528735632183908],[0.183908045977012,0.563218390804598,0.609195402298851,0.620689655172414,0.586206896551724,0.64367816091954,0.471264367816092,0.505747126436782,0.735632183908046,0.563218390804598,0.632183908045977,0.620689655172414,0.28735632183908,0.436781609195402,0.379310344827586,0.597701149425287,1,0.64367816091954,0.597701149425287,0.551724137931034,0.482758620689655,0.666666666666667,0.471264367816092,null,null],[0.620689655172414,0.39080459770115,0.551724137931034,0.413793103448276,0.28735632183908,0.413793103448276,0.689655172413793,0.32183908045977,0.333333333333333,0.689655172413793,0.655172413793103,0.310344827586207,0.448275862068966,0.551724137931034,0.540229885057471,0.666666666666667,0.655172413793103,0.494252873563218,0.471264367816092,0.275862068965517,0.67816091954023,0.333333333333333,0.954022988505747,null,null],[0.689655172413793,0.367816091954023,0.67816091954023,0,0.264367816091954,0.632183908045977,0.425287356321839,0.528735632183908,0.67816091954023,0.528735632183908,0.275862068965517,0.229885057471264,0.64367816091954,0.298850574712644,0.206896551724138,null,0.563218390804598,0.436781609195402,0.402298850574713,0.32183908045977,0.459770114942529,0.71264367816092,0.602298850574713,0.67816091954023,null],[0.482758620689655,0.471264367816092,0.597701149425287,0.563218390804598,0.436781609195402,0.620689655172414,0.655172413793103,0.252873563218391,0.413793103448276,0.71264367816092,0.505747126436782,0.448275862068966,0.586206896551724,0.701149425287356,0.597701149425287,0.597701149425287,0.563218390804598,0.862068965517241,0.67816091954023,0.67816091954023,0.862068965517241,0.71264367816092,0.689655172413793,null,null],[0.666666666666667,0.482758620689655,0.701149425287356,0.540229885057471,0.344827586206897,0.632183908045977,0.459770114942529,0.425287356321839,0.655172413793103,0.494252873563218,0.517241379310345,0.597701149425287,0.494252873563218,0.459770114942529,0.609195402298851,0.632183908045977,0.494252873563218,0.770114942528736,0.597701149425287,0.67816091954023,0.195402298850575,0.459770114942529,0.586206896551724,null,null],[0.540229885057471,0.436781609195402,0.655172413793103,0.482758620689655,0.333333333333333,0.39080459770115,0.436781609195402,0.218390804597701,0.632183908045977,0.735632183908046,0.574712643678161,0.632183908045977,0.425287356321839,0.367816091954023,0.367816091954023,0.666666666666667,0.0804597701149426,0.96551724137931,0.563218390804598,0.563218390804598,0.471264367816092,0.517241379310345,0.28735632183908,null,null],[0.666666666666667,0.781609195402299,0.528735632183908,0.701149425287356,0.896551724137931,0.160919540229885,0.632183908045977,0.482758620689655,0.758620689655172,0.459770114942529,0.425287356321839,0.528735632183908,0.425287356321839,0.563218390804598,0.735632183908046,0.367816091954023,0.747126436781609,null,null,null,null,null,null,null,null]],&#34;text&#34;:[[&#34;episode:  1&lt;br /&gt;season:  1&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode:  2&lt;br /&gt;season:  1&lt;br /&gt;avg: -3.8333333&#34;,&#34;episode:  3&lt;br /&gt;season:  1&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode:  4&lt;br /&gt;season:  1&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode:  5&lt;br /&gt;season:  1&lt;br /&gt;avg:  1.8333333&#34;,&#34;episode:  6&lt;br /&gt;season:  1&lt;br /&gt;avg: -2.8333333&#34;,&#34;episode:  7&lt;br /&gt;season:  1&lt;br /&gt;avg: -3.1666667&#34;,&#34;episode:  8&lt;br /&gt;season:  1&lt;br /&gt;avg:  0.5000000&#34;,&#34;episode:  9&lt;br /&gt;season:  1&lt;br /&gt;avg: -2.5000000&#34;,&#34;episode: 10&lt;br /&gt;season:  1&lt;br /&gt;avg: -1.0000000&#34;,&#34;episode: 11&lt;br /&gt;season:  1&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode: 12&lt;br /&gt;season:  1&lt;br /&gt;avg:  0.5000000&#34;,&#34;episode: 13&lt;br /&gt;season:  1&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode: 14&lt;br /&gt;season:  1&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode: 15&lt;br /&gt;season:  1&lt;br /&gt;avg: -0.3333333&#34;,&#34;episode: 16&lt;br /&gt;season:  1&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode: 17&lt;br /&gt;season:  1&lt;br /&gt;avg: -1.8333333&#34;,&#34;episode: 18&lt;br /&gt;season:  1&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode: 19&lt;br /&gt;season:  1&lt;br /&gt;avg: -3.3333333&#34;,&#34;episode: 20&lt;br /&gt;season:  1&lt;br /&gt;avg: -2.5000000&#34;,&#34;episode: 21&lt;br /&gt;season:  1&lt;br /&gt;avg: -3.1666667&#34;,&#34;episode: 22&lt;br /&gt;season:  1&lt;br /&gt;avg:  1.8333333&#34;,&#34;episode: 23&lt;br /&gt;season:  1&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode: 24&lt;br /&gt;season:  1&lt;br /&gt;avg:  0.8333333&#34;,null],[&#34;episode:  1&lt;br /&gt;season:  2&lt;br /&gt;avg: -3.5000000&#34;,&#34;episode:  2&lt;br /&gt;season:  2&lt;br /&gt;avg: -2.8333333&#34;,&#34;episode:  3&lt;br /&gt;season:  2&lt;br /&gt;avg: -6.1666667&#34;,&#34;episode:  4&lt;br /&gt;season:  2&lt;br /&gt;avg:  0.1666667&#34;,&#34;episode:  5&lt;br /&gt;season:  2&lt;br /&gt;avg:  4.0000000&#34;,&#34;episode:  6&lt;br /&gt;season:  2&lt;br /&gt;avg: -3.0000000&#34;,&#34;episode:  7&lt;br /&gt;season:  2&lt;br /&gt;avg:  0.5000000&#34;,&#34;episode:  8&lt;br /&gt;season:  2&lt;br /&gt;avg: -0.8333333&#34;,&#34;episode:  9&lt;br /&gt;season:  2&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode: 10&lt;br /&gt;season:  2&lt;br /&gt;avg: -2.5000000&#34;,&#34;episode: 11&lt;br /&gt;season:  2&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode: 12&lt;br /&gt;season:  2&lt;br /&gt;avg: -1.0000000&#34;,null,&#34;episode: 14&lt;br /&gt;season:  2&lt;br /&gt;avg: -2.3333333&#34;,&#34;episode: 15&lt;br /&gt;season:  2&lt;br /&gt;avg:  1.8333333&#34;,&#34;episode: 16&lt;br /&gt;season:  2&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode: 17&lt;br /&gt;season:  2&lt;br /&gt;avg:  2.0000000&#34;,&#34;episode: 18&lt;br /&gt;season:  2&lt;br /&gt;avg: -1.8333333&#34;,&#34;episode: 19&lt;br /&gt;season:  2&lt;br /&gt;avg: -2.8333333&#34;,&#34;episode: 20&lt;br /&gt;season:  2&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode: 21&lt;br /&gt;season:  2&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode: 22&lt;br /&gt;season:  2&lt;br /&gt;avg: -0.3333333&#34;,&#34;episode: 23&lt;br /&gt;season:  2&lt;br /&gt;avg:  0.0000000&#34;,&#34;episode: 24&lt;br /&gt;season:  2&lt;br /&gt;avg:  0.3333333&#34;,null],[&#34;episode:  1&lt;br /&gt;season:  3&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode:  2&lt;br /&gt;season:  3&lt;br /&gt;avg:  1.0000000&#34;,&#34;episode:  3&lt;br /&gt;season:  3&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode:  4&lt;br /&gt;season:  3&lt;br /&gt;avg: -4.5000000&#34;,&#34;episode:  5&lt;br /&gt;season:  3&lt;br /&gt;avg:  1.6666667&#34;,&#34;episode:  6&lt;br /&gt;season:  3&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode:  7&lt;br /&gt;season:  3&lt;br /&gt;avg: -1.1666667&#34;,&#34;episode:  8&lt;br /&gt;season:  3&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode:  9&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode: 10&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 11&lt;br /&gt;season:  3&lt;br /&gt;avg: -1.1666667&#34;,&#34;episode: 12&lt;br /&gt;season:  3&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode: 13&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 14&lt;br /&gt;season:  3&lt;br /&gt;avg: -7.1666667&#34;,&#34;episode: 15&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode: 16&lt;br /&gt;season:  3&lt;br /&gt;avg: -3.0000000&#34;,&#34;episode: 17&lt;br /&gt;season:  3&lt;br /&gt;avg: -3.3333333&#34;,&#34;episode: 18&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode: 19&lt;br /&gt;season:  3&lt;br /&gt;avg: -3.5000000&#34;,&#34;episode: 20&lt;br /&gt;season:  3&lt;br /&gt;avg:  0.0000000&#34;,&#34;episode: 21&lt;br /&gt;season:  3&lt;br /&gt;avg:  3.6666667&#34;,&#34;episode: 22&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode: 23&lt;br /&gt;season:  3&lt;br /&gt;avg:  0.5000000&#34;,&#34;episode: 24&lt;br /&gt;season:  3&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode: 25&lt;br /&gt;season:  3&lt;br /&gt;avg: -0.6666667&#34;],[&#34;episode:  1&lt;br /&gt;season:  4&lt;br /&gt;avg: -5.6666667&#34;,&#34;episode:  2&lt;br /&gt;season:  4&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode:  3&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.5000000&#34;,&#34;episode:  4&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.6666667&#34;,&#34;episode:  5&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.1666667&#34;,&#34;episode:  6&lt;br /&gt;season:  4&lt;br /&gt;avg:  1.0000000&#34;,&#34;episode:  7&lt;br /&gt;season:  4&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode:  8&lt;br /&gt;season:  4&lt;br /&gt;avg: -1.0000000&#34;,&#34;episode:  9&lt;br /&gt;season:  4&lt;br /&gt;avg:  2.3333333&#34;,&#34;episode: 10&lt;br /&gt;season:  4&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 11&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode: 12&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.6666667&#34;,&#34;episode: 13&lt;br /&gt;season:  4&lt;br /&gt;avg: -4.1666667&#34;,&#34;episode: 14&lt;br /&gt;season:  4&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode: 15&lt;br /&gt;season:  4&lt;br /&gt;avg: -2.8333333&#34;,&#34;episode: 16&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode: 17&lt;br /&gt;season:  4&lt;br /&gt;avg:  6.1666667&#34;,&#34;episode: 18&lt;br /&gt;season:  4&lt;br /&gt;avg:  1.0000000&#34;,&#34;episode: 19&lt;br /&gt;season:  4&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode: 20&lt;br /&gt;season:  4&lt;br /&gt;avg: -0.3333333&#34;,&#34;episode: 21&lt;br /&gt;season:  4&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode: 22&lt;br /&gt;season:  4&lt;br /&gt;avg:  1.3333333&#34;,&#34;episode: 23&lt;br /&gt;season:  4&lt;br /&gt;avg: -1.5000000&#34;,null,null],[&#34;episode:  1&lt;br /&gt;season:  5&lt;br /&gt;avg:  0.6666667&#34;,&#34;episode:  2&lt;br /&gt;season:  5&lt;br /&gt;avg: -2.6666667&#34;,&#34;episode:  3&lt;br /&gt;season:  5&lt;br /&gt;avg: -0.3333333&#34;,&#34;episode:  4&lt;br /&gt;season:  5&lt;br /&gt;avg: -2.3333333&#34;,&#34;episode:  5&lt;br /&gt;season:  5&lt;br /&gt;avg: -4.1666667&#34;,&#34;episode:  6&lt;br /&gt;season:  5&lt;br /&gt;avg: -2.3333333&#34;,&#34;episode:  7&lt;br /&gt;season:  5&lt;br /&gt;avg:  1.6666667&#34;,&#34;episode:  8&lt;br /&gt;season:  5&lt;br /&gt;avg: -3.6666667&#34;,&#34;episode:  9&lt;br /&gt;season:  5&lt;br /&gt;avg: -3.5000000&#34;,&#34;episode: 10&lt;br /&gt;season:  5&lt;br /&gt;avg:  1.6666667&#34;,&#34;episode: 11&lt;br /&gt;season:  5&lt;br /&gt;avg:  1.1666667&#34;,&#34;episode: 12&lt;br /&gt;season:  5&lt;br /&gt;avg: -3.8333333&#34;,&#34;episode: 13&lt;br /&gt;season:  5&lt;br /&gt;avg: -1.8333333&#34;,&#34;episode: 14&lt;br /&gt;season:  5&lt;br /&gt;avg: -0.3333333&#34;,&#34;episode: 15&lt;br /&gt;season:  5&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode: 16&lt;br /&gt;season:  5&lt;br /&gt;avg:  1.3333333&#34;,&#34;episode: 17&lt;br /&gt;season:  5&lt;br /&gt;avg:  1.1666667&#34;,&#34;episode: 18&lt;br /&gt;season:  5&lt;br /&gt;avg: -1.1666667&#34;,&#34;episode: 19&lt;br /&gt;season:  5&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode: 20&lt;br /&gt;season:  5&lt;br /&gt;avg: -4.3333333&#34;,&#34;episode: 21&lt;br /&gt;season:  5&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode: 22&lt;br /&gt;season:  5&lt;br /&gt;avg: -3.5000000&#34;,&#34;episode: 23&lt;br /&gt;season:  5&lt;br /&gt;avg:  5.5000000&#34;,null,null],[&#34;episode:  1&lt;br /&gt;season:  6&lt;br /&gt;avg:  1.6666667&#34;,&#34;episode:  2&lt;br /&gt;season:  6&lt;br /&gt;avg: -3.0000000&#34;,&#34;episode:  3&lt;br /&gt;season:  6&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode:  4&lt;br /&gt;season:  6&lt;br /&gt;avg: -8.3333333&#34;,&#34;episode:  5&lt;br /&gt;season:  6&lt;br /&gt;avg: -4.5000000&#34;,&#34;episode:  6&lt;br /&gt;season:  6&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode:  7&lt;br /&gt;season:  6&lt;br /&gt;avg: -2.1666667&#34;,&#34;episode:  8&lt;br /&gt;season:  6&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode:  9&lt;br /&gt;season:  6&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode: 10&lt;br /&gt;season:  6&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode: 11&lt;br /&gt;season:  6&lt;br /&gt;avg: -4.3333333&#34;,&#34;episode: 12&lt;br /&gt;season:  6&lt;br /&gt;avg: -5.0000000&#34;,&#34;episode: 13&lt;br /&gt;season:  6&lt;br /&gt;avg:  1.0000000&#34;,&#34;episode: 14&lt;br /&gt;season:  6&lt;br /&gt;avg: -4.0000000&#34;,&#34;episode: 15&lt;br /&gt;season:  6&lt;br /&gt;avg: -5.3333333&#34;,null,&#34;episode: 17&lt;br /&gt;season:  6&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 18&lt;br /&gt;season:  6&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode: 19&lt;br /&gt;season:  6&lt;br /&gt;avg: -2.5000000&#34;,&#34;episode: 20&lt;br /&gt;season:  6&lt;br /&gt;avg: -3.6666667&#34;,&#34;episode: 21&lt;br /&gt;season:  6&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode: 22&lt;br /&gt;season:  6&lt;br /&gt;avg:  2.0000000&#34;,&#34;episode: 23&lt;br /&gt;season:  6&lt;br /&gt;avg:  0.4000000&#34;,&#34;episode: 24&lt;br /&gt;season:  6&lt;br /&gt;avg:  1.5000000&#34;,null],[&#34;episode:  1&lt;br /&gt;season:  7&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode:  2&lt;br /&gt;season:  7&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode:  3&lt;br /&gt;season:  7&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode:  4&lt;br /&gt;season:  7&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode:  5&lt;br /&gt;season:  7&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode:  6&lt;br /&gt;season:  7&lt;br /&gt;avg:  0.6666667&#34;,&#34;episode:  7&lt;br /&gt;season:  7&lt;br /&gt;avg:  1.1666667&#34;,&#34;episode:  8&lt;br /&gt;season:  7&lt;br /&gt;avg: -4.6666667&#34;,&#34;episode:  9&lt;br /&gt;season:  7&lt;br /&gt;avg: -2.3333333&#34;,&#34;episode: 10&lt;br /&gt;season:  7&lt;br /&gt;avg:  2.0000000&#34;,&#34;episode: 11&lt;br /&gt;season:  7&lt;br /&gt;avg: -1.0000000&#34;,&#34;episode: 12&lt;br /&gt;season:  7&lt;br /&gt;avg: -1.8333333&#34;,&#34;episode: 13&lt;br /&gt;season:  7&lt;br /&gt;avg:  0.1666667&#34;,&#34;episode: 14&lt;br /&gt;season:  7&lt;br /&gt;avg:  1.8333333&#34;,&#34;episode: 15&lt;br /&gt;season:  7&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode: 16&lt;br /&gt;season:  7&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode: 17&lt;br /&gt;season:  7&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 18&lt;br /&gt;season:  7&lt;br /&gt;avg:  4.1666667&#34;,&#34;episode: 19&lt;br /&gt;season:  7&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode: 20&lt;br /&gt;season:  7&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode: 21&lt;br /&gt;season:  7&lt;br /&gt;avg:  4.1666667&#34;,&#34;episode: 22&lt;br /&gt;season:  7&lt;br /&gt;avg:  2.0000000&#34;,&#34;episode: 23&lt;br /&gt;season:  7&lt;br /&gt;avg:  1.6666667&#34;,null,null],[&#34;episode:  1&lt;br /&gt;season:  8&lt;br /&gt;avg:  1.3333333&#34;,&#34;episode:  2&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode:  3&lt;br /&gt;season:  8&lt;br /&gt;avg:  1.8333333&#34;,&#34;episode:  4&lt;br /&gt;season:  8&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode:  5&lt;br /&gt;season:  8&lt;br /&gt;avg: -3.3333333&#34;,&#34;episode:  6&lt;br /&gt;season:  8&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode:  7&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode:  8&lt;br /&gt;season:  8&lt;br /&gt;avg: -2.1666667&#34;,&#34;episode:  9&lt;br /&gt;season:  8&lt;br /&gt;avg:  1.1666667&#34;,&#34;episode: 10&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.1666667&#34;,&#34;episode: 11&lt;br /&gt;season:  8&lt;br /&gt;avg: -0.8333333&#34;,&#34;episode: 12&lt;br /&gt;season:  8&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode: 13&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.1666667&#34;,&#34;episode: 14&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode: 15&lt;br /&gt;season:  8&lt;br /&gt;avg:  0.5000000&#34;,&#34;episode: 16&lt;br /&gt;season:  8&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode: 17&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.1666667&#34;,&#34;episode: 18&lt;br /&gt;season:  8&lt;br /&gt;avg:  2.8333333&#34;,&#34;episode: 19&lt;br /&gt;season:  8&lt;br /&gt;avg:  0.3333333&#34;,&#34;episode: 20&lt;br /&gt;season:  8&lt;br /&gt;avg:  1.5000000&#34;,&#34;episode: 21&lt;br /&gt;season:  8&lt;br /&gt;avg: -5.5000000&#34;,&#34;episode: 22&lt;br /&gt;season:  8&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode: 23&lt;br /&gt;season:  8&lt;br /&gt;avg:  0.1666667&#34;,null,null],[&#34;episode:  1&lt;br /&gt;season:  9&lt;br /&gt;avg: -0.5000000&#34;,&#34;episode:  2&lt;br /&gt;season:  9&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode:  3&lt;br /&gt;season:  9&lt;br /&gt;avg:  1.1666667&#34;,&#34;episode:  4&lt;br /&gt;season:  9&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode:  5&lt;br /&gt;season:  9&lt;br /&gt;avg: -3.5000000&#34;,&#34;episode:  6&lt;br /&gt;season:  9&lt;br /&gt;avg: -2.6666667&#34;,&#34;episode:  7&lt;br /&gt;season:  9&lt;br /&gt;avg: -2.0000000&#34;,&#34;episode:  8&lt;br /&gt;season:  9&lt;br /&gt;avg: -5.1666667&#34;,&#34;episode:  9&lt;br /&gt;season:  9&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode: 10&lt;br /&gt;season:  9&lt;br /&gt;avg:  2.3333333&#34;,&#34;episode: 11&lt;br /&gt;season:  9&lt;br /&gt;avg:  0.0000000&#34;,&#34;episode: 12&lt;br /&gt;season:  9&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode: 13&lt;br /&gt;season:  9&lt;br /&gt;avg: -2.1666667&#34;,&#34;episode: 14&lt;br /&gt;season:  9&lt;br /&gt;avg: -3.0000000&#34;,&#34;episode: 15&lt;br /&gt;season:  9&lt;br /&gt;avg: -3.0000000&#34;,&#34;episode: 16&lt;br /&gt;season:  9&lt;br /&gt;avg:  1.3333333&#34;,&#34;episode: 17&lt;br /&gt;season:  9&lt;br /&gt;avg: -7.1666667&#34;,&#34;episode: 18&lt;br /&gt;season:  9&lt;br /&gt;avg:  5.6666667&#34;,&#34;episode: 19&lt;br /&gt;season:  9&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 20&lt;br /&gt;season:  9&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 21&lt;br /&gt;season:  9&lt;br /&gt;avg: -1.5000000&#34;,&#34;episode: 22&lt;br /&gt;season:  9&lt;br /&gt;avg: -0.8333333&#34;,&#34;episode: 23&lt;br /&gt;season:  9&lt;br /&gt;avg: -4.1666667&#34;,null,null],[&#34;episode:  1&lt;br /&gt;season: 10&lt;br /&gt;avg:  1.3333333&#34;,&#34;episode:  2&lt;br /&gt;season: 10&lt;br /&gt;avg:  3.0000000&#34;,&#34;episode:  3&lt;br /&gt;season: 10&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode:  4&lt;br /&gt;season: 10&lt;br /&gt;avg:  1.8333333&#34;,&#34;episode:  5&lt;br /&gt;season: 10&lt;br /&gt;avg:  4.6666667&#34;,&#34;episode:  6&lt;br /&gt;season: 10&lt;br /&gt;avg: -6.0000000&#34;,&#34;episode:  7&lt;br /&gt;season: 10&lt;br /&gt;avg:  0.8333333&#34;,&#34;episode:  8&lt;br /&gt;season: 10&lt;br /&gt;avg: -1.3333333&#34;,&#34;episode:  9&lt;br /&gt;season: 10&lt;br /&gt;avg:  2.6666667&#34;,&#34;episode: 10&lt;br /&gt;season: 10&lt;br /&gt;avg: -1.6666667&#34;,&#34;episode: 11&lt;br /&gt;season: 10&lt;br /&gt;avg: -2.1666667&#34;,&#34;episode: 12&lt;br /&gt;season: 10&lt;br /&gt;avg: -0.6666667&#34;,&#34;episode: 13&lt;br /&gt;season: 10&lt;br /&gt;avg: -2.1666667&#34;,&#34;episode: 14&lt;br /&gt;season: 10&lt;br /&gt;avg: -0.1666667&#34;,&#34;episode: 15&lt;br /&gt;season: 10&lt;br /&gt;avg:  2.3333333&#34;,&#34;episode: 16&lt;br /&gt;season: 10&lt;br /&gt;avg: -3.0000000&#34;,&#34;episode: 17&lt;br /&gt;season: 10&lt;br /&gt;avg:  2.5000000&#34;,null,null,null,null,null,null,null,null]],&#34;colorscale&#34;:[[0,&#34;#440154&#34;],[0.0804597701149426,&#34;#462268&#34;],[0.149425287356322,&#34;#44367A&#34;],[0.160919540229885,&#34;#44397D&#34;],[0.183908045977012,&#34;#424083&#34;],[0.195402298850575,&#34;#414386&#34;],[0.206896551724138,&#34;#414687&#34;],[0.218390804597701,&#34;#404988&#34;],[0.229885057471264,&#34;#404C88&#34;],[0.252873563218391,&#34;#3F5289&#34;],[0.264367816091954,&#34;#3E5589&#34;],[0.275862068965517,&#34;#3D588A&#34;],[0.28735632183908,&#34;#3C5B8A&#34;],[0.298850574712644,&#34;#3B5E8B&#34;],[0.310344827586207,&#34;#3A618B&#34;],[0.32183908045977,&#34;#38648B&#34;],[0.333333333333333,&#34;#37678C&#34;],[0.344827586206897,&#34;#356A8C&#34;],[0.35632183908046,&#34;#336D8D&#34;],[0.367816091954023,&#34;#31708D&#34;],[0.379310344827586,&#34;#2F738D&#34;],[0.39080459770115,&#34;#2C768E&#34;],[0.402298850574713,&#34;#2A798E&#34;],[0.413793103448276,&#34;#2B7B8D&#34;],[0.425287356321839,&#34;#2B7E8D&#34;],[0.436781609195402,&#34;#2B818C&#34;],[0.448275862068966,&#34;#2C838C&#34;],[0.459770114942529,&#34;#2C868B&#34;],[0.471264367816092,&#34;#2C898B&#34;],[0.482758620689655,&#34;#2B8C8A&#34;],[0.494252873563218,&#34;#2B8E8A&#34;],[0.505747126436782,&#34;#2B9189&#34;],[0.517241379310345,&#34;#2A9489&#34;],[0.528735632183908,&#34;#2A9788&#34;],[0.540229885057471,&#34;#299987&#34;],[0.551724137931034,&#34;#289C87&#34;],[0.563218390804598,&#34;#279F86&#34;],[0.574712643678161,&#34;#26A285&#34;],[0.586206896551724,&#34;#24A585&#34;],[0.597701149425287,&#34;#22A784&#34;],[0.602298850574713,&#34;#24A884&#34;],[0.609195402298851,&#34;#2AAA82&#34;],[0.620689655172414,&#34;#33AC7F&#34;],[0.632183908045977,&#34;#3AAE7D&#34;],[0.64367816091954,&#34;#41B17A&#34;],[0.655172413793103,&#34;#47B378&#34;],[0.666666666666667,&#34;#4CB575&#34;],[0.67816091954023,&#34;#51B872&#34;],[0.689655172413793,&#34;#56BA70&#34;],[0.701149425287356,&#34;#5ABC6D&#34;],[0.71264367816092,&#34;#5EBF6A&#34;],[0.735632183908046,&#34;#66C464&#34;],[0.747126436781609,&#34;#6AC661&#34;],[0.758620689655172,&#34;#6EC85E&#34;],[0.770114942528736,&#34;#71CB5A&#34;],[0.781609195402299,&#34;#75CD57&#34;],[0.827586206896552,&#34;#8FD44D&#34;],[0.850574712643678,&#34;#A0D749&#34;],[0.862068965517241,&#34;#A7D947&#34;],[0.896551724137931,&#34;#BEDC40&#34;],[0.954022988505747,&#34;#E2E333&#34;],[0.96551724137931,&#34;#E9E430&#34;],[1,&#34;#FDE725&#34;]],&#34;type&#34;:&#34;heatmap&#34;,&#34;showscale&#34;:false,&#34;autocolorscale&#34;:false,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;x&#34;:[1],&#34;y&#34;:[1],&#34;name&#34;:&#34;99_9839d9deb9d4a73999eccb6f0a8b2820&#34;,&#34;type&#34;:&#34;scatter&#34;,&#34;mode&#34;:&#34;markers&#34;,&#34;opacity&#34;:0,&#34;hoverinfo&#34;:&#34;skip&#34;,&#34;showlegend&#34;:false,&#34;marker&#34;:{&#34;color&#34;:[0,1],&#34;colorscale&#34;:[[0,&#34;#440154&#34;],[0.0526315789473684,&#34;#451961&#34;],[0.105263157894737,&#34;#452A6E&#34;],[0.157894736842105,&#34;#44397C&#34;],[0.210526315789474,&#34;#414787&#34;],[0.263157894736842,&#34;#3E5589&#34;],[0.315789473684211,&#34;#39628B&#34;],[0.368421052631579,&#34;#31708D&#34;],[0.421052631578947,&#34;#2B7D8D&#34;],[0.473684210526316,&#34;#2C898B&#34;],[0.526315789473684,&#34;#2A9688&#34;],[0.578947368421053,&#34;#25A385&#34;],[0.631578947368421,&#34;#3AAE7D&#34;],[0.68421052631579,&#34;#53B971&#34;],[0.736842105263158,&#34;#67C464&#34;],[0.789473684210526,&#34;#77CF54&#34;],[0.842105263157895,&#34;#9AD64A&#34;],[0.894736842105263,&#34;#BDDC41&#34;],[0.947368421052632,&#34;#DEE235&#34;],[1,&#34;#FDE725&#34;]],&#34;colorbar&#34;:{&#34;bgcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;bordercolor&#34;:&#34;transparent&#34;,&#34;borderwidth&#34;:1.71796707229778,&#34;thickness&#34;:7.55905511811024,&#34;title&#34;:&#34;Average Sentiment&#34;,&#34;titlefont&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352},&#34;tickmode&#34;:&#34;array&#34;,&#34;ticktext&#34;:[&#34;-5&#34;,&#34;0&#34;,&#34;5&#34;],&#34;tickvals&#34;:[0.229885057471264,0.574712643678161,0.919540229885057],&#34;tickfont&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682},&#34;ticklen&#34;:2,&#34;len&#34;:0.5}},&#34;xaxis&#34;:&#34;x&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;frame&#34;:null}],&#34;layout&#34;:{&#34;margin&#34;:{&#34;t&#34;:41.2386882523869,&#34;r&#34;:6.6417600664176,&#34;b&#34;:36.5296803652968,&#34;l&#34;:33.8729763387298},&#34;plot_bgcolor&#34;:&#34;rgba(235,235,235,1)&#34;,&#34;paper_bgcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352},&#34;title&#34;:{&#34;text&#34;:&#34;Avrage Sentiment Values Across Episdoes By Seasons&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:15.9402241594022},&#34;x&#34;:0.5,&#34;xref&#34;:&#34;paper&#34;},&#34;xaxis&#34;:{&#34;domain&#34;:[0,1],&#34;automargin&#34;:true,&#34;type&#34;:&#34;linear&#34;,&#34;autorange&#34;:false,&#34;range&#34;:[0.5,25.5],&#34;tickmode&#34;:&#34;array&#34;,&#34;ticktext&#34;:[&#34;1&#34;,&#34;2&#34;,&#34;3&#34;,&#34;4&#34;,&#34;5&#34;,&#34;6&#34;,&#34;7&#34;,&#34;8&#34;,&#34;9&#34;,&#34;10&#34;,&#34;11&#34;,&#34;12&#34;,&#34;13&#34;,&#34;14&#34;,&#34;15&#34;,&#34;16&#34;,&#34;17&#34;,&#34;18&#34;,&#34;19&#34;,&#34;20&#34;,&#34;21&#34;,&#34;22&#34;,&#34;23&#34;,&#34;24&#34;,&#34;25&#34;],&#34;tickvals&#34;:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25],&#34;categoryorder&#34;:&#34;array&#34;,&#34;categoryarray&#34;:[&#34;1&#34;,&#34;2&#34;,&#34;3&#34;,&#34;4&#34;,&#34;5&#34;,&#34;6&#34;,&#34;7&#34;,&#34;8&#34;,&#34;9&#34;,&#34;10&#34;,&#34;11&#34;,&#34;12&#34;,&#34;13&#34;,&#34;14&#34;,&#34;15&#34;,&#34;16&#34;,&#34;17&#34;,&#34;18&#34;,&#34;19&#34;,&#34;20&#34;,&#34;21&#34;,&#34;22&#34;,&#34;23&#34;,&#34;24&#34;,&#34;25&#34;],&#34;nticks&#34;:null,&#34;ticks&#34;:&#34;outside&#34;,&#34;tickcolor&#34;:&#34;rgba(51,51,51,1)&#34;,&#34;ticklen&#34;:3.3208800332088,&#34;tickwidth&#34;:0.603796369674327,&#34;showticklabels&#34;:true,&#34;tickfont&#34;:{&#34;color&#34;:&#34;rgba(77,77,77,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682},&#34;tickangle&#34;:-0,&#34;showline&#34;:false,&#34;linecolor&#34;:null,&#34;linewidth&#34;:0,&#34;showgrid&#34;:true,&#34;gridcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;gridwidth&#34;:0.603796369674327,&#34;zeroline&#34;:false,&#34;anchor&#34;:&#34;y&#34;,&#34;title&#34;:{&#34;text&#34;:&#34;Episode&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352}},&#34;hoverformat&#34;:&#34;.2f&#34;},&#34;yaxis&#34;:{&#34;domain&#34;:[0,1],&#34;automargin&#34;:true,&#34;type&#34;:&#34;linear&#34;,&#34;autorange&#34;:false,&#34;range&#34;:[0.5,10.5],&#34;tickmode&#34;:&#34;array&#34;,&#34;ticktext&#34;:[&#34;1&#34;,&#34;2&#34;,&#34;3&#34;,&#34;4&#34;,&#34;5&#34;,&#34;6&#34;,&#34;7&#34;,&#34;8&#34;,&#34;9&#34;,&#34;10&#34;],&#34;tickvals&#34;:[1,2,3,4,5,6,7,8,9,10],&#34;categoryorder&#34;:&#34;array&#34;,&#34;categoryarray&#34;:[&#34;1&#34;,&#34;2&#34;,&#34;3&#34;,&#34;4&#34;,&#34;5&#34;,&#34;6&#34;,&#34;7&#34;,&#34;8&#34;,&#34;9&#34;,&#34;10&#34;],&#34;nticks&#34;:null,&#34;ticks&#34;:&#34;outside&#34;,&#34;tickcolor&#34;:&#34;rgba(51,51,51,1)&#34;,&#34;ticklen&#34;:3.3208800332088,&#34;tickwidth&#34;:0.603796369674327,&#34;showticklabels&#34;:true,&#34;tickfont&#34;:{&#34;color&#34;:&#34;rgba(77,77,77,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682},&#34;tickangle&#34;:-0,&#34;showline&#34;:false,&#34;linecolor&#34;:null,&#34;linewidth&#34;:0,&#34;showgrid&#34;:true,&#34;gridcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;gridwidth&#34;:0.603796369674327,&#34;zeroline&#34;:false,&#34;anchor&#34;:&#34;x&#34;,&#34;title&#34;:{&#34;text&#34;:&#34;Season&#34;,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:13.2835201328352}},&#34;hoverformat&#34;:&#34;.2f&#34;},&#34;shapes&#34;:[{&#34;type&#34;:&#34;rect&#34;,&#34;fillcolor&#34;:null,&#34;line&#34;:{&#34;color&#34;:null,&#34;width&#34;:0,&#34;linetype&#34;:[]},&#34;yref&#34;:&#34;paper&#34;,&#34;xref&#34;:&#34;paper&#34;,&#34;x0&#34;:0,&#34;x1&#34;:1,&#34;y0&#34;:0,&#34;y1&#34;:1}],&#34;showlegend&#34;:false,&#34;legend&#34;:{&#34;bgcolor&#34;:&#34;rgba(255,255,255,1)&#34;,&#34;bordercolor&#34;:&#34;transparent&#34;,&#34;borderwidth&#34;:1.71796707229778,&#34;font&#34;:{&#34;color&#34;:&#34;rgba(0,0,0,1)&#34;,&#34;family&#34;:&#34;&#34;,&#34;size&#34;:10.6268161062682}},&#34;hovermode&#34;:&#34;closest&#34;,&#34;barmode&#34;:&#34;relative&#34;},&#34;config&#34;:{&#34;doubleClick&#34;:&#34;reset&#34;,&#34;showSendToCloud&#34;:false},&#34;source&#34;:&#34;A&#34;,&#34;attrs&#34;:{&#34;1eb829402cbd&#34;:{&#34;x&#34;:{},&#34;y&#34;:{},&#34;fill&#34;:{},&#34;type&#34;:&#34;heatmap&#34;}},&#34;cur_data&#34;:&#34;1eb829402cbd&#34;,&#34;visdat&#34;:{&#34;1eb829402cbd&#34;:[&#34;function (y) &#34;,&#34;x&#34;]},&#34;highlight&#34;:{&#34;on&#34;:&#34;plotly_click&#34;,&#34;persistent&#34;:false,&#34;dynamic&#34;:false,&#34;selectize&#34;:false,&#34;opacityDim&#34;:0.2,&#34;selected&#34;:{&#34;opacity&#34;:1},&#34;debounce&#34;:0},&#34;shinyEvents&#34;:[&#34;plotly_hover&#34;,&#34;plotly_click&#34;,&#34;plotly_selected&#34;,&#34;plotly_relayout&#34;,&#34;plotly_brushed&#34;,&#34;plotly_brushing&#34;,&#34;plotly_clickannotation&#34;,&#34;plotly_doubleclick&#34;,&#34;plotly_deselect&#34;,&#34;plotly_afterplot&#34;],&#34;base_url&#34;:&#34;https://plot.ly&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;We can also animate the movement of sentiments over episodes and season for each character&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(gganimate)
+
+plot1 &amp;lt;- sentimentScript %&amp;gt;%
+  ggplot(aes(episode, sentiment, color = actor)) + 
+  geom_point() + 
+  facet_wrap(~actor) +
+  scale_x_continuous(expand = c(0,0), breaks = seq(1, 25, 1)) +
+  labs(title = &amp;quot;Season: {frame_time}&amp;quot;,
+       x = &amp;quot;Episode&amp;quot;,
+       y = &amp;quot;Average Sentiment For Episode&amp;quot;, 
+       color = &amp;quot;Actor&amp;quot;) +
+  transition_time(season) +
+  ease_aes(&amp;quot;linear&amp;quot;) +
+  theme(plot.title = element_text(hjust = 0.5))
+
+animate(plot1, fps=5, end_pause = 30)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/post/Rating_and_sentiment_analysis_for_Friends_files/figure-html/unnamed-chunk-18-1.gif&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>library() vs require()</title>
+      <link>https://amirdjv.netlify.com/post/library-vs-require/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/library-vs-require/</guid>
+      <description>
+
+
+&lt;p&gt;The use of &lt;code&gt;library()&lt;/code&gt; or &lt;code&gt;require()&lt;/code&gt; is interesting. Each have is own pros and cons. If we’ll use the help for library (?library), we’ll see that “library and require load and attach add-on packages”. So, while practicality they do the same thing, they act differently.&lt;/p&gt;
+&lt;p&gt;In both cases both functions load the packages with name package and put it on the search list. However, When we call &lt;code&gt;library()&lt;/code&gt;, if the package doesn’t exists a warning will be raised. In addition, the script will stop running.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(somepackage)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Error in library(somepackage) : there is no package called
+## ‘somepackage’)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On the other hand, when we call &lt;code&gt;require()&lt;/code&gt; the function will return &lt;code&gt;TRUE&lt;/code&gt; if the package exists, and &lt;code&gt;FALSE&lt;/code&gt; if the package doesn’t exists. furthermore, unlike &lt;code&gt;library()&lt;/code&gt;, the script will not stop running.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(require(somepackage))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: somepackage&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called &amp;#39;somepackage&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So, why do we care about these differences? Beside knowing what each function does, we can use them to our own advantage.&lt;/p&gt;
+&lt;p&gt;It’s considered better practice to use &lt;code&gt;library()&lt;/code&gt; when we want to load packages outside of functions. This is because we would like to know if and where we have a bug as soon as possible. Calling a set of function which doesn’t exists is certainly a bug. We’ll use &lt;code&gt;require()&lt;/code&gt; inside functions, as we can manipulate it’s &lt;code&gt;TRUE&lt;/code&gt;/&lt;code&gt;FALSE&lt;/code&gt; output. For example, in the beginning of our script, we can write a function that will install all the necessary function if they aren’t already installed &lt;a href=&#34;&#34;&gt;look here&lt;/a&gt;. We could also skip parts of a script if the packages aren’t already installed, etc.&lt;/p&gt;
+&lt;p&gt;Thank you for reading!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Creating for loops in R</title>
-      <link>/post/creating-for-loops-in-r/</link>
+      <link>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/creating-for-loops-in-r/</guid>
+      <guid>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</guid>
       <description>
 
 
@@ -243,10 +666,10 @@ for (i in 1:dim(df)[1]) {
     
     <item>
       <title>Creating functions in R</title>
-      <link>/post/creating-functions-in-r/</link>
+      <link>https://amirdjv.netlify.com/post/creating-functions-in-r/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/creating-functions-in-r/</guid>
+      <guid>https://amirdjv.netlify.com/post/creating-functions-in-r/</guid>
       <description>
 
 
@@ -282,17 +705,17 @@ print(myVec)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Working with files and folders outside R</title>
-      <link>/post/working-with-files-and-folders-outside-r/</link>
+      <link>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/working-with-files-and-folders-outside-r/</guid>
+      <guid>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</guid>
       <description>
 
 
 &lt;p&gt;When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.&lt;/p&gt;
 &lt;p&gt;Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function &lt;code&gt;tempdir()&lt;/code&gt; without any arguments.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tempdir()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the &lt;code&gt;dir.create()&lt;/code&gt; function and &lt;code&gt;paste()&lt;/code&gt; function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the &lt;code&gt;dir.exists()&lt;/code&gt; function.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Creating the new folder
 dir.create(path = paste(
@@ -332,14 +755,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc2ab4d1c&amp;quot;             
-## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc406e667a&amp;quot;            
-## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc58c31713&amp;quot;            
-## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc5d0776fc&amp;quot;            
-## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc63096d7a&amp;quot;            
-## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc741b5711&amp;quot;            
-## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/SaveHere/Citations.bib&amp;quot;     
-## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/filea1028802c19&amp;quot;            
+## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/filea102b55b6&amp;quot;              
+## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/filea103fb9e60&amp;quot;             
+## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/filea10418252ae&amp;quot;            
+## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/filea1068402ca9&amp;quot;            
+## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/filea1070d62d6c&amp;quot;            
+## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/SaveHere/Citations.bib&amp;quot;     
+## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpiKAjPD/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lastly, if we’ll combine the functions that we used with &lt;code&gt;file.remove()&lt;/code&gt; and &lt;code&gt;do.call()&lt;/code&gt;, we can delete all the files we created&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] TRUE TRUE&lt;/code&gt;&lt;/pre&gt;
@@ -349,10 +772,10 @@ list.files(path = tempdir(),
     
     <item>
       <title>Converting BibTeX files to md files</title>
-      <link>/post/converting-bibtex-files-to-md-files/</link>
+      <link>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/converting-bibtex-files-to-md-files/</guid>
+      <guid>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</guid>
       <description>
 
 
@@ -400,122 +823,122 @@ unlink(&amp;quot;my-md-folder&amp;quot;, recursive = T, force = T)&lt;/code&gt;&
     
     <item>
       <title>Maternal depression alters stress and immune biomarkers in mother and child</title>
-      <link>/publication/2018-01-01_ulmer-yaniv2018/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_ulmer-yaniv2018/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal depression impacts child psychopathology across the first decade of life: Oxytocin and synchrony as markers of resilience</title>
-      <link>/publication/2018-01-01_priel2018/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_priel2018/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>/publication/2018-01-01_ulmer-yaniv2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_ulmer-yaniv2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stress and Immune Biomarkers Interact with Parenting Behavior to Shape Anxiety Symptoms in Trauma-Exposed Youth</title>
-      <link>/publication/2018-01-01_yirmiya2018/</link>
+      <link>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018-01-01_yirmiya2018/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Brain-to-Brain Synchrony during Naturalistic Social Interactions</title>
-      <link>/publication/2017-01-01_kinreich2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_kinreich2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>/publication/2017-01-01_ulmer-yaniv2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_ulmer-yaniv2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The reliability, concurrent validity and association with salivary oxytocin of the self-report version of the Inventory of Callous-Unemotional Traits in adolescents with conduct disorder</title>
-      <link>/publication/2017-01-01_levy2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_levy2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_levy2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_levy2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The social transmission of risk: Maternal stress physiology, synchronous parenting, and well-being mediate the effects of war exposure on child psychopathology</title>
-      <link>/publication/2017-01-01_halevi2017/</link>
+      <link>https://amirdjv.netlify.com/publication/2017-01-01_halevi2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2017-01-01_halevi2017/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2017-01-01_halevi2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Risk and resilience trajectories in war-exposed children across the first decade of life</title>
-      <link>/publication/2016-01-01_halevi2016/</link>
+      <link>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2016-01-01_halevi2016/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>International trends in electronic media communication among 11- to 15-year-olds in 30 countries from 2002 to 2010: association with ease of communication with friends of the opposite sex</title>
-      <link>/publication/2015-01-01_boniel-nissim2015/</link>
+      <link>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2015-01-01_boniel-nissim2015/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Salivary oxytocin in adolescents with conduct problems and callous-unemotional traits</title>
-      <link>/publication/2015-01-01_levy2015/</link>
+      <link>https://amirdjv.netlify.com/publication/2015-01-01_levy2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2015-01-01_levy2015/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2015-01-01_levy2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental, peer and school experiences as predictors of alcohol drinking among first and second generation immigrant adolescents in Israel</title>
-      <link>/publication/2014-01-01_walsh2014/</link>
+      <link>https://amirdjv.netlify.com/publication/2014-01-01_walsh2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2014-01-01_walsh2014/</guid>
+      <guid>https://amirdjv.netlify.com/publication/2014-01-01_walsh2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/cv/</link>
+      <link>https://amirdjv.netlify.com/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cv/</guid>
+      <guid>https://amirdjv.netlify.com/cv/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/cv/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://amirdjv.netlify.com/cv/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;For more information, please take a loot at my CV in a &lt;a href=&#34;https://amirdjv.netlify.com/cv/cv.pdf&#34;&gt;PDF format&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

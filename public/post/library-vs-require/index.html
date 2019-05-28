@@ -17,12 +17,11 @@
       
     
   
-  <meta name="description" content="In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated!
-Multiple CursorsUsing RStudio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:
-Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl &#43; Alt &#43; Shift and the keyboard arrows to skip rows, postion, etc.">
+  <meta name="description" content="The use of library() or require() is interesting. Each have is own pros and cons. If we’ll use the help for library (?library), we’ll see that “library and require load and attach add-on packages”. So, while practicality they do the same thing, they act differently.
+In both cases both functions load the packages with name package and put it on the search list. However, When we call library(), if the package doesn’t exists a warning will be raised.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/r-and-rstudio-shortcuts/">
+  <link rel="alternate" hreflang="en-us" href="https://amirdjv.netlify.com/post/library-vs-require/">
 
   
 
@@ -75,15 +74,15 @@ Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Amir Djalovski">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="alternate" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="feed" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/post/r-and-rstudio-shortcuts/">
+  <link rel="canonical" href="https://amirdjv.netlify.com/post/library-vs-require/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -91,22 +90,21 @@ Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl
   <meta property="twitter:creator" content="@https://twitter.com/AmirDJV">
   
   <meta property="og:site_name" content="Amir Djalovski">
-  <meta property="og:url" content="/post/r-and-rstudio-shortcuts/">
-  <meta property="og:title" content="R and RStudio tricks and shortcuts | Amir Djalovski">
-  <meta property="og:description" content="In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated!
-Multiple CursorsUsing RStudio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:
-Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl &#43; Alt &#43; Shift and the keyboard arrows to skip rows, postion, etc.">
+  <meta property="og:url" content="https://amirdjv.netlify.com/post/library-vs-require/">
+  <meta property="og:title" content="library() vs require() | Amir Djalovski">
+  <meta property="og:description" content="The use of library() or require() is interesting. Each have is own pros and cons. If we’ll use the help for library (?library), we’ll see that “library and require load and attach add-on packages”. So, while practicality they do the same thing, they act differently.
+In both cases both functions load the packages with name package and put it on the search list. However, When we call library(), if the package doesn’t exists a warning will be raised.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-04-21T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-05-28T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-04-21T00:00:00&#43;00:00">
-  
-
-  
+  <meta property="article:modified_time" content="2019-05-28T00:00:00&#43;00:00">
   
 
-  <title>R and RStudio tricks and shortcuts | Amir Djalovski</title>
+  
+  
+
+  <title>library() vs require() | Amir Djalovski</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -244,7 +242,7 @@ Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl
 
 
   <div class="article-container">
-    <h1 itemprop="name">R and RStudio tricks and shortcuts</h1>
+    <h1 itemprop="name">library() vs require()</h1>
 
     
 
@@ -252,8 +250,8 @@ Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl
 
   <span class="article-date">
     
-    <time datetime="2019-04-21 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Apr 21, 2019
+    <time datetime="2019-05-28 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      May 28, 2019
     </time>
   </span>
   <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
@@ -263,7 +261,7 @@ Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -287,32 +285,20 @@ Ctrl&#43;Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl
       
 
 
-<p>In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated!</p>
-<div id="multiple-cursors" class="section level2">
-<h2><strong>Multiple Cursors</strong></h2>
-<p>Using RStudio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:</p>
-<ol style="list-style-type: decimal">
-<li>Ctrl+Alt and use the keyboard up/down arrows</li>
-</ol>
-<div class="figure">
-<img src="R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif" />
-
-</div>
-<p>In addition, you can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, postion, etc.</p>
-<ol start="2" style="list-style-type: decimal">
-<li><p>Ctrl + Alt + right click mouse</p></li>
-<li><p>Alt + right click mouse</p></li>
-<li><p>Alt + Shift right click mouse</p></li>
-</ol>
-</div>
-<div id="rstudio-addin-snippets" class="section level2">
-<h2><strong>RStudio Addin Snippets</strong></h2>
-<p>As the description in their github page says: “RStudio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes”. For now I mainly found this addin useful for its “reverse slashes” method.</p>
-<p>After installig the addin in your RStudio using the following commend:</p>
-<pre class="r"><code>devtools::install_github(&quot;sfr/RStudio-Addin-Snippets&quot;)</code></pre>
-<p>A new menu chunk in your “Addins” menu will be added. Next, we can copy and paste using the menu (Addins -&gt; convert slash).</p>
-<p>Furthermore, we can create a keyboard shurtcut and for eseir use later on (I like to use Ctrl+Shift+V)</p>
-</div>
+<p>The use of <code>library()</code> or <code>require()</code> is interesting. Each have is own pros and cons. If we’ll use the help for library (?library), we’ll see that “library and require load and attach add-on packages”. So, while practicality they do the same thing, they act differently.</p>
+<p>In both cases both functions load the packages with name package and put it on the search list. However, When we call <code>library()</code>, if the package doesn’t exists a warning will be raised. In addition, the script will stop running.</p>
+<pre class="r"><code>library(somepackage)</code></pre>
+<pre><code>## Warning: Error in library(somepackage) : there is no package called
+## ‘somepackage’)</code></pre>
+<p>On the other hand, when we call <code>require()</code> the function will return <code>TRUE</code> if the package exists, and <code>FALSE</code> if the package doesn’t exists. furthermore, unlike <code>library()</code>, the script will not stop running.</p>
+<pre class="r"><code>print(require(somepackage))</code></pre>
+<pre><code>## Loading required package: somepackage</code></pre>
+<pre><code>## Warning in library(package, lib.loc = lib.loc, character.only = TRUE,
+## logical.return = TRUE, : there is no package called &#39;somepackage&#39;</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<p>So, why do we care about these differences? Beside knowing what each function does, we can use them to our own advantage.</p>
+<p>It’s considered better practice to use <code>library()</code> when we want to load packages outside of functions. This is because we would like to know if and where we have a bug as soon as possible. Calling a set of function which doesn’t exists is certainly a bug. We’ll use <code>require()</code> inside functions, as we can manipulate it’s <code>TRUE</code>/<code>FALSE</code> output. For example, in the beginning of our script, we can write a function that will install all the necessary function if they aren’t already installed <a href="">look here</a>. We could also skip parts of a script if the packages aren’t already installed, etc.</p>
+<p>Thank you for reading!</p>
 
     </div>
 

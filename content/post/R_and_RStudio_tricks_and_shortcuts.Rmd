@@ -3,9 +3,9 @@ title: R and RStudio tricks and shortcuts
 author:
 date: '2019-05-28'
 output:
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
 header:
   caption: ''
   image: ''
@@ -26,22 +26,22 @@ We can create multiple cursors by:
 
 1. Ctrl+Alt and use the keyboard up/down arrows
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
 
 In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.
 
 
 2. Ctrl + Alt + right click mouse
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
 
 3. Alt  + right click mouse
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
 
 4. Alt  + Shift right click mouse
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
 
 ##**RStudio Addin Snippets**
 Using Windows as my primary OS, when ever I copy a directory path I need to change the slashes' direction. For this I found the [RStudio Addin Snippets](https://github.com/sfr/RStudio-Addin-Snippets). As the description in their GitHub page says: "R Studio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes".
@@ -53,11 +53,11 @@ devtools::install_github("sfr/RStudio-Addin-Snippets")
 
 A new menu chunk in your "Addins" menu will be added. Next, we can copy and paste using the menu (Addins -> convert slash). 
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif){width=800px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif){width=800px}
 
 Furthermore, we can create a keyboard shortcut for easier use (I like to use Ctrl+Shift+V)
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif){width=800px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif){width=800px}
 
 ##**TRUE and FALSE as numbers**
 One of the nice things we need to remember is that R can treat `TRUE` and `FALSE` as numbers. Thus, we can for example functions on Boolean vectors. 
@@ -67,7 +67,7 @@ sum(myVec)
 ```
 
 ##**require() in functions**
-While I talk about the differences between the two [here](), one of the benefits of using `require()` is its output. whenever, we use `require()` it produces a `TRUE`/`FALSE` output. Thus, we exploit it in function. For example, we can test if a package is installed and raise a warning or installing it if needed.
+While I talk about the differences between the two [here](https://amirdjv.netlify.com/post/library-vs-require/), one of the benefits of using `require()` is its output. whenever, we use `require()` it produces a `TRUE`/`FALSE` output. Thus, we exploit it in function. For example, we can test if a package is installed and raise a warning or installing it if needed.
 ```{r, eval=FALSE}
 if(require(tidyverse) == 1) {warning("tidyverse is installed")}
 ```

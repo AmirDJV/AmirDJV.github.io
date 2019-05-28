@@ -3,9 +3,9 @@ title: R and RStudio tricks and shortcuts
 author:
 date: '2019-05-28'
 output:
-  word_document: default
   html_document:
     df_print: paged
+  word_document: default
 header:
   caption: ''
   image: ''
@@ -26,7 +26,7 @@ categories: []
 <li>Ctrl+Alt and use the keyboard up/down arrows</li>
 </ol>
 <div class="figure">
-<img src="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif" width="300" />
+<img src="D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif" width="300" />
 
 </div>
 <p>In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.</p>
@@ -34,21 +34,21 @@ categories: []
 <li>Ctrl + Alt + right click mouse</li>
 </ol>
 <div class="figure">
-<img src="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif" width="300" />
+<img src="D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif" width="300" />
 
 </div>
 <ol start="3" style="list-style-type: decimal">
 <li>Alt + right click mouse</li>
 </ol>
 <div class="figure">
-<img src="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif" width="300" />
+<img src="D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif" width="300" />
 
 </div>
 <ol start="4" style="list-style-type: decimal">
 <li>Alt + Shift right click mouse</li>
 </ol>
 <div class="figure">
-<img src="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif" width="300" />
+<img src="D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif" width="300" />
 
 </div>
 </div>
@@ -59,12 +59,12 @@ categories: []
 <pre class="r"><code>devtools::install_github(&quot;sfr/RStudio-Addin-Snippets&quot;)</code></pre>
 <p>A new menu chunk in your “Addins” menu will be added. Next, we can copy and paste using the menu (Addins -&gt; convert slash).</p>
 <div class="figure">
-<img src="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif" width="800" />
+<img src="D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif" width="800" />
 
 </div>
 <p>Furthermore, we can create a keyboard shortcut for easier use (I like to use Ctrl+Shift+V)</p>
 <div class="figure">
-<img src="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif" width="800" />
+<img src="D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif" width="800" />
 
 </div>
 </div>
@@ -77,7 +77,7 @@ sum(myVec)</code></pre>
 </div>
 <div id="require-in-functions" class="section level2">
 <h2><strong>require() in functions</strong></h2>
-<p>While I talk about the differences between the two <a href="">here</a>, one of the benefits of using <code>require()</code> is its output. whenever, we use <code>require()</code> it produces a <code>TRUE</code>/<code>FALSE</code> output. Thus, we exploit it in function. For example, we can test if a package is installed and raise a warning or installing it if needed.</p>
+<p>While I talk about the differences between the two <a href="https://amirdjv.netlify.com/post/library-vs-require/">here</a>, one of the benefits of using <code>require()</code> is its output. whenever, we use <code>require()</code> it produces a <code>TRUE</code>/<code>FALSE</code> output. Thus, we exploit it in function. For example, we can test if a package is installed and raise a warning or installing it if needed.</p>
 <pre class="r"><code>if(require(tidyverse) == 1) {warning(&quot;tidyverse is installed&quot;)}</code></pre>
 <p>Or</p>
 <pre class="r"><code>if(require(tidyverse) == 0) {install.packages(&quot;tidyverse&quot;)}</code></pre>

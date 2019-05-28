@@ -26,7 +26,7 @@ We can create multiple cursors by:
 
 1. Ctrl+Alt and use the keyboard up/down arrows
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
+![](static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
 
 In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.
 

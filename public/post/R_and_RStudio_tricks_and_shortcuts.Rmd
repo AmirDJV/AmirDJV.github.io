@@ -2,10 +2,13 @@
 title: R and RStudio tricks and shortcuts
 author:
 date: '2019-05-28'
-output:
+output: 
   html_document:
-    df_print: paged
-  word_document: default
+    toc: true 
+    toc_depth: 3  
+    number_sections: false  
+    theme: united 
+    highlight: tango  
 header:
   caption: ''
   image: ''
@@ -15,6 +18,8 @@ slug: R and RStudio tricks and shortcuts
 tags: []
 categories: []
 ---
+
+
 
 In this post I will try to concentrate nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated! 
 
@@ -37,11 +42,11 @@ In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows,
 
 3. Alt  + right click mouse
 
-![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
 
 4. Alt  + Shift right click mouse
 
-![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
 
 ##**RStudio Addin Snippets**
 Using Windows as my primary OS, when ever I copy a directory path I need to change the slashes' direction. For this I found the [RStudio Addin Snippets](https://github.com/sfr/RStudio-Addin-Snippets). As the description in their GitHub page says: "R Studio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes".

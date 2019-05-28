@@ -26,22 +26,22 @@ We can create multiple cursors by:
 
 1. Ctrl+Alt and use the keyboard up/down arrows
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
 
 In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.
 
 
 2. Ctrl + Alt + right click mouse
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
 
 3. Alt  + right click mouse
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
 
 4. Alt  + Shift right click mouse
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
 
 ##**RStudio Addin Snippets**
 Using Windows as my primary OS, when ever I copy a directory path I need to change the slashes' direction. For this I found the [RStudio Addin Snippets](https://github.com/sfr/RStudio-Addin-Snippets). As the description in their GitHub page says: "R Studio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes".
@@ -53,11 +53,11 @@ devtools::install_github("sfr/RStudio-Addin-Snippets")
 
 A new menu chunk in your "Addins" menu will be added. Next, we can copy and paste using the menu (Addins -> convert slash). 
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif){width=800px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif){width=800px}
 
 Furthermore, we can create a keyboard shortcut for easier use (I like to use Ctrl+Shift+V)
 
-![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/public/img/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif){width=800px}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif){width=800px}
 
 ##**TRUE and FALSE as numbers**
 One of the nice things we need to remember is that R can treat `TRUE` and `FALSE` as numbers. Thus, we can for example functions on Boolean vectors. 

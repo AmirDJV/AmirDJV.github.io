@@ -38,7 +38,7 @@ if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
 }
 ```
 
-In addition, in order to get the IMDB ratings we need to also install/load [this](https://github.com/RMHogervorst/imdb) package. However, if you're only interested in the data, I uploaded it to my GitHub repository [here](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Rating_and_sentiment_analysis_for_Friends/imdb.rds)
+In addition, in order to get the IMDB ratings we need to also install/load [this](https://github.com/RMHogervorst/imdb) package. However, if you're only interested in the data, I uploaded it to my GitHub repository [here](https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Rating_and_sentiment_analysis_for_Friends/imdb.rds).
 ```{r}
 #Load imdb package, install if not loaded
 if (require(imdb) == 0) {devtools::install_github("rmhogervorst/imdb")}
@@ -54,7 +54,7 @@ imdb <- tbl_df(c(1:10)) %>%
     imdbSeries("friends", seasons = x)
   }))
 
-# We'll save the data, so won't abuse the website
+# We'll save the data, so we won't abuse the website
 saveRDS(imdb, "imdb.rds")
 
 ```
@@ -75,7 +75,6 @@ We can see that we have 238 episodes, the average rating was 8.52 with a standar
 
 We can also do a quick box-plot to see what were the ratings for each season. We can also mark which episodes were outliers. 
 ```{r}
-
 imdb %>% 
   group_by(season) %>%
   mutate(outlier = ifelse(

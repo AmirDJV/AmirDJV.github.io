@@ -20,7 +20,7 @@ setwd("D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post")
 options(tidyverse.quiet = TRUE)
 ```
 
-The other day Netflix offered me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)
+The other day Netflix suggested me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)
 
 We can start by loading the required packages: 
 ```{r, warning=FALSE}

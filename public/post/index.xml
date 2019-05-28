@@ -29,7 +29,7 @@ Ctrl+Alt and use the keyboard up/down arrowsIn addition, we can use Ctrl + Al
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://amirdjv.netlify.com/post/rating-and-sentiment-analysis-for-friends/</guid>
-      <description>The other day Netflix offered me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)
+      <description>The other day Netflix suggested me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)
 We can start by loading the required packages:
 library(tidyverse)library(tidytext)library(skimr)## ## Attaching package: &amp;#39;skimr&amp;#39;## The following object is masked from &amp;#39;package:stats&amp;#39;:## ## filterI also used functions from these packages:</description>
     </item>

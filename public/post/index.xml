@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>R and RStudio tricks and shortcuts</title>
+      <link>/post/r-and-rstudio-shortcuts/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-and-rstudio-shortcuts/</guid>
+      <description>In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated!
+Multiple CursorsUsing RStudio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:
+Ctrl+Alt and use the keyboard up/down arrowsIn addition, you can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, postion, etc.</description>
+    </item>
+    
+    <item>
       <title>Creating for loops in R</title>
       <link>/post/creating-for-loops-in-r/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amir Djalovski</title>
@@ -7,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -100,6 +99,44 @@ Making&amp;rdquo;](&amp;ldquo;&lt;a href=&#34;https://www.idc.ac.il/en/schools/p
       
       <guid>/home/tags/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>R and RStudio tricks and shortcuts</title>
+      <link>/post/r-and-rstudio-shortcuts/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-and-rstudio-shortcuts/</guid>
+      <description>
+
+
+&lt;p&gt;In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated!&lt;/p&gt;
+&lt;div id=&#34;multiple-cursors&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;strong&gt;Multiple Cursors&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Using RStudio as our IDE, we can edit multiple places at the same time with “multiple cursors”. We can create multiple cursors by:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Ctrl+Alt and use the keyboard up/down arrows&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;In addition, you can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, postion, etc.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Ctrl + Alt + right click mouse&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alt + right click mouse&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alt + Shift right click mouse&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;rstudio-addin-snippets&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;strong&gt;RStudio Addin Snippets&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;As the description in their github page says: “RStudio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes”. For now I mainly found this addin useful for its “reverse slashes” method.&lt;/p&gt;
+&lt;p&gt;After installig the addin in your RStudio using the following commend:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;sfr/RStudio-Addin-Snippets&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A new menu chunk in your “Addins” menu will be added. Next, we can copy and paste using the menu (Addins -&amp;gt; convert slash).&lt;/p&gt;
+&lt;p&gt;Furthermore, we can create a keyboard shurtcut and for eseir use later on (I like to use Ctrl+Shift+V)&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -255,7 +292,7 @@ print(myVec)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.&lt;/p&gt;
 &lt;p&gt;Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function &lt;code&gt;tempdir()&lt;/code&gt; without any arguments.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tempdir()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the &lt;code&gt;dir.create()&lt;/code&gt; function and &lt;code&gt;paste()&lt;/code&gt; function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the &lt;code&gt;dir.exists()&lt;/code&gt; function.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Creating the new folder
 dir.create(path = paste(
@@ -295,14 +332,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file147020e43a16&amp;quot;           
-## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file147023635078&amp;quot;           
-## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file1470368d4d4b&amp;quot;           
-## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file147038457092&amp;quot;           
-## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file14705d4b1907&amp;quot;           
-## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/file1470df4471e&amp;quot;            
-## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/SaveHere/Citations.bib&amp;quot;     
-## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAzWHXo/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc2ab4d1c&amp;quot;             
+## [2] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc406e667a&amp;quot;            
+## [3] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc58c31713&amp;quot;            
+## [4] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc5d0776fc&amp;quot;            
+## [5] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc63096d7a&amp;quot;            
+## [6] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/file7fc741b5711&amp;quot;            
+## [7] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/SaveHere/Citations.bib&amp;quot;     
+## [8] &amp;quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpWaZG06/SaveHere/Copy_Citations.bib&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Lastly, if we’ll combine the functions that we used with &lt;code&gt;file.remove()&lt;/code&gt; and &lt;code&gt;do.call()&lt;/code&gt;, we can delete all the files we created&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] TRUE TRUE&lt;/code&gt;&lt;/pre&gt;
@@ -336,7 +373,7 @@ require(bib2academic)&lt;/code&gt;&lt;/pre&gt;
                &amp;quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;quot;, 
                sep = &amp;quot;/&amp;quot;),
          copybib = TRUE, abstract = TRUE, overwrite = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Cannot find file &amp;#39;C:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;#39;. Check path and/or file name.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Cannot find file &amp;#39;D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&amp;#39;. Check path and/or file name.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).&lt;/p&gt;
 &lt;p&gt;Next, we should move these files to there correct path. To do that, we should first get a list of all the files inside the folders:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bibFiles &amp;lt;- list.files(&amp;quot;my-bib-folder&amp;quot;, full.names = TRUE)

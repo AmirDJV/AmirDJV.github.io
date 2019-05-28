@@ -1,0 +1,311 @@
+---
+title: "Rating and sentiment analysis for Friends"
+author: "Amir Djalovski"
+date: '2019-05-19'
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+header:
+  caption: ''
+  image: ''
+editor_options:
+  chunk_output_type: console
+slug: Rating and sentiment analysis for Friends
+tags: []
+categories: []
+---
+
+```{r, echo=FALSE}
+setwd("D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post")
+```
+
+The other day Netflix offered me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)
+
+We can start by loading the required packages: 
+```{r}
+require(tidyverse)
+require(tidytext)
+require(skimr)
+```
+
+I also used functions from these packages:
+```{r}
+packages <- c("ggrepel", "stringi", "grid", "varhandle",
+             "plotly", "scales", "viridis")      
+if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
+  install.packages(setdiff(packages, rownames(installed.packages())))  
+}
+```
+
+In addition, in order to get the IMDB ratings we need to also install/load [this](https://github.com/RMHogervorst/imdb) package. However, if you're only interested in the data, I uploaded it to my GitHub repository [here]()
+```{r}
+#Load imdb package, install if not loaded
+if (require(imdb) == 0) {devtools::install_github("rmhogervorst/imdb")}
+```
+
+We'll start by getting the IMDB data for the series. This can be done nicely using the `imdb` wrapper package for open IMDB. 
+```{r, eval=FALSE}
+
+add_key_to_renviron("you API key here")
+
+imdb <- tbl_df(c(1:10)) %>%
+  mutate(data = map(value, function(x) {
+    imdbSeries("friends", seasons = x)
+  }))
+
+# We'll save the data, so won't abuse the website
+saveRDS(imdb, "imdb.rds")
+
+```
+
+Now, let's load the IMDB data and do a quick look of what we have here. 
+```{r}
+imdb <- readRDS("imdb.rds") %>% 
+  unnest(data) %>% 
+  select(title = Title, 
+         season = Season, 
+         episode = Episode, 
+         rating = imdbRating) 
+
+skimr::skim(imdb)
+
+```
+We can see that we have 238 episodes, the average rating was 8.52 with a standard deviation of 0.37, and the median was 8.5.
+
+We can also do a quick box-plot to see what were the ratings for each season. We can also mark which episodes were outliers. 
+```{r}
+
+imdb %>% 
+  group_by(season) %>%
+  mutate(outlier = ifelse(
+    rating < quantile(rating, 0.25) - 1.5 * IQR(rating) |
+      rating > quantile(rating, 0.75) + 1.5 * IQR(rating), 
+    stringi::stri_trans_totitle(
+        gsub("The One with|The One Where", "", title)),
+    NA)) %>% 
+  ggplot(aes(factor(season), rating)) + 
+  geom_boxplot() +
+  scale_y_continuous(breaks = seq(7, 10, 0.5),
+                     limits = c(7, 10)) + 
+  labs(title = "IMDB Ratings by Season", 
+       x = "Season", 
+       y = "Rating") +
+  guides(color=FALSE) +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  ggrepel::geom_text_repel(aes(label = outlier),
+                           na.rm = TRUE)
+```
+It seems that overall, the series kept for most of its episodes the same rating. If we'll look at the median (the black line inside the boxes) rating, it seems somewhat stable. However, we can see that some episodes had really high and low ratings. Being familiar with show, some of these extreme ratings makes sense to me. For example, the episode were Ross wanted to take Rachel to her and Monica's prom (The prom video, season 2), or the episode "Christmas In Tulsa" (season 9) which was basically flashbacks from old episodes. 
+
+We can also use heat-map to look for patterns between the episodes' rating across the different seasons. 
+```{r}
+imdb %>% 
+  ggplot(aes(episode, season, fill = rating)) + 
+  geom_tile(colour = "white", size = 0.2)+
+  labs(x = "Episode", 
+       y = "Season",
+       fill = "Rating",
+       title = "IMDB Rating Scores Across Episdoes By Seasons") +
+  scale_x_continuous(expand = c(0,0), breaks = seq(1, 25, 1)) +
+  scale_y_continuous(expand = c(0,0), breaks = seq(1, 10, 1)) +
+  scale_fill_continuous(type = "viridis") +
+  theme_grey(base_size = 10) +
+  theme(plot.title = element_text(hjust = 0.5),
+        legend.margin=margin(grid::unit(0,"cm")),
+        legend.key.height=grid::unit(0.8,"cm"),
+        legend.key.width=grid::unit(0.2,"cm"))
+```
+
+Now, let's load the transcript, filter for the main characters, do some cleaning, make it tidy and remove some stop words.
+
+You can find the transcripts file [here]().
+```{r}
+
+scripts <- read.csv("Rating_and_sentiment_analysis_for_Friends/friends.csv")
+
+scripts <- scripts %>% 
+  purrr::set_names(tolower(names(scripts))) %>%
+  select(season, episode, title,
+         actor = author,
+         text = quote) %>% 
+  varhandle::unfactor() %>% 
+  filter(actor == "Rachel" | 
+           actor == "Monica" |
+           actor == "Joey" | 
+           actor == "Chandler" |
+           actor == "Ross" |
+           actor == "Phoebe") %>% 
+  mutate(
+    episode = as.numeric(episode),
+    text = gsub("\\s*\\([^\\)]+\\)|\\[.*?\\]","",
+                text), 
+    text = gsub("\\written.*", "", text)) %>%  
+  tidytext::unnest_tokens(word, text) %>%
+  anti_join(stop_words, by = "word") 
+
+```
+
+We can take a quick pick at the scripts:
+```{r}
+head(scripts)
+summary(scripts)
+```
+
+Let's start with small things, like who spoke the most and what was the most occurring word for each character. 
+```{r}
+
+scripts %>% 
+  group_by(actor) %>% 
+  summarise(numberOfWords = sum(!is.na(word)))
+
+scripts %>% 
+  group_by(actor) %>% 
+  count(word) %>% 
+  top_n(3)
+
+```
+
+Interestingly, one of the things that Rachel says the most is "Ross". That made me wonder how much do they reference each other. 
+```{r}
+plotly::ggplotly(
+  scripts %>% 
+    filter(grepl("monica|rachel|joey|chandler|ross|phoebe",
+                 tolower(word))) %>% 
+    mutate(reference = str_extract(
+      pattern = "monica|rachel|joey|chandler|ross|phoebe",
+      string = tolower(word))) %>%
+    group_by(actor, reference) %>% 
+    summarise(Occurrence = sum(!is.na(reference))) %>% 
+    ungroup() %>% 
+    mutate(Actor = factor(
+      x = stringi::stri_trans_totitle(actor), 
+      levels = c("Monica", "Rachel", "Joey",
+                 "Chandler", "Ross", "Phoebe")), 
+      Reference = factor(
+        x = stringi::stri_trans_totitle(reference), 
+        levels = c("Monica", "Rachel", "Joey",
+                   "Chandler", "Ross", "Phoebe"))) %>%
+    ggplot(aes(Actor, Reference, fill = Occurrence)) + 
+    geom_tile(colour = "white", size = 0.2) +
+    labs(x = "Actor", 
+         y = "Reference",
+         fill = "Occurrences",
+         title = "How Much Friends Reference Each Other") +
+    scale_x_discrete(expand = c(0,0)) +
+    scale_y_discrete(expand = c(0,0)) +
+    scale_fill_continuous(type = "viridis") +
+    theme_grey(base_size = 10) +
+    theme(plot.title = element_text(hjust = 0.5),
+          legend.margin=margin(grid::unit(0,"cm")),
+          legend.key.height=grid::unit(0.8,"cm"),
+          legend.key.width=grid::unit(0.2,"cm"))
+)
+```
+Not surprisingly, they don't tend to reference themselves as often. However, as we've seen before, Rachel references Ross even more than any other character reference the others. Even Ross doesn't reference Rachel that often. 
+
+We can also examine how different is the vocabulary each characters use:
+```{r}
+scripts %>% 
+  mutate(word = str_extract(word, "[a-z']+")) %>%
+  count(actor, word) %>%
+  group_by(actor) %>%
+  mutate(proportion = n / sum(!is.na(word))) %>% 
+  select(-n) %>% 
+  spread(actor, proportion) %>% 
+  gather(actor, proportion, -Chandler, -word) %>%
+  na.omit() %>%
+  ggplot(aes(x = proportion, y = Chandler, 
+             color = abs(Chandler - proportion))) +
+  geom_abline(color = "gray40", lty = 2) +
+  geom_jitter(alpha = 0.1, size = 2.5,
+              width = 0.3, height = 0.3) +
+  geom_text(aes(label = word), 
+            check_overlap = TRUE, vjust = 1.5) +
+  scale_x_log10(labels = scales::percent_format()) +
+  scale_y_log10(labels = scales::percent_format()) +
+  viridis::scale_color_viridis(limits = c(0, 0.001)) +
+  facet_wrap(~actor, ncol = 2) +
+  theme(legend.position="none") +
+  labs(y = "Chandler", x = NULL)
+```
+
+Let's continue to some sentiment analyses
+```{r}
+sentimentScript <- scripts %>% 
+  inner_join(tidytext::get_sentiments("bing"), by = "word") %>%
+  group_by(actor, season, episode, sentiment) %>%
+  count(word) %>% 
+  spread(sentiment, n, fill = 0) %>%
+  summarise(sentiment = sum(positive) - sum(negative)) %>%
+  ungroup() 
+
+```
+
+We can look for the most negative season:
+```{r}
+sentimentScript %>% 
+  group_by(season) %>%
+  summarise(avg = mean(sentiment)) %>% 
+  ungroup() %>%
+  arrange(avg) 
+```
+
+Or the most negative character for each season:
+```{r}
+sentimentScript %>% 
+  group_by(season, actor) %>%
+  summarise(avg = mean(sentiment)) %>% 
+  top_n(-1) %>%
+  ungroup() %>%
+  arrange(avg) 
+```
+
+We can also create a heat-map to identify the most negative and positive episode over the seasons
+```{r}
+plotly::ggplotly(
+  sentimentScript %>%
+    group_by(episode, season) %>% 
+    summarise(avg = mean(sentiment)) %>% 
+    ggplot(aes(episode, season, fill = avg)) + 
+    geom_tile(colour = "white", size = 0.2) +
+    labs(x = "Episode", 
+         y = "Season",
+         fill = "Average Sentiment",
+         title = "Avrage Sentiment Values Across Episdoes By Seasons") +
+    scale_x_continuous(expand = c(0,0), breaks = seq(1, 25, 1)) +
+    scale_y_continuous(expand = c(0,0), breaks = seq(1, 10, 1)) +
+    scale_fill_continuous(type = "viridis") +
+    theme_grey(base_size = 10) +
+    theme(plot.title = element_text(hjust = 0.5),
+          legend.margin=margin(grid::unit(0,"cm")),
+          legend.key.height=grid::unit(0.8,"cm"),
+          legend.key.width=grid::unit(0.2,"cm"))
+  )
+```
+
+We can also animate the movement of sentiments over episodes and season for each character
+```{r}
+require(gganimate)
+
+plot1 <- sentimentScript %>%
+  ggplot(aes(episode, sentiment, color = actor)) + 
+  geom_point() + 
+  facet_wrap(~actor) +
+  scale_x_continuous(expand = c(0,0), breaks = seq(1, 25, 1)) +
+  labs(title = "Season: {frame_time}",
+       x = "Episode",
+       y = "Average Sentiment For Episode", 
+       color = "Actor") +
+  transition_time(season) +
+  ease_aes("linear") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+animate(plot1, fps=5, end_pause = 30)
+
+```
+
+Thank you for reading! 
+
+

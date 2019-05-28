@@ -1,8 +1,8 @@
 ---
 title: R and RStudio tricks and shortcuts
-author: Amir Djalovski
-date: '2019-04-21'
-slug: R and RStudio shortcuts
+author:
+date: '2019-05-19'
+slug: R and RStudio tricks and shortcuts
 categories: []
 tags: []
 header:
@@ -16,64 +16,69 @@ output:
     theme: united
 ---
 
-In this post I will try to consetrete nice shortcuts that I tend to use or I wish to use more ofter. I will try to keep it updated! 
+In this post I will try to concentrate nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated! 
 
 
 ##**Multiple Cursors**
 
-Using RStudio as our IDE, we can edit multiple places at the same time with "multiple cursors". 
+Using R Studio as our IDE, we can edit multiple places at the same time with "multiple cursors". 
 We can create multiple cursors by: 
 
 1. Ctrl+Alt and use the keyboard up/down arrows
 
-```{r, echo=FALSE}
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
 
-```
+In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.
 
-In addition, you can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, postion, etc.
-```{r, echo=FALSE}
-
-```
 
 2. Ctrl + Alt + right click mouse
 
-```{r, echo=FALSE}
-
-```
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt_right_click_mouse.gif){width=300px}
 
 3. Alt  + right click mouse
 
-```{r, echo=FALSE}
-
-```
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/R_and_RStudio_tricks_and_shortcuts/Alt_right_click_mouse.gif){width=300px}
 
 4. Alt  + Shift right click mouse
 
-```{r, echo=FALSE}
-
-```
-
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/R_and_RStudio_tricks_and_shortcuts/Alt_Shift_right_click_mouse.gif){width=300px}
 
 ##**RStudio Addin Snippets**
+Using Windows as my primary OS, when ever I copy a directory path I need to change the slashes' direction. For this I found the [RStudio Addin Snippets](https://github.com/sfr/RStudio-Addin-Snippets). As the description in their GitHub page says: "R Studio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes".
 
-As the description in their github page says: "RStudio add-in to copy data to clipboard, reverse slashes, insert and reformat pipes". 
-For now I mainly found this addin useful for its "reverse slashes" method. 
-
-After installig the addin in your RStudio using the following commend: 
+After installing the add-in in your R Studio using the following commend: 
 ```{r, eval = FALSE}
 devtools::install_github("sfr/RStudio-Addin-Snippets")
 ```
 
 A new menu chunk in your "Addins" menu will be added. Next, we can copy and paste using the menu (Addins -> convert slash). 
-```{r, echo=FALSE}
 
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_addin.gif){width=800px}
+
+Furthermore, we can create a keyboard shortcut for easier use (I like to use Ctrl+Shift+V)
+
+![](D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/R_and_RStudio_tricks_and_shortcuts/convert_slash_keyboard.gif){width=800px}
+
+##**TRUE and FALSE as numbers**
+One of the nice things we need to remember is that R can treat `TRUE` and `FALSE` as numbers. Thus, we can for example functions on Boolean vectors. 
+```{r}
+myVec <- c(TRUE, FALSE, TRUE) 
+sum(myVec)
 ```
 
-
-Furthermore, we can create a keyboard shurtcut and for eseir use later on (I like to use Ctrl+Shift+V)
-```{r, echo=FALSE}
-
+##**require() in functions**
+While I talk about the differences between the two [here](), one of the benefits of using `require()` is its output. whenever, we use `require()` it produces a `TRUE`/`FALSE` output. Thus, we exploit it in function. For example, we can test if a package is installed and raise a warning or installing it if needed.
+```{r, eval=FALSE}
+if(require(tidyverse) == 1) {warning("tidyverse is installed")}
 ```
+Or
+```{r, eval=FALSE}
+if(require(tidyverse) == 0) {install.packages("tidyverse")}
+```
+
+Thank you for reading and I will try to update this post with new things!
+
+
 
 
 

@@ -297,7 +297,7 @@ In both cases both functions load the packages with name package and put it on t
 ## logical.return = TRUE, : there is no package called &#39;somepackage&#39;</code></pre>
 <pre><code>## [1] FALSE</code></pre>
 <p>So, why do we care about these differences? Beside knowing what each function does, we can use them to our own advantage.</p>
-<p>It’s considered better practice to use <code>library()</code> when we want to load packages outside of functions. This is because we would like to know if and where we have a bug as soon as possible. Calling a set of function which doesn’t exists is certainly a bug. We’ll use <code>require()</code> inside functions, as we can manipulate it’s <code>TRUE</code>/<code>FALSE</code> output. For example, in the beginning of our script, we can write a function that will install all the necessary function if they aren’t already installed <a href="">look here</a>. We could also skip parts of a script if the packages aren’t already installed, etc.</p>
+<p>It’s considered better practice to use <code>library()</code> when we want to load packages outside of functions. This is because we would like to know if and where we have a bug as soon as possible. Calling a set of function which doesn’t exists is certainly a bug. We’ll use <code>require()</code> inside functions, as we can manipulate it’s <code>TRUE</code>/<code>FALSE</code> output. For example, in the beginning of our script, we can write a function that will install all the necessary function if they aren’t already installed <a href="https://amirdjv.netlify.com/post/r-and-rstudio-tricks-and-shortcuts/">look here</a>. We could also skip parts of a script if the packages aren’t already installed, etc.</p>
 <p>Thank you for reading!</p>
 
     </div>

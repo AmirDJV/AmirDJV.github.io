@@ -289,11 +289,11 @@ The first problem that I had to tackle was how to post my publications. Thus to 
 <p>The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file. Luckily I found a <a href="https://github.com/petzi53/bib2academic">package</a> that was written just for that.</p>
 <p>I started with installing from github the required packages.</p>
 <pre class="r"><code># If not installed, you should install &quot;devtools&quot; and &quot;bib2academic&quot;
-if (!require(&quot;devtools&quot;)) install.packages(&quot;devtools&quot;)</code></pre>
-<pre><code>## Loading required package: devtools</code></pre>
-<pre class="r"><code>if (!require(&quot;bib2academic&quot;)) devtools::install_github(&quot;petzi53/bib2academic&quot;)</code></pre>
-<pre><code>## Loading required package: bib2academic</code></pre>
-<pre class="r"><code>#Load package
+if (!require(&quot;devtools&quot;)) install.packages(&quot;devtools&quot;)
+if (!require(&quot;bib2academic&quot;)) devtools::install_github(&quot;petzi53/bib2academic&quot;)
+
+
+#Load package
 require(bib2academic)</code></pre>
 <p>If you’d like to try while reading, I uploaded my BibTeX file to <a href="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib">github</a>.</p>
 <p>So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.</p>
@@ -301,16 +301,13 @@ require(bib2academic)</code></pre>
                &quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;, 
                sep = &quot;/&quot;),
          copybib = TRUE, abstract = TRUE, overwrite = TRUE)</code></pre>
-<pre><code>## Cannot find file &#39;D:/Amir/Dropbox/MySite/AmirDJV.github.io/content/post/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&#39;. Check path and/or file name.</code></pre>
 <p>If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).</p>
 <p>Next, we should move these files to there correct path. To do that, we should first get a list of all the files inside the folders:</p>
 <pre class="r"><code>bibFiles &lt;- list.files(&quot;my-bib-folder&quot;, full.names = TRUE)
 mdFiles &lt;- list.files(&quot;my-md-folder&quot;, full.names = TRUE)</code></pre>
 <p>Now we can copy them to the correct path:</p>
-<pre class="r"><code>file.copy(from = bibFiles, to = &quot;static/files/citations/&quot;)</code></pre>
-<pre><code>## logical(0)</code></pre>
-<pre class="r"><code>file.copy(from = mdFiles, to = &quot;content/publication/&quot;)</code></pre>
-<pre><code>## logical(0)</code></pre>
+<pre class="r"><code>file.copy(from = bibFiles, to = &quot;static/files/citations/&quot;)
+file.copy(from = mdFiles, to = &quot;content/publication/&quot;)</code></pre>
 <p>Lastly, we should delete the temp folders we created</p>
 <pre class="r"><code>unlink(&quot;my-bib-folder&quot;, recursive = T, force = T)
 unlink(&quot;my-md-folder&quot;, recursive = T, force = T)</code></pre>

@@ -20,7 +20,7 @@ The first problem that I had to tackle was how to post my publications. Thus to 
 
 I started with installing from github the required packages. 
 
-```{r}
+```{r, eval=FALSE}
 # If not installed, you should install "devtools" and "bib2academic"
 if (!require("devtools")) install.packages("devtools")
 if (!require("bib2academic")) devtools::install_github("petzi53/bib2academic")
@@ -35,7 +35,7 @@ If you'd like to try while reading, I uploaded my BibTeX file to [github](https:
 
 So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the "bib2acad" function. 
 Note that instead of writing a direct path, I "pasted" the working directory and the directory of the file.  
-```{r}
+```{r, eval=FALSE}
 bib2acad(paste(getwd(),
                "content/post/Converting_BibTeX_files_to_md_files/my_articles.bib", 
                sep = "/"),
@@ -47,25 +47,25 @@ If everything went smoothly, we should now see in our working directory two new 
 
 Next, we should move these files to there correct path.
 To do that, we should first get a list of all the files inside the folders:
-```{r}
+```{r, eval=FALSE}
 bibFiles <- list.files("my-bib-folder", full.names = TRUE)
 mdFiles <- list.files("my-md-folder", full.names = TRUE)
 ```
 
 Now we can copy them to the correct path:
-```{r}
+```{r, eval=FALSE}
 file.copy(from = bibFiles, to = "static/files/citations/")
 file.copy(from = mdFiles, to = "content/publication/")
 ```
 
 Lastly, we should delete the temp folders we created
-```{r}
+```{r, eval=FALSE}
 unlink("my-bib-folder", recursive = T, force = T)
 unlink("my-md-folder", recursive = T, force = T)
 ```
 
 All that is left is to rebuild our site and to see that the updates took place as we expected 
-```{r}
+```{r, eval=FALSE}
 #If you wish to clean and rebuild the site from start.
 # rmarkdown::clean_site()
 

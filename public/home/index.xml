@@ -1,87 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Amir Djalovski</title>
-    <link>https://amirdjv.netlify.com/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on Amir Djalovski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://amirdjv.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://amirdjv.netlify.com/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>About me Currently, I’m doing my PhD in psychology at Bar-Ilan University (Israel) under the supervision and guidance of Prof. Ruth Feldman from the Interdisciplinary Center Herzliya (Israel). In my PhD I look into how we synchronize to other people we’re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone). Lately, in addition to my research, I had the privilege to take part in other studies concerning mainly maternal depression, stressful environments, and PTSD.</description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https://amirdjv.netlify.com/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/posts/</guid>
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Press and conf</title>
-      <link>https://amirdjv.netlify.com/home/press/</link>
+      <link>/home/press/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/press/</guid>
+      <guid>/home/press/</guid>
       <description>The new york time and science daily wrote about my article [&amp;ldquo;Maternal depression alters stress and immune biomarkers in mother and child&amp;rdquo;](&amp;ldquo;https://www.ncbi.nlm.nih.gov/pubmed/30133052&amp;quot;). I was the chair of the session &amp;ldquo;Synchrony and Emotional Contagion&amp;rdquo; during the conffresnce on [&amp;ldquo;Developmental Social Neuroscience: A Field In The Making&amp;rdquo;](&amp;ldquo;https://www.idc.ac.il/en/schools/psychology/dsn-event/pages/home.aspx&amp;quot;) at the Interdisciplinary Center Herzliya, Israel.
  My article &amp;ldquo;Maternal depression alters stress and immune biomarkers in mother and child&amp;rdquo; [The New York Times](&amp;ldquo;https://www.nytimes.com/2018/08/22/well/mind/depression-in-mothers-impacts-a-childs-immune-and-psychological-health.html&amp;quot;) and Science Daily on my contribution to the .</description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://amirdjv.netlify.com/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://amirdjv.netlify.com/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>https://amirdjv.netlify.com/home/cv/</link>
+      <link>/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/cv/</guid>
+      <guid>/home/cv/</guid>
       <description>Would you like to see my visual CV in HTML or full CV in PDF format.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://amirdjv.netlify.com/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://amirdjv.netlify.com/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
       
-      <guid>https://amirdjv.netlify.com/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     

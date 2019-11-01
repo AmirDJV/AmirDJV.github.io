@@ -239,14 +239,19 @@ enableGitInfo = false
     link = "https://scholar.google.co.il/citations?user=kRDHxuYAAAAJ&hl=en"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/amirdjalovski/"
+
+  [[params.social]]
     name = "Stack Overflow"
     link = "https://stackoverflow.com/users/9352234/djv?tab=profile"
     icon = "stack-overflow" #optional icon attribute used for Font Awesome icons, otherwise the name is lowercased.
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "https://twitter.com/AmirDJV"
+ # [[params.social]]
+  #  icon = "twitter"
+   # icon_pack = "fa"
+    #link = "https://twitter.com/AmirDJV"
 
   [[params.social]]
    icon = "instagram"

@@ -67,13 +67,13 @@ graph2ppt(graph, file = "myGraph.pptx")
 
 As can be seen in the gif below, the exported graph come as a grouped fully editable object: 
 
-![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphPPT.gif){width=300px}
+![](https://amirdjv.github.io/static/post/Export_package/graphPPT.gif){width=300px}
 
 Same can be done to word:
 ```{r, eval=FALSE}
 graph2doc(graph, file = "myGraph.docx")
 ```
-![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphDOC.gif){width=300px}
+![](https://amirdjv.github.io/static/post/Export_package/graphDOC.gif){width=300px}
 
 We can also create a table or output and export it.
 ```{r, eval=TRUE}
@@ -86,7 +86,7 @@ Into Excel:
 ```{r, eval=FALSE}
 table2excel(summary(fit), file = "fit.xlsx")
 ```
-![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/fitXLSX.gif){width=300px}
+![](https://amirdjv.github.io/static/post/Export_package/fitXLSX.gif){width=300px}
 
 Lastly, lets say we created a number of graphs and we want them slide after slide in a PowerPoint slide show, how can we do that? 
 
@@ -123,7 +123,7 @@ for (i in 1:length(manyGraphs$graph)) {
 }
 ```
 
-![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphsPPT.gif){width=300px}
+![](https://amirdjv.github.io/static/post/Export_package/graphsPPT.gif){width=300px}
 
 Thank you for reading! 
 

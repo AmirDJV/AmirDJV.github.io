@@ -1,15 +1,15 @@
 ---
-title: Converting BibTeX files to md files
-author: Amir Djalovski
+title: "Converting BibTeX files to md files"
+author: "Amir Djalovski"
 date: '2018-10-25'
-slug: Converting BibTeX files to md files
-categories: []
-tags: []
+editor_options:
+  chunk_output_type: console
 header:
   caption: ''
   image: ''
-editor_options: 
-  chunk_output_type: console
+slug: Converting BibTeX files to md files
+tags: []
+categories: []
 ---
 
 
@@ -22,13 +22,14 @@ editor_options:
 if (!require(&quot;devtools&quot;)) install.packages(&quot;devtools&quot;)
 if (!require(&quot;bib2academic&quot;)) devtools::install_github(&quot;petzi53/bib2academic&quot;)
 
-
 #Load package
-require(bib2academic)</code></pre>
+library(bib2academic)</code></pre>
 <p>If you’d like to try while reading, I uploaded my BibTeX file to <a href="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib">github</a>.</p>
 <p>So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.</p>
-<pre class="r"><code>bib2acad(paste(getwd(),
-               &quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;, 
+<pre class="r"><code>bib2acad(
+  paste(
+    getwd(),
+    &quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;, 
                sep = &quot;/&quot;),
          copybib = TRUE, abstract = TRUE, overwrite = TRUE)</code></pre>
 <p>If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).</p>
@@ -39,14 +40,14 @@ mdFiles &lt;- list.files(&quot;my-md-folder&quot;, full.names = TRUE)</code></pr
 <pre class="r"><code>file.copy(from = bibFiles, to = &quot;static/files/citations/&quot;)
 file.copy(from = mdFiles, to = &quot;content/publication/&quot;)</code></pre>
 <p>Lastly, we should delete the temp folders we created</p>
-<pre class="r"><code>unlink(&quot;my-bib-folder&quot;, recursive = T, force = T)
-unlink(&quot;my-md-folder&quot;, recursive = T, force = T)</code></pre>
+<pre class="r"><code>unlink(&quot;my-bib-folder&quot;, recursive = TRUE, force = TRUE)
+unlink(&quot;my-md-folder&quot;, recursive = TRUE, force = TRUE)</code></pre>
 <p>All that is left is to rebuild our site and to see that the updates took place as we expected</p>
 <pre class="r"><code>#If you wish to clean and rebuild the site from start.
-# rmarkdown::clean_site()
+rmarkdown::clean_site()
 
 #If you wish to build the site with out preview
-# blogdown::build_site()
+blogdown::build_site()
 
 #If you wish to build and preview the site
-# blogdown::serve_site()</code></pre>
+blogdown::serve_site()</code></pre>

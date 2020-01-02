@@ -44,7 +44,7 @@ dir.exists(paste(
 ```
 
 Now, using the `download.file()` function, we can download the file to our new folder
-```{r}
+```{r, warning=FALSE}
 
 #Save URL
 urlCitation <- "https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib"
@@ -54,7 +54,9 @@ whereToSave <- paste(tempdir(), "SaveHere", sep = "/")
 
 #Download file
 download.file(url = urlCitation,
-              destfile = paste(whereToSave, "Citations.bib", sep = "/"))
+              destfile = paste(whereToSave, "Citations.bib",
+                               sep = "/"), 
+              quiet = TRUE)
 
 ```
 

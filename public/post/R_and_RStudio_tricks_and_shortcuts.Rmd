@@ -30,7 +30,7 @@ Using R Studio as our IDE, we can edit multiple places at the same time with "mu
 We can create multiple cursors by: 
 
 1. Ctrl+Alt and use the keyboard up/down arrows
-
+ 
 ![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Ctrl_Alt.gif){width=300px}
 
 In addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.

@@ -67,7 +67,7 @@ graph2ppt(graph, file = "myGraph.pptx")
 
 As can be seen in the gif below, the exported graph come as a grouped fully editable object: 
 
-![](https://github.com/AmirDJV/AmirDJV.github.io/blob/masterstatic/post/Export_package_for_exporting_graphs_and_R_output_to_editable_word_powerpoint_and_office/graphPPT.gif){width=300px}
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphPPT.gif){width=300px}
 
 Same can be done to word:
 ```{r, eval=FALSE}

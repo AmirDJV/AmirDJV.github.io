@@ -85,5 +85,14 @@ While wondering around the amazing world of blog writing with blogdown package I
 The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file.</description>
     </item>
     
+    <item>
+      <title>Export package for exporting graphs and R output to editable word, powerpoint and office documents</title>
+      <link>https://amirdjv.netlify.com/post/export-package-for-exporting-graphs-and-r-output-to-editable-word-powerpoint-and-office-documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/export-package-for-exporting-graphs-and-r-output-to-editable-word-powerpoint-and-office-documents/</guid>
+      <description>One of the benefits of using R is the beautiful graphs that you can create easily. However, as sometimes you want to write a document in Word or PowerPoint or you need to collaborate with others who are using these programs, the need to export your figures becomes a hassle. Moreover, usually it will be as a non-editable picture. Lately, I found the export package which allows you to export your graphs and outputs into a nice and neat editable office objects.</description>
+    </item>
+    
   </channel>
 </rss>

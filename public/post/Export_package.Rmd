@@ -1,0 +1,135 @@
+---
+title: "Export package for exporting graphs and R output to editable word, powerpoint and office documents"
+author: "Amir Djalovski"
+date: '02-01-20'
+editor_options:
+  chunk_output_type: inline
+header:
+  caption: ''
+  image: ''
+slug: Export package for exporting graphs and R output to editable word, powerpoint and office documents
+tags: []
+categories: []
+---
+
+One of the benefits of using R is the beautiful graphs that you can create easily. However, as sometimes you want to write a document in Word or PowerPoint or you need to collaborate with others who are using these programs, the need to `export` your figures becomes a hassle. Moreover, usually it will be as a non-editable picture. Lately, I found the [`export`](https://github.com/tomwenseleers/export) package which allows you to export your graphs and outputs into a nice and neat editable office objects. 
+
+We should start by installing the package from CRAN: 
+```{r, eval=FALSE}
+install.packages("export")
+```
+
+Another alternative is to use the dev. version from github (make sure you have all the dependencies up to date):
+```{r, eval=FALSE}
+install.packages("officer")
+install.packages("rvg")
+install.packages("openxlsx")
+install.packages("ggplot2")
+install.packages("flextable")
+install.packages("xtable")
+install.packages("rgl")
+install.packages("stargazer")
+install.packages("tikzDevice")
+install.packages("xml2")
+install.packages("broom")
+install.packages("devtools")
+library(devtools)
+devtools::install_github("tomwenseleers/export")
+```
+
+Great, now lets load the package and see the functions we have: 
+```{r}
+library(export)
+
+ls("package:export") 
+
+```
+
+We can see a certain pattern of `what` to `format`. Thus, we can export for example graphs to pictures (bitmap, jpg, png, tif) or to office documents (PowerPoint, Excel, Word). 
+
+Let's create an example graph and start the exporting. We'll be using the `iris` data-set. 
+```{r}
+library(tidyverse)
+
+head(iris)
+
+graph <- iris %>% 
+  ggplot(aes(Species, Sepal.Length)) + 
+  geom_boxplot()
+  
+graph
+```
+
+And exporting to PowerPoint: 
+```{r, eval=FALSE}
+graph2ppt(graph, file = "myGraph.pptx")
+```
+
+As can be seen in the gif below, the exported graph come as a grouped fully editable object: 
+
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphPPT.gif){width=300px}
+
+Same can be done to word:
+```{r, eval=FALSE}
+graph2doc(graph, file = "myGraph.docx")
+```
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphDOC.gif){width=300px}
+
+We can also create a table or output and export it.
+```{r, eval=TRUE}
+fit <- lm(Sepal.Length ~ Petal.Length*Petal.Width, data = iris)
+
+summary(fit)
+```
+
+Into Excel:
+```{r, eval=FALSE}
+table2excel(summary(fit), file = "fit.xlsx")
+```
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/fitXLSX.gif){width=300px}
+
+Lastly, lets say we created a number of graphs and we want them slide after slide in a PowerPoint slide show, how can we do that? 
+
+First we create the graphs:
+```{r}
+manyGraphs <- iris %>% 
+  nest(-Species) %>% 
+  mutate(
+    graph = purrr::map2(
+    .x = data,
+    .y = Species, 
+    .f = function(x, y) { 
+      x %>% 
+        ggplot(aes(Sepal.Width, Sepal.Length)) + 
+        geom_point() + 
+        geom_smooth(method = "lm") + 
+        ggtitle(y)}))
+
+manyGraphs
+```
+
+Now, we can loop over the graphs and add them into the same presentation but in different slides: 
+```{r, eval=FALSE}
+
+for (i in 1:length(manyGraphs$graph)) {
+  graphics.off()
+  print(manyGraphs$graph[[i]])
+  export::graph2ppt(
+    file="myPlotsInPPT.pptx", 
+    width=10,
+    aspectr=sqrt(2),
+    append=TRUE)
+  graphics.off()
+}
+```
+
+![](https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphsPPT.gif){width=300px}
+
+Thank you for reading! 
+
+Cheers, 
+Amir
+
+
+
+

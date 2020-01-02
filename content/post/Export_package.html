@@ -1,0 +1,154 @@
+---
+title: "Export package for exporting graphs and R output to editable word, powerpoint and office documents"
+author: "Amir Djalovski"
+date: '02-01-20'
+editor_options:
+  chunk_output_type: inline
+header:
+  caption: ''
+  image: ''
+slug: Export package for exporting graphs and R output to editable word, powerpoint and office documents
+tags: []
+categories: []
+---
+
+
+
+<p>One of the benefits of using R is the beautiful graphs that you can create easily. However, as sometimes you want to write a document in Word or PowerPoint or you need to collaborate with others who are using these programs, the need to <code>export</code> your figures becomes a hassle. Moreover, usually it will be as a non-editable picture. Lately, I found the <a href="https://github.com/tomwenseleers/export"><code>export</code></a> package which allows you to export your graphs and outputs into a nice and neat editable office objects.</p>
+<p>We should start by installing the package from CRAN:</p>
+<pre class="r"><code>install.packages(&quot;export&quot;)</code></pre>
+<p>Another alternative is to use the dev. version from github (make sure you have all the dependencies up to date):</p>
+<pre class="r"><code>install.packages(&quot;officer&quot;)
+install.packages(&quot;rvg&quot;)
+install.packages(&quot;openxlsx&quot;)
+install.packages(&quot;ggplot2&quot;)
+install.packages(&quot;flextable&quot;)
+install.packages(&quot;xtable&quot;)
+install.packages(&quot;rgl&quot;)
+install.packages(&quot;stargazer&quot;)
+install.packages(&quot;tikzDevice&quot;)
+install.packages(&quot;xml2&quot;)
+install.packages(&quot;broom&quot;)
+install.packages(&quot;devtools&quot;)
+library(devtools)
+devtools::install_github(&quot;tomwenseleers/export&quot;)</code></pre>
+<p>Great, now lets load the package and see the functions we have:</p>
+<pre class="r"><code>library(export)
+
+ls(&quot;package:export&quot;) </code></pre>
+<pre><code>##  [1] &quot;graph2bitmap&quot;      &quot;graph2doc&quot;         &quot;graph2eps&quot;        
+##  [4] &quot;graph2jpg&quot;         &quot;graph2office&quot;      &quot;graph2pdf&quot;        
+##  [7] &quot;graph2png&quot;         &quot;graph2ppt&quot;         &quot;graph2svg&quot;        
+## [10] &quot;graph2tif&quot;         &quot;graph2vector&quot;      &quot;rgl2bitmap&quot;       
+## [13] &quot;rgl2png&quot;           &quot;table2csv&quot;         &quot;table2csv2&quot;       
+## [16] &quot;table2doc&quot;         &quot;table2excel&quot;       &quot;table2html&quot;       
+## [19] &quot;table2office&quot;      &quot;table2ppt&quot;         &quot;table2spreadsheet&quot;
+## [22] &quot;table2tex&quot;</code></pre>
+<p>We can see a certain pattern of <code>what</code> to <code>format</code>. Thus, we can export for example graphs to pictures (bitmap, jpg, png, tif) or to office documents (PowerPoint, Excel, Word).</p>
+<p>Let’s create an example graph and start the exporting. We’ll be using the <code>iris</code> data-set.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages -------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## &lt;U+2713&gt; ggplot2 3.2.1     &lt;U+2713&gt; purrr   0.3.3
+## &lt;U+2713&gt; tibble  2.1.3     &lt;U+2713&gt; dplyr   0.8.3
+## &lt;U+2713&gt; tidyr   1.0.0     &lt;U+2713&gt; stringr 1.4.0
+## &lt;U+2713&gt; readr   1.3.1     &lt;U+2713&gt; forcats 0.4.0</code></pre>
+<pre><code>## -- Conflicts ----------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>head(iris)</code></pre>
+<pre><code>##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+## 1          5.1         3.5          1.4         0.2  setosa
+## 2          4.9         3.0          1.4         0.2  setosa
+## 3          4.7         3.2          1.3         0.2  setosa
+## 4          4.6         3.1          1.5         0.2  setosa
+## 5          5.0         3.6          1.4         0.2  setosa
+## 6          5.4         3.9          1.7         0.4  setosa</code></pre>
+<pre class="r"><code>graph &lt;- iris %&gt;% 
+  ggplot(aes(Species, Sepal.Length)) + 
+  geom_boxplot()
+  
+graph</code></pre>
+<p><img src="/post/Export_package_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>And exporting to PowerPoint:</p>
+<pre class="r"><code>graph2ppt(graph, file = &quot;myGraph.pptx&quot;)</code></pre>
+<p>As can be seen in the gif below, the exported graph come as a grouped fully editable object:</p>
+<div class="figure">
+<img src="https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphPPT.gif" width="300" />
+
+</div>
+<p>Same can be done to word:</p>
+<pre class="r"><code>graph2doc(graph, file = &quot;myGraph.docx&quot;)</code></pre>
+<div class="figure">
+<img src="https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphDOC.gif" width="300" />
+
+</div>
+<p>We can also create a table or output and export it.</p>
+<pre class="r"><code>fit &lt;- lm(Sepal.Length ~ Petal.Length*Petal.Width, data = iris)
+
+summary(fit)</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = Sepal.Length ~ Petal.Length * Petal.Width, data = iris)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -1.00058 -0.25209  0.00766  0.21640  0.89542 
+## 
+## Coefficients:
+##                          Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)               4.57717    0.11195  40.885  &lt; 2e-16 ***
+## Petal.Length              0.44168    0.06551   6.742 3.38e-10 ***
+## Petal.Width              -1.23932    0.21937  -5.649 8.16e-08 ***
+## Petal.Length:Petal.Width  0.18859    0.03357   5.617 9.50e-08 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.3667 on 146 degrees of freedom
+## Multiple R-squared:  0.8078, Adjusted R-squared:  0.8039 
+## F-statistic: 204.5 on 3 and 146 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p>Into Excel:</p>
+<pre class="r"><code>table2excel(summary(fit), file = &quot;fit.xlsx&quot;)</code></pre>
+<div class="figure">
+<img src="https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/fitXLSX.gif" width="300" />
+
+</div>
+<p>Lastly, lets say we created a number of graphs and we want them slide after slide in a PowerPoint slide show, how can we do that?</p>
+<p>First we create the graphs:</p>
+<pre class="r"><code>manyGraphs &lt;- iris %&gt;% 
+  nest(-Species) %&gt;% 
+  mutate(
+    graph = purrr::map2(
+    .x = data,
+    .y = Species, 
+    .f = function(x, y) { 
+      x %&gt;% 
+        ggplot(aes(Sepal.Width, Sepal.Length)) + 
+        geom_point() + 
+        geom_smooth(method = &quot;lm&quot;) + 
+        ggtitle(y)}))</code></pre>
+<pre><code>## Warning: All elements of `...` must be named.
+## Did you want `data = c(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width)`?</code></pre>
+<pre class="r"><code>manyGraphs</code></pre>
+<pre><code>## # A tibble: 3 x 3
+##   Species              data graph 
+##   &lt;fct&gt;      &lt;list&lt;df[,4]&gt;&gt; &lt;list&gt;
+## 1 setosa           [50 × 4] &lt;gg&gt;  
+## 2 versicolor       [50 × 4] &lt;gg&gt;  
+## 3 virginica        [50 × 4] &lt;gg&gt;</code></pre>
+<p>Now, we can loop over the graphs and add them into the same presentation but in different slides:</p>
+<pre class="r"><code>for (i in 1:length(manyGraphs$graph)) {
+  graphics.off()
+  print(manyGraphs$graph[[i]])
+  export::graph2ppt(
+    file=&quot;myPlotsInPPT.pptx&quot;, 
+    width=10,
+    aspectr=sqrt(2),
+    append=TRUE)
+  graphics.off()
+}</code></pre>
+<div class="figure">
+<img src="https://amirdjv.github.io/static/post/R_and_RStudio_tricks_and_shortcuts/Export_package/graphsPPT.gif" width="300" />
+
+</div>
+<p>Thank you for reading!</p>
+<p>Cheers, Amir</p>

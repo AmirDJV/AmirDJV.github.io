@@ -285,7 +285,7 @@ Whenever we open an R session, R creates a temporary folder and will delete it w
 <p>When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.</p>
 <p>Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function <code>tempdir()</code> without any arguments.</p>
 <pre class="r"><code>tempdir()</code></pre>
-<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY&quot;</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y&quot;</code></pre>
 <p>Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the <code>dir.create()</code> function and <code>paste()</code> function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the <code>dir.exists()</code> function.</p>
 <pre class="r"><code>#Creating the new folder
 dir.create(path = paste(
@@ -327,14 +327,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)</code></pre>
-<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/file29501dcb7f26&quot;           
-## [2] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/file295021971e03&quot;           
-## [3] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/file295037d22413&quot;           
-## [4] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/file295062157370&quot;           
-## [5] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/file295072d3bcb&quot;            
-## [6] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/file2950f9623c&quot;             
-## [7] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/SaveHere/Citations.bib&quot;     
-## [8] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpCA4PjY/SaveHere/Copy_Citations.bib&quot;</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/file1dc85c3c7ef&quot;            
+## [2] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/file1dc85ccb395c&quot;           
+## [3] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/file1dc85fd87873&quot;           
+## [4] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/file1dc861972e4&quot;            
+## [5] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/file1dc862803ee1&quot;           
+## [6] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/file1dc87db76d57&quot;           
+## [7] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/SaveHere/Citations.bib&quot;     
+## [8] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\Rtmp8i7g6y/SaveHere/Copy_Citations.bib&quot;</code></pre>
 <p>Lastly, if we’ll combine the functions that we used with <code>file.remove()</code> and <code>do.call()</code>, we can delete all the files we created</p>
 <pre class="r"><code>do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))</code></pre>
 <pre><code>## [1] TRUE TRUE</code></pre>

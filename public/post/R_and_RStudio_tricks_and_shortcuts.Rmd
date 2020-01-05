@@ -21,7 +21,7 @@ categories: []
 
 
 
-In this post I will try to concentrate nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated! 
+In this post I will try to gather nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated! 
 
 
 ##**Multiple Cursors**

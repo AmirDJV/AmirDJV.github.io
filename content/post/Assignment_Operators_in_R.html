@@ -1,0 +1,73 @@
+---
+title: "Assignment operators in R"
+author: "Amir Djalovski"
+date: '26-01-2020'
+output:
+  html_document:
+    df_print: paged
+header:
+  caption: ''
+  image: ''
+editor_options:
+  chunk_output_type: console
+slug: Assignment operators in R
+tags: []
+categories: []
+---
+
+
+
+<p>The other day I helped a colleague of mine, who’s new to R, with her script. One of the main things that jump to my eyes was the use of “=” operator instead of “&lt;-” to assign values to a new variable. While I knew that they act differently, it is not recommended, and actually goes against Google’s R style guide (a fork of (Tidyverse Style Guide)[<a href="https://style.tidyverse.org/syntax.html#assignment" class="uri">https://style.tidyverse.org/syntax.html#assignment</a>]) - I wasn’t able to explain the full answer for “why not to use it”.</p>
+<p>According to the help for assignments (<code>?assignOps</code>), there are three types of operators: 1. <code>&lt;-</code> 2. <code>&lt;&lt;-</code> 3. <code>=</code></p>
+<p>While the first two can assign a value also to the right (e.g. <code>5 -&gt; x</code> and <code>5 -&gt;&gt; x</code>), “=” cannot (e.g. <code>5 = x</code>) and will result with error (<code>Error in 5 = x : invalid (do_set) left-hand side to assignment</code>).</p>
+<p>We also need to distinguish between the use of assignments inside or outside the global environment. We can use the <code>=</code> <em>only in top levels</em> (e.g., in console or in “main script”) or as <em>subexpressions</em> (e.g. <code>data.frame(x = c(1, 2, 3)</code> and <code>list(myList = c(1, 2, 3))</code>). However, when we use <code>&lt;-</code> it will be evaluated <em>only within its own scope</em>. Thus, when used inside a function, it will only operate for variables in the function. On the other hand, if <code>&lt;&lt;-</code> will be used, it will be evaluated (or assigned) within the global environment. Thus, a general recommendation will be to avoid <code>&lt;&lt;-</code> at any cost!.</p>
+<p>For example the function below will assign 5 only within the function’s scope:</p>
+<pre class="r"><code>#Create the function
+inside &lt;- function(y) {
+  x &lt;- 5
+}
+
+#Run the function
+inside()
+
+#See which variables/functions we have 
+ls()</code></pre>
+<pre><code>## [1] &quot;inside&quot;</code></pre>
+<pre class="r"><code>#Remove the function we created
+rm(inside)</code></pre>
+<p>However, this function will assign the value 5 to the global environment:</p>
+<pre class="r"><code>#Create the function
+outside &lt;- function(y) {
+  x &lt;&lt;- 5
+}
+
+#Run the function
+outside()
+
+#See which variables/function we have 
+ls()</code></pre>
+<pre><code>## [1] &quot;outside&quot; &quot;x&quot;</code></pre>
+<pre class="r"><code>#Remove the function and variable we created
+rm(outside, x)</code></pre>
+<p>Lastly, R inferno ((a book about the weird things in R)[<a href="http://www.burns-stat.com/pages/Tutor/R_inferno.pdf" class="uri">http://www.burns-stat.com/pages/Tutor/R_inferno.pdf</a>]) also states that “= is not a synonym of &lt;-” and gives the following two examples of how <code>=</code> and “&lt;-” don’t necessarily act the same.</p>
+<p>When assigning a variable to a function:</p>
+<pre class="r"><code>foo &lt;- function(x, a) {x+ a}
+
+foo(93, a = 5)</code></pre>
+<pre><code>## [1] 98</code></pre>
+<pre class="r"><code>ls()</code></pre>
+<pre><code>## [1] &quot;foo&quot;</code></pre>
+<p>Versus (calculated <code>foo</code> and create an <code>a</code> varible):</p>
+<pre class="r"><code>foo(93, a &lt;- 5)</code></pre>
+<pre><code>## [1] 98</code></pre>
+<pre class="r"><code>ls()</code></pre>
+<pre><code>## [1] &quot;a&quot;   &quot;foo&quot;</code></pre>
+<p>As you clearly would like to use <code>&lt;-</code> when you set an argument of a functions.</p>
+<p>And when doing things like this:</p>
+<pre class="r"><code>system.time(result &lt;- foo(93, a = 5))</code></pre>
+<pre><code>##    user  system elapsed 
+##       0       0       0</code></pre>
+<p>Versus (will result with error):</p>
+<pre class="r"><code>system.time(result &lt;- foo(93, a = 5))</code></pre>
+<p>When we use “=” instead of “&lt;-”, R thinks we’re trying to assign the <code>results</code> argument of <code>system.time</code> - which doesn’t exist!.</p>
+<p>To sum up, if you can use either “=” or “&lt;-”, use the “&lt;-” operator. In addition, never use the “&lt;&lt;-” operator.</p>

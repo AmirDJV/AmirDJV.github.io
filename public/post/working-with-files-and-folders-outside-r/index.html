@@ -21,7 +21,7 @@
 Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/working-with-files-and-folders-outside-r/">
+  <link rel="alternate" hreflang="en-us" href="https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/">
 
   
 
@@ -74,20 +74,20 @@ Whenever we open an R session, R creates a temporary folder and will delete it w
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Amir Djalovski">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="alternate" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="feed" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/post/working-with-files-and-folders-outside-r/">
+  <link rel="canonical" href="https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Amir Djalovski">
-  <meta property="og:url" content="/post/working-with-files-and-folders-outside-r/">
+  <meta property="og:url" content="https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/">
   <meta property="og:title" content="Working with files and folders outside R | Amir Djalovski">
   <meta property="og:description" content="When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
 Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.">
@@ -285,7 +285,7 @@ Whenever we open an R session, R creates a temporary folder and will delete it w
 <p>When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.</p>
 <p>Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session. We can see our current temporary folder if we’ll run the function <code>tempdir()</code> without any arguments.</p>
 <pre class="r"><code>tempdir()</code></pre>
-<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32&quot;</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6&quot;</code></pre>
 <p>Now, let us say we want to download data, we wouldn’t like that the files that we downloaded will just “hang around” in the temporary folder. Thus, we can create a new folder inside the temp folder and save the files there. To create a new folder we can use the <code>dir.create()</code> function and <code>paste()</code> function to concatenate the temp folder (as it changes each time we open/close R) with the name of the folder we want. In addition, we can check if the folder was actually created using the <code>dir.exists()</code> function.</p>
 <pre class="r"><code>#Creating the new folder
 dir.create(path = paste(
@@ -327,14 +327,14 @@ list.files(path = tempdir(),
            pattern = NULL,
            full.names = TRUE,
            recursive = TRUE)</code></pre>
-<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/file247c28397951&quot;           
-## [2] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/file247c4c781b9d&quot;           
-## [3] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/file247c5ac9ebf&quot;            
-## [4] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/file247c63ec48f6&quot;           
-## [5] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/file247c74016a48&quot;           
-## [6] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/file247c7bfd6014&quot;           
-## [7] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/SaveHere/Citations.bib&quot;     
-## [8] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpAR2s32/SaveHere/Copy_Citations.bib&quot;</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/file398c31ea2a4e&quot;           
+## [2] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/file398c32c3b3d&quot;            
+## [3] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/file398c5471687&quot;            
+## [4] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/file398c5647b6f&quot;            
+## [5] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/file398c6862634&quot;            
+## [6] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/file398c78643ea9&quot;           
+## [7] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/SaveHere/Citations.bib&quot;     
+## [8] &quot;C:\\Users\\Amir\\AppData\\Local\\Temp\\RtmpszZIN6/SaveHere/Copy_Citations.bib&quot;</code></pre>
 <p>Lastly, if we’ll combine the functions that we used with <code>file.remove()</code> and <code>do.call()</code>, we can delete all the files we created</p>
 <pre class="r"><code>do.call(file.remove, list(list.files(whereToSave, full.names = TRUE)))</code></pre>
 <pre><code>## [1] TRUE TRUE</code></pre>

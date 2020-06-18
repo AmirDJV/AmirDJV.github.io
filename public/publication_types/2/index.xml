@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Amir Djalovski</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://amirdjv.netlify.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HyPyP: a Hyperscanning Python Pipeline for inter-brain connectivity analysis</title>
+      <link>https://amirdjv.netlify.com/publication/2020-01-01_ayrolles2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/publication/2020-01-01_ayrolles2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Maternal depression impacts child psychopathology across the first decade of life: Oxytocin and synchrony as markers of resilience</title>
@@ -40,24 +49,6 @@
     </item>
     
     <item>
-      <title>Maternal depression impacts child psychopathology across the first decade of life: Oxytocin and synchrony as markers of resilience</title>
-      <link>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://amirdjv.netlify.com/publication/2018-01-01_priel2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
       <link>https://amirdjv.netlify.com/publication/2018-01-01_ulmer-yaniv2018a/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -67,7 +58,7 @@
     </item>
     
     <item>
-      <title>Stress and Immune Biomarkers Interact with Parenting Behavior to Shape Anxiety Symptoms in Trauma-Exposed Youth</title>
+      <title>Stress and immune biomarkers interact with parenting behavior to shape anxiety symptoms in trauma-exposed youth</title>
       <link>https://amirdjv.netlify.com/publication/2018-01-01_yirmiya2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
@@ -81,15 +72,6 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://amirdjv.netlify.com/publication/2017-01-01_kinreich2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maternal immune and affiliative biomarkers and sensitive parenting mediate the effects of chronic early trauma on child anxiety</title>
-      <link>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://amirdjv.netlify.com/publication/2017-01-01_ulmer-yaniv2017/</guid>
       <description></description>
     </item>
     
@@ -121,7 +103,7 @@
     </item>
     
     <item>
-      <title>International trends in electronic media communication among 11- to 15-year-olds in 30 countries from 2002 to 2010: association with ease of communication with friends of the opposite sex</title>
+      <title>International trends in electronic media communication among 11- to 15-year-olds in 30 countries from 2002 to 2010: Association with ease of communication with friends of the opposite sex</title>
       <link>https://amirdjv.netlify.com/publication/2015-01-01_boniel-nissim2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       

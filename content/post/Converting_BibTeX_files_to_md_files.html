@@ -15,7 +15,7 @@ categories: []
 
 
 <p>This is my first post! YAY!</p>
-<p>While wondering around the amazing world of blog writing with <a href="https://github.com/rstudio/blogdown">blogdown package</a> I had to choose a theme to work with. For now, I’ve chosen the <a href="https://themes.gohugo.io/academic/">hugo academic theme</a> due to recommendations over the web and it’s so called easy interface and “out of the box” utilities.</p>
+<p>While wondering around the amazing world of blog writing with <a href="https://github.com/rstudio/blogdown">blogdown package</a> I had to choose a theme to work with. For now, I've chosen the <a href="https://themes.gohugo.io/academic/">hugo academic theme</a> due to recommendations over the web and it's so called easy interface and &quot;out of the box&quot; utilities.</p>
 <p>The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file. Luckily I found a <a href="https://github.com/petzi53/bib2academic">package</a> that was written just for that.</p>
 <p>I started with installing from github the required packages.</p>
 <pre class="r"><code># If not installed, you should install &quot;devtools&quot; and &quot;bib2academic&quot;
@@ -24,15 +24,15 @@ if (!require(&quot;bib2academic&quot;)) devtools::install_github(&quot;petzi53/b
 
 #Load package
 library(bib2academic)</code></pre>
-<p>If you’d like to try while reading, I uploaded my BibTeX file to <a href="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib">github</a>.</p>
-<p>So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the “bib2acad” function. Note that instead of writing a direct path, I “pasted” the working directory and the directory of the file.</p>
+<p>If you'd like to try while reading, I uploaded my BibTeX file to <a href="https://github.com/AmirDJV/AmirDJV.github.io/blob/master/content/post/Converting_BibTeX_files_to_md_files/my_articles.bib">github</a>.</p>
+<p>So, now we need to start the conversion of the BibTeX file to multiple .bib files and .md files. This can be done using the &quot;bib2acad&quot; function. Note that instead of writing a direct path, I &quot;pasted&quot; the working directory and the directory of the file.</p>
 <pre class="r"><code>bib2acad(
   paste(
     getwd(),
     &quot;content/post/Converting_BibTeX_files_to_md_files/my_articles.bib&quot;, 
                sep = &quot;/&quot;),
          copybib = TRUE, abstract = TRUE, overwrite = TRUE)</code></pre>
-<p>If everything went smoothly, we should now see in our working directory two new folders “my-bib-folder” (which holds all the BibTeX files) and “my-md-folder (which holds all the .md files).</p>
+<p>If everything went smoothly, we should now see in our working directory two new folders &quot;my-bib-folder&quot; (which holds all the BibTeX files) and &quot;my-md-folder (which holds all the .md files).</p>
 <p>Next, we should move these files to there correct path. To do that, we should first get a list of all the files inside the folders:</p>
 <pre class="r"><code>bibFiles &lt;- list.files(&quot;my-bib-folder&quot;, full.names = TRUE)
 mdFiles &lt;- list.files(&quot;my-md-folder&quot;, full.names = TRUE)</code></pre>

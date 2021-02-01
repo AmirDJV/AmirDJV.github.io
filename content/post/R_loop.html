@@ -18,7 +18,7 @@ categories: []
 
 
 
-<p>Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer’s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during “simple” vectorizing operation on big objects.</p>
+<p>Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer's RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during &quot;simple&quot; vectorizing operation on big objects.</p>
 <p>When creating loops we need to supply 4 arguments:</p>
 <ol style="list-style-type: decimal">
 <li>iterator - index to iterate over</li>
@@ -26,14 +26,14 @@ categories: []
 <li>stop - when would we stop?</li>
 <li>what to do</li>
 </ol>
-<p>Let’s try to understand more on how to build a loop from the flowing example:</p>
+<p>Let's try to understand more on how to build a loop from the flowing example:</p>
 <pre class="r"><code>for (i in 1:5) {
   
   print(i)
 
 }</code></pre>
-<p>In this example, i is our iterator, 1 and 5 are our start and stop, and we print out our iterator. If we’d like to put it into words we can say: “for every i in 1 to 5 print i”.</p>
-<p>Now, let’s run our loop and see what is happing:</p>
+<p>In this example, i is our iterator, 1 and 5 are our start and stop, and we print out our iterator. If we'd like to put it into words we can say: &quot;for every i in 1 to 5 print i&quot;.</p>
+<p>Now, let's run our loop and see what is happing:</p>
 <pre class="r"><code>i &lt;- 1
 for (i in 1:5) {
   
@@ -64,7 +64,7 @@ for (i in 1:length(myVec)) {
 <p>In addition, we call the index i<sup>th</sup> of our vector. Which is same as doing below for each and every i.</p>
 <pre class="r"><code>myVec[1]</code></pre>
 <pre><code>## [1] &quot;apple&quot;</code></pre>
-<p>If we’ll put our loop into words it will read like: “for every i in 1 to the length of myVec, print the value in each i index”.</p>
+<p>If we'll put our loop into words it will read like: &quot;for every i in 1 to the length of myVec, print the value in each i index&quot;.</p>
 <p>The same can be applied for every type of indexed object in R. The only thing that we need to note is how the object is indexed. For example, we can also iterate over a <code>data.frame</code>. Example <code>data.frame</code>:</p>
 <pre class="r"><code>df &lt;- data.frame(name = c(&quot;James&quot;, &quot;Anne&quot;, &quot;James II&quot;, &quot;Mary II&quot;), 
                  dob = c(1566, 1665, 1633, 1662), 

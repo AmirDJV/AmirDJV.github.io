@@ -22,8 +22,8 @@ categories: []
   out &lt;- x^2
   return(out)
   }</code></pre>
-<p>We assigned the function to <code>square</code>, thus whenever we’d like to call the function we’ll use <code>square()</code>. Next, the function takes only one argument (<code>x</code>), the input will be squared and will get assigned to <code>out</code>. Lastly, using the <code>base R</code> function <code>return</code>, the function will return the value of <code>out</code>.</p>
-<p>Practically, we don’t have to assign the function to <code>out</code> or use <code>return</code> in this example. However, getting used to using <code>return</code> is a good habit. Whenever we build a long function and we want to debug it, it’s always nice to look for the <code>return</code> and see what the function suppose to return.</p>
+<p>We assigned the function to <code>square</code>, thus whenever we'd like to call the function we'll use <code>square()</code>. Next, the function takes only one argument (<code>x</code>), the input will be squared and will get assigned to <code>out</code>. Lastly, using the <code>base R</code> function <code>return</code>, the function will return the value of <code>out</code>.</p>
+<p>Practically, we don't have to assign the function to <code>out</code> or use <code>return</code> in this example. However, getting used to using <code>return</code> is a good habit. Whenever we build a long function and we want to debug it, it's always nice to look for the <code>return</code> and see what the function suppose to return.</p>
 <p>Now, we can test our function to see if it actually return the expected results</p>
 <pre class="r"><code>square(2)</code></pre>
 <pre><code>## [1] 4</code></pre>
@@ -33,7 +33,7 @@ print(myVec)</code></pre>
 <pre><code>## [1] 1 2 3 4</code></pre>
 <pre class="r"><code>square(myVec)</code></pre>
 <pre><code>## [1]  1  4  9 16</code></pre>
-<p>We can even create more complicated function with two or three inputs (or more!). let’s create a function which calculate the <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem">Pythagorean theorem</a>.</p>
+<p>We can even create more complicated function with two or three inputs (or more!). let's create a function which calculate the <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem">Pythagorean theorem</a>.</p>
 <pre class="r"><code>pythagorean &lt;- function(x, y) { 
   out &lt;- x^2 + y^2
   return(out)

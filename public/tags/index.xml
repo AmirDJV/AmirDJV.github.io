@@ -7,10 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Amir Djalovski</copyright>
-    
-	<atom:link href="https://amirdjv.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate><atom:link href="https://amirdjv.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
       <link>https://amirdjv.netlify.com/tags/academic/</link>

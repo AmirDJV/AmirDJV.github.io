@@ -4,26 +4,44 @@
     
     <url>
     
-      <loc>https://amirdjv.netlify.com/</loc>
-      <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/export-package-for-exporting-graphs-and-r-output-to-editable-word-powerpoint-and-office-documents/</loc>
-      <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://amirdjv.netlify.com/publication_types/2/</loc>
-      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://amirdjv.netlify.com/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://amirdjv.netlify.com/publication/2021-01-01_djalovski2021/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://amirdjv.netlify.com/publication/2021-01-01_ayrolles2021/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://amirdjv.netlify.com/publication_types/</loc>
+      <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -40,7 +58,7 @@
     
     <url>
     
-      <loc>https://amirdjv.netlify.com/publication_types/</loc>
+      <loc>https://amirdjv.netlify.com/publication/2020-01-01_priel2019/</loc>
       <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -49,44 +67,8 @@
     
     <url>
     
-      <loc>https://amirdjv.netlify.com/post/library-vs-require/</loc>
-      <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/r-and-rstudio-tricks-and-shortcuts/</loc>
-      <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/rating-and-sentiment-analysis-for-friends/</loc>
-      <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</loc>
-      <lastmod>2019-01-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/creating-functions-in-r/</loc>
-      <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+      <loc>https://amirdjv.netlify.com/publication/2020-01-01_kishon2020/</loc>
+      <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -105,24 +87,6 @@
     
       <loc>https://amirdjv.netlify.com/publication/2019-01-01_priel2019/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</loc>
-      <lastmod>2018-11-17T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</loc>
-      <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -211,6 +175,15 @@
     
     <url>
     
+      <loc>https://amirdjv.netlify.com/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://amirdjv.netlify.com/publication/2016-01-01_halevi2016/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -247,23 +220,7 @@
     
     <url>
     
-      <loc>https://amirdjv.netlify.com/post/assignment-operators-in-r/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://amirdjv.netlify.com/categories/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://amirdjv.netlify.com/tags/</loc>
     </url>
     
   

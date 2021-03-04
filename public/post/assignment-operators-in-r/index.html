@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="author" content="Amir Djalovski">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="The other day I helped a colleague of mine, who&#39;s new to R, with her script. One of the main things that jump to my eyes was the use of &quot;=&quot; operator instead of &quot;&lt;-&quot; to assign values to a new variable. While I knew that they act differently, it is not recommended, and actually goes against Google&#39;s R style guide (a fork of (Tidyverse Style Guide)[https://style.tidyverse.org/syntax.html#assignment]) - I wasn&#39;t able to explain the full answer for &quot;why not to use it&quot;.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://amirdjv.netlify.com/post/assignment-operators-in-r/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-129355630-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="feed" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://amirdjv.netlify.com/post/assignment-operators-in-r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Amir Djalovski">
+  <meta property="og:url" content="https://amirdjv.netlify.com/post/assignment-operators-in-r/">
+  <meta property="og:title" content="Assignment operators in R | Amir Djalovski">
+  <meta property="og:description" content="The other day I helped a colleague of mine, who&#39;s new to R, with her script. One of the main things that jump to my eyes was the use of &quot;=&quot; operator instead of &quot;&lt;-&quot; to assign values to a new variable. While I knew that they act differently, it is not recommended, and actually goes against Google&#39;s R style guide (a fork of (Tidyverse Style Guide)[https://style.tidyverse.org/syntax.html#assignment]) - I wasn&#39;t able to explain the full answer for &quot;why not to use it&quot;.">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+  
+
+  <title>Assignment operators in R | Amir Djalovski</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Amir Djalovski</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="/#cv">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Assignment operators in R</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jan 1, 0001
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Amir Djalovski">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>The other day I helped a colleague of mine, who's new to R, with her script. One of the main things that jump to my eyes was the use of &quot;=&quot; operator instead of &quot;&lt;-&quot; to assign values to a new variable. While I knew that they act differently, it is not recommended, and actually goes against Google's R style guide (a fork of (Tidyverse Style Guide)[<a href="https://style.tidyverse.org/syntax.html#assignment" class="uri">https://style.tidyverse.org/syntax.html#assignment</a>]) - I wasn't able to explain the full answer for &quot;why not to use it&quot;.</p>
+<p>According to the help for assignments (<code>?assignOps</code>), there are three types of operators: 1. <code>&lt;-</code> 2. <code>&lt;&lt;-</code> 3. <code>=</code></p>
+<p>While the first two can assign a value also to the right (e.g. <code>5 -&gt; x</code> and <code>5 -&gt;&gt; x</code>), &quot;=&quot; cannot (e.g. <code>5 = x</code>) and will result with error (<code>Error in 5 = x : invalid (do_set) left-hand side to assignment</code>).</p>
+<p>We also need to distinguish between the use of assignments inside or outside the global environment. We can use the <code>=</code> <em>only in top levels</em> (e.g., in console or in &quot;main script&quot;) or as <em>subexpressions</em> (e.g. <code>data.frame(x = c(1, 2, 3)</code> and <code>list(myList = c(1, 2, 3))</code>). However, when we use <code>&lt;-</code> it will be evaluated <em>only within its own scope</em>. Thus, when used inside a function, it will only operate for variables in the function. On the other hand, if <code>&lt;&lt;-</code> will be used, it will be evaluated (or assigned) within the global environment. Thus, a general recommendation will be to avoid <code>&lt;&lt;-</code> at any cost!.</p>
+<p>For example the function below will assign 5 only within the function's scope:</p>
+<pre class="r"><code>#Create the function
+inside &lt;- function(y) {
+  x &lt;- 5
+}
+
+#Run the function
+inside()
+
+#See which variables/functions we have 
+ls()</code></pre>
+<pre><code>## [1] &quot;inside&quot;</code></pre>
+<pre class="r"><code>#Remove the function we created
+rm(inside)</code></pre>
+<p>However, this function will assign the value 5 to the global environment:</p>
+<pre class="r"><code>#Create the function
+outside &lt;- function(y) {
+  x &lt;&lt;- 5
+}
+
+#Run the function
+outside()
+
+#See which variables/function we have 
+ls()</code></pre>
+<pre><code>## [1] &quot;outside&quot; &quot;x&quot;</code></pre>
+<pre class="r"><code>#Remove the function and variable we created
+rm(outside, x)</code></pre>
+<p>Lastly, R inferno ((a book about the weird things in R)[<a href="http://www.burns-stat.com/pages/Tutor/R_inferno.pdf" class="uri">http://www.burns-stat.com/pages/Tutor/R_inferno.pdf</a>]) also states that &quot;= is not a synonym of &lt;-&quot; and gives the following two examples of how <code>=</code> and &quot;&lt;-&quot; don't necessarily act the same.</p>
+<p>When assigning a variable to a function:</p>
+<pre class="r"><code>foo &lt;- function(x, a) {x+ a}
+
+foo(93, a = 5)</code></pre>
+<pre><code>## [1] 98</code></pre>
+<pre class="r"><code>ls()</code></pre>
+<pre><code>## [1] &quot;foo&quot;</code></pre>
+<p>Versus (calculated <code>foo</code> and create an <code>a</code> varible):</p>
+<pre class="r"><code>foo(93, a &lt;- 5)</code></pre>
+<pre><code>## [1] 98</code></pre>
+<pre class="r"><code>ls()</code></pre>
+<pre><code>## [1] &quot;a&quot;   &quot;foo&quot;</code></pre>
+<p>As you clearly would like to use <code>&lt;-</code> when you set an argument of a functions.</p>
+<p>And when doing things like this:</p>
+<pre class="r"><code>system.time(result &lt;- foo(93, a = 5))</code></pre>
+<pre><code>##    user  system elapsed 
+##       0       0       0</code></pre>
+<p>Versus (will result with error):</p>
+<pre class="r"><code>system.time(result &lt;- foo(93, a = 5))</code></pre>
+<p>When we use &quot;=&quot; instead of &quot;&lt;-&quot;, R thinks we're trying to assign the <code>results</code> argument of <code>system.time</code> - which doesn't exist!.</p>
+<p>To sum up, if you can use either &quot;=&quot; or &quot;&lt;-&quot;, use the &quot;&lt;-&quot; operator. In addition, never use the &quot;&lt;&lt;-&quot; operator.</p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      © 2018 Amir Djalovski &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cs.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/xml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

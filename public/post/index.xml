@@ -8,5 +8,96 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Amir Djalovski</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate><atom:link href="https://amirdjv.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Export package for exporting graphs and R output to editable word, powerpoint and office documents</title>
+      <link>https://amirdjv.netlify.com/post/export-package-for-exporting-graphs-and-r-output-to-editable-word-powerpoint-and-office-documents/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/export-package-for-exporting-graphs-and-r-output-to-editable-word-powerpoint-and-office-documents/</guid>
+      <description>One of the benefits of using R is the beautiful graphs that you can create easily. However, as sometimes you want to write a document in Word or PowerPoint or you need to collaborate with others who are using these programs, the need to export your figures becomes a hassle. Moreover, usually it will be as a non-editable picture. Lately, I found the export package which allows you to export your graphs and outputs into a nice and neat editable office objects.</description>
+    </item>
+    
+    <item>
+      <title>library() vs require()</title>
+      <link>https://amirdjv.netlify.com/post/library-vs-require/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/library-vs-require/</guid>
+      <description>The use of library() or require() is interesting. Each have is own pros and cons. If we&#39;ll use the help for library (?library), we&#39;ll see that &amp;quot;library and require load and attach add-on packages&amp;quot;. So, while practicality they do the same thing, they act differently.
+In both cases both functions load the packages with name package and put it on the search list. However, When we call library(), if the package doesn&#39;t exists a warning will be raised.</description>
+    </item>
+    
+    <item>
+      <title>R and RStudio tricks and shortcuts</title>
+      <link>https://amirdjv.netlify.com/post/r-and-rstudio-tricks-and-shortcuts/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/r-and-rstudio-tricks-and-shortcuts/</guid>
+      <description>In this post I will try to gather nice shortcuts that I tend to use or I wish to use more often. I will try to keep it updated!
+Multiple CursorsUsing R Studio as our IDE, we can edit multiple places at the same time with &amp;quot;multiple cursors&amp;quot;. We can create multiple cursors by:
+Ctrl+Alt and use the keyboard up/down arrowsIn addition, we can use Ctrl + Alt + Shift and the keyboard arrows to skip rows, position, etc.</description>
+    </item>
+    
+    <item>
+      <title>Rating and sentiment analysis for Friends</title>
+      <link>https://amirdjv.netlify.com/post/rating-and-sentiment-analysis-for-friends/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/rating-and-sentiment-analysis-for-friends/</guid>
+      <description>The other day Netflix suggested me to watch the TV show Friends. As I really enjoyed watching it as kid, I figured it would be nice to watch it again. However, this time, first I wanted to do some text and rating analyses to the show :)
+We can start by loading the required packages:
+library(tidyverse)library(tidytext)library(skimr)## ## Attaching package: &amp;#39;skimr&amp;#39;## The following object is masked from &amp;#39;package:stats&amp;#39;:## ## filterI also used functions from these packages:</description>
+    </item>
+    
+    <item>
+      <title>Creating for loops in R</title>
+      <link>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/creating-for-loops-in-r/</guid>
+      <description>Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer&#39;s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during &amp;quot;simple&amp;quot; vectorizing operation on big objects.
+When creating loops we need to supply 4 arguments:</description>
+    </item>
+    
+    <item>
+      <title>Creating functions in R</title>
+      <link>https://amirdjv.netlify.com/post/creating-functions-in-r/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/creating-functions-in-r/</guid>
+      <description>Building functions are one of the main building blocks in programming and in writing reproducible, easy to understand and readable code. In addition, it allows you to write what you need in a more efficient way and to detect errors more easily. Besides these important things, in most cases, your code will run faster. After I convinced you, I hope, we can start learning how to write functions.
+Functions can do everything that you can code and ideally whenever you’re writing the same code more than twice you’ll make a function out of it.</description>
+    </item>
+    
+    <item>
+      <title>Working with files and folders outside R</title>
+      <link>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/working-with-files-and-folders-outside-r/</guid>
+      <description>When running an analysis, sometimes the need to change/create files and folder in our computer arises. For example when we might want to download many files at once to a specific folder or when we need to save temporary files of our analysis for later use to free our RAM.
+Whenever we open an R session, R creates a temporary folder and will delete it when we close the R session.</description>
+    </item>
+    
+    <item>
+      <title>Converting BibTeX files to md files</title>
+      <link>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/converting-bibtex-files-to-md-files/</guid>
+      <description>This is my first post! YAY!
+While wondering around the amazing world of blog writing with blogdown package I had to choose a theme to work with. For now, I&#39;ve chosen the hugo academic theme due to recommendations over the web and it&#39;s so called easy interface and &amp;quot;out of the box&amp;quot; utilities.
+The first problem that I had to tackle was how to post my publications. Thus to convert my library of publications which were saved as one BibTeX file.</description>
+    </item>
+    
+    <item>
+      <title>Assignment operators in R</title>
+      <link>https://amirdjv.netlify.com/post/assignment-operators-in-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/post/assignment-operators-in-r/</guid>
+      <description>The other day I helped a colleague of mine, who&#39;s new to R, with her script. One of the main things that jump to my eyes was the use of &amp;quot;=&amp;quot; operator instead of &amp;quot;&amp;lt;-&amp;quot; to assign values to a new variable. While I knew that they act differently, it is not recommended, and actually goes against Google&#39;s R style guide (a fork of (Tidyverse Style Guide)[https://style.tidyverse.org/syntax.html#assignment]) - I wasn&#39;t able to explain the full answer for &amp;quot;why not to use it&amp;quot;.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="author" content="Amir Djalovski">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer&#39;s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during &quot;simple&quot; vectorizing operation on big objects.
+When creating loops we need to supply 4 arguments:">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://amirdjv.netlify.com/post/creating-for-loops-in-r/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#328cc1">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-eighties.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-129355630-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  <link rel="feed" href="https://amirdjv.netlify.com/index.xml" type="application/rss+xml" title="Amir Djalovski">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://amirdjv.netlify.com/post/creating-for-loops-in-r/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Amir Djalovski">
+  <meta property="og:url" content="https://amirdjv.netlify.com/post/creating-for-loops-in-r/">
+  <meta property="og:title" content="Creating for loops in R | Amir Djalovski">
+  <meta property="og:description" content="Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer&#39;s RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during &quot;simple&quot; vectorizing operation on big objects.
+When creating loops we need to supply 4 arguments:">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-08T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-08T00:00:00&#43;00:00">
+  
+
+  
+  
+
+  <title>Creating for loops in R | Amir Djalovski</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Amir Djalovski</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a href="/#cv">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Creating for loops in R</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-01-08 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Jan 8, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Amir Djalovski">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>Generally speaking, building loops in R is condemned and in some case might even be considered as blasphemy!. That been said, knowing and writing loops might be in some cases more efficient or useful than vectorizing. For example, (fortunately/unfortunately) R uses the computer's RAM during calculations, thus in some cases memory issues might cause a function to crush/stop during &quot;simple&quot; vectorizing operation on big objects.</p>
+<p>When creating loops we need to supply 4 arguments:</p>
+<ol style="list-style-type: decimal">
+<li>iterator - index to iterate over</li>
+<li>start - where would we start?</li>
+<li>stop - when would we stop?</li>
+<li>what to do</li>
+</ol>
+<p>Let's try to understand more on how to build a loop from the flowing example:</p>
+<pre class="r"><code>for (i in 1:5) {
+  
+  print(i)
+
+}</code></pre>
+<p>In this example, i is our iterator, 1 and 5 are our start and stop, and we print out our iterator. If we'd like to put it into words we can say: &quot;for every i in 1 to 5 print i&quot;.</p>
+<p>Now, let's run our loop and see what is happing:</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:5) {
+  
+  print(i)
+
+}</code></pre>
+<pre><code>## [1] 1
+## [1] 2
+## [1] 3
+## [1] 4
+## [1] 5</code></pre>
+<p>Great! We managed to print our iterator correctly. Now, we can try to make things even more interesting. Using loops we can also iterate over <code>vectors</code>, <code>data.frame</code>, <code>list</code>s, etc.</p>
+<p>We can build a <code>vector</code> of fruit names:</p>
+<pre class="r"><code>myVec &lt;- c(&quot;apple&quot;, &quot;banana&quot;, &quot;orange&quot;)</code></pre>
+<p>Now, using a new loop, we can print each fruit:</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:length(myVec)) {
+  
+  print(myVec[i])
+
+}</code></pre>
+<pre><code>## [1] &quot;apple&quot;
+## [1] &quot;banana&quot;
+## [1] &quot;orange&quot;</code></pre>
+<p>Here we have a few new things, first, the function <code>length</code> tells us how long is myVec. In our case 3, because we have 3 fruits.</p>
+<pre class="r"><code>length(myVec)</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>In addition, we call the index i<sup>th</sup> of our vector. Which is same as doing below for each and every i.</p>
+<pre class="r"><code>myVec[1]</code></pre>
+<pre><code>## [1] &quot;apple&quot;</code></pre>
+<p>If we'll put our loop into words it will read like: &quot;for every i in 1 to the length of myVec, print the value in each i index&quot;.</p>
+<p>The same can be applied for every type of indexed object in R. The only thing that we need to note is how the object is indexed. For example, we can also iterate over a <code>data.frame</code>. Example <code>data.frame</code>:</p>
+<pre class="r"><code>df &lt;- data.frame(name = c(&quot;James&quot;, &quot;Anne&quot;, &quot;James II&quot;, &quot;Mary II&quot;), 
+                 dob = c(1566, 1665, 1633, 1662), 
+                 gender = c(&quot;male&quot;, &quot;female&quot;, &quot;male&quot;, &quot;female&quot;))</code></pre>
+<p>We can loop over the names in our <code>data.frame</code> (Please note the use of <code>dim</code> over <code>length</code> as length will give us the number of columns in a data.frame):</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, &quot;name&quot;])
+
+}</code></pre>
+<pre><code>## [1] James
+## Levels: Anne James James II Mary II
+## [1] Anne
+## Levels: Anne James James II Mary II
+## [1] James II
+## Levels: Anne James James II Mary II
+## [1] Mary II
+## Levels: Anne James James II Mary II</code></pre>
+<p>The date of birth:</p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:dim(df)[1]) {
+  
+  print(df[i, &quot;dob&quot;])
+
+}</code></pre>
+<pre><code>## [1] 1566
+## [1] 1665
+## [1] 1633
+## [1] 1662</code></pre>
+<p>Lastly, we can build sentences using <code>paste</code> and <code>print</code> and loop over our <code>data.frame</code></p>
+<pre class="r"><code>i &lt;- 1
+for (i in 1:dim(df)[1]) {
+      print(
+        paste(&quot;The ruler was&quot;, df[i, &quot;name&quot;], 
+              &quot;the date of birth was&quot;, df[i, &quot;dob&quot;], 
+              &quot;the gender was&quot;, df[i, &quot;gender&quot;]))
+}</code></pre>
+<pre><code>## [1] &quot;The ruler was James the date of birth was 1566 the gender was male&quot;
+## [1] &quot;The ruler was Anne the date of birth was 1665 the gender was female&quot;
+## [1] &quot;The ruler was James II the date of birth was 1633 the gender was male&quot;
+## [1] &quot;The ruler was Mary II the date of birth was 1662 the gender was female&quot;</code></pre>
+<p>Thank you for reading!</p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      © 2018 Amir Djalovski &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/cs.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/xml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

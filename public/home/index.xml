@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Amir Djalovski</copyright>
-    <lastBuildDate>Wed, 14 Nov 2018 00:00:00 +0200</lastBuildDate><atom:link href="https://amirdjv.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://amirdjv.netlify.com/home/about/</link>
-      <pubDate>Wed, 14 Nov 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://amirdjv.netlify.com/home/about/</guid>
-      <description>About me I am currently employed as a post-doc while waiting for the approval of my PhD in neurocognitive psychology at [Bar-Ilan University (Israel)] (https://www1.biu.ac.il/indexE.php) under the supervision and guidance of [Prof. Ruth Feldman] (https://www.researchgate.net/profile/Ruth_Feldman) from the [Interdisciplinary Center Herzliya (Israel)] (https://www.idc.ac.il/en/pages/home.aspx). In my PhD I studied how we synchronize to other people we&amp;rsquo;re interacting with through our autonomic measurements (e.g. heart rate, galvanic skin response), brain activity (using EEG), and hormones (mainly oxytocin, cortisol, testosterone, and s-IgA).</description>
-    </item>
-    
+    <lastBuildDate>Wed, 20 Sep 2017 00:00:00 +0300</lastBuildDate><atom:link href="https://amirdjv.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recent Posts</title>
       <link>https://amirdjv.netlify.com/home/posts/</link>
@@ -80,6 +71,19 @@
       
       <guid>https://amirdjv.netlify.com/home/tags/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amirdjv.netlify.com/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirdjv.netlify.com/home/about/</guid>
+      <description>+++ # About/Biography widget. widget = &amp;ldquo;about&amp;rdquo; active = true date = 2018-11-14T00:00:00
+Order that this section will appear in. weight = 5
+List your academic interests. [interests] interests = [ &amp;ldquo;Statistics and data analysis&amp;rdquo;, &amp;ldquo;R&amp;rdquo;, &amp;ldquo;Python&amp;rdquo;, &amp;ldquo;Neuroscience&amp;rdquo;]
+List your qualifications (such as academic degrees). [[education.courses]] course = &amp;ldquo;PhD Student, Neurocognitive psychology&amp;rdquo; institution = &amp;ldquo;Bar-Ilan University, Israel&amp;rdquo; year = &amp;ldquo;2015- June 2021 (expected)&amp;rdquo;
+[[education.courses]] course = &amp;ldquo;M.A, Neurocognitive psychology&amp;rdquo; institution = &amp;ldquo;Bar-Ilan University, Israel&amp;rdquo; year = &amp;ldquo;2013-2015&amp;rdquo;</description>
     </item>
     
   </channel>

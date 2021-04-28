@@ -1,11 +1,9 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
++++ 
 
-+++ \# About/Biography widget. widget = "about" active = true date =
-2018-11-14T00:00:00
+# About/Biography widget.
+widget = "about"
+active = true
+date = 2018-11-14T00:00:00
 
 # Order that this section will appear in.
 

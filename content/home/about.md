@@ -11,21 +11,28 @@ weight = 5
 
 # List your academic interests.
 
-[interests] interests = [ "Statistics and data analysis", "R", "Python",
-"Neuroscience"]
+[interests]
+  interests = [
+  "Statistics and data analysis",
+  "R", 
+  "Python",
+  "Neuroscience"]
 
 # List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "PhD Student, Neurocognitive psychology"
+  institution = "Bar-Ilan University, Israel"
+  year = "2015- June 2021 (expected)"
 
-[[education.courses]] course = "PhD Student, Neurocognitive psychology"
-institution = "Bar-Ilan University, Israel" year = "2015- June 2021
-(expected)"
+[[education.courses]]
+  course = "M.A, Neurocognitive psychology"
+  institution = "Bar-Ilan University, Israel"
+  year = "2013-2015"
 
-[[education.courses]] course = "M.A, Neurocognitive psychology"
-institution = "Bar-Ilan University, Israel" year = "2013-2015"
-
-[[education.courses]] course = "B.A in Psychology and Minor in
-Communication" institution = "Interdisciplinary Center Herzliya (IDC),
-Israel" year = "2009-2011"
+[[education.courses]]
+  course = "B.A in Psychology and Minor in Communication"
+  institution = "Interdisciplinary Center Herzliya (IDC), Israel"
+  year = "2009-2011"
 
 +++
 
